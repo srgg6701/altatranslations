@@ -10,7 +10,9 @@
 }
 #logo-link span{
     color: #513794;
-    color: #81a0c5;
+    /* color: #81a0c5; */
+    color: #78a741;
+    font-weight: bold;
     left: 10px;
     border-radius: 50%;
 }
@@ -31,8 +33,8 @@
 }
 #logo-link span:nth-child(3){
     background-color: #96bc69;
-    background-color: #513794;
-    background-color: #8cacd3;
+    /* background-color: #513794; */
+    /* background-color: #8cacd3; */
     height: 22px;
     left: 26px;
     top: 9px;
