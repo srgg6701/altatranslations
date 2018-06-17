@@ -10,15 +10,26 @@ header > .top-container{
     justify-content: space-between;
 }
 nav .main-navigation-menu li a{
-    color: #513794;
-    font-size: 18px !important;
-    font-weight: normal;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.09), 0 1px 1px rgba(0,0,0,0.08);
+    
+color: #513794;
+    
+font-size: 18px !important;
+    
+font-weight: normal;
+    
+text-shadow: 1px 1px 1px rgba(0,0,0,0.09), 0 1px 1px rgba(0,0,0,0.08);
+}
+.navigation-block{
+    background: rgba(255,255,255,.87);
+    /* background: rgba(200,200,200,.95); */
 }
 .panel-lang,
 .panel-lang .widget-block{
     overflow: hidden;
     display: flex;
+}
+.top-main-text{
+    background-color: rgba(255,255,255,0.35);
 }
 .widget-block{
     
@@ -62,6 +73,12 @@ font-size: 1.7rem;
 #lang_sel_list{
     /* margin: auto; */
     height: 13px;
+}
+
+#top-main{
+    background: url(../../sources/images/pexels-photo-705674.jpeg);
+    background-size: cover;
+    background-position: center 77%;
 }
 
 @media screen and (max-width: 1400px){ 
