@@ -1,0 +1,35 @@
+#logo-link{
+    color: #e40505;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 66px;
+    position: relative;
+    text-decoration: none;
+}
+#logo-link span{
+    color: #513794;
+    left: 10px;
+    border-radius: 50%;
+}
+#logo-link span:nth-child(1){
+    background-color: #5d3b95;
+    height: 50px;
+    width: 50px;
+}
+#logo-link span:nth-child(2){
+    background-color: white;
+    height: 35px;
+    left: 23px;
+    top: 7px;
+    width: 35px;
+    z-index: 1;
+}
+#logo-link span:nth-child(3){
+    background-color: #96bc69;
+    height: 20px;
+    left: 37px;
+    top: 14px;
+    width: 20px;
+    z-index: 2;
+}
