@@ -9,6 +9,12 @@ header > .top-container{
     display:flex;
     justify-content: space-between;
 }
+nav .main-navigation-menu li a{
+    color: #513794;
+    font-size: 18px !important;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.09), 0 1px 1px rgba(0,0,0,0.08);
+}
 .panel-lang,
 .panel-lang .widget-block{
     overflow: hidden;
