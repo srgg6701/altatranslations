@@ -1,0 +1,19 @@
+body > header{
+    padding: 4px;
+}
+.main-slogan{
+    
+font-size: 1.7rem;
+}
+.our-services{
+    background: transparent;
+}
+.service-item-description a{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+@media screen and (max-width: 1400px){ 
+    .navigation-block {
+        padding: 20px 15px;
+    }   
+}
