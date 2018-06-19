@@ -7,7 +7,8 @@ body > header{
     padding: 10px 4px;
 }
 header{
-    background: rgba(0,0,0,0.1);
+    background: rgba(81,55,148,0.6);
+    /* background: linear-gradient(to bottom, rgba(81, 55, 148, .75), rgba(255,255,255,0.5)); */
 }
 header > .top-container{
     display:flex;
@@ -17,15 +18,24 @@ header > .top-container{
  padding-top:0;   
 }
 nav .main-navigation-menu li a{
-    color: #513794;
-    /* color: white; */
-    /* color: #8cacd3; */
-    /* color: #78a741; */
-    font-size: 17px !important;
-    font-weight: normal;
-    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.09), 0 1px 1px rgba(0,0,0,0.08); */
-    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,.8); */
-    /* text-shadow: 1px 1px 1px rgba(255,255,255,0.5), 0 1px 1px rgba(255,255,255,0.5); */
+    
+color: #513794;
+    
+/* color: white; */
+    
+/* color: #8cacd3; */
+    
+/* color: #78a741; */
+    
+font-size: 17px !important;
+    
+font-weight: normal;
+    
+/* text-shadow: 1px 1px 1px rgba(0,0,0,0.09), 0 1px 1px rgba(0,0,0,0.08); */
+    
+/* text-shadow: 1px 1px 1px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,.8); */
+    
+/* text-shadow: 1px 1px 1px rgba(255,255,255,0.5), 0 1px 1px rgba(255,255,255,0.5); */
 }
 nav.main-menu{
     transform: translateY(15px);
@@ -104,7 +114,7 @@ position: relative;
     display: inline-block;
     transform: translateY(-4px) !important;
     -webkit-transform: translateY(-4px) !important;
-    text-shadow: 1px 1px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px rgba(0,0,0,0.32);
 }
 .contacs-list li a,
 .contacs-list .address{
