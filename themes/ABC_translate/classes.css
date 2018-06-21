@@ -2,15 +2,16 @@
     position: absolute;
 }
 .btn-link{
-    /* color: darkslateblue; */
-    color: white;
+    bottom: 12px;
+    color: darkslateblue;
+    /* color: white; */
     /* font-weight: bold; */
     font-size: 16px;
     margin: -4px -8px;
     padding: 4px 8px;
     position: absolute;
     text-decoration: underline;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px -1px rgba(0,0,0,0.25);
+    /* text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px -1px rgba(0,0,0,0.25); */
     transform: translateX(-50%);
     left: 50%;
 }
@@ -19,18 +20,23 @@
     background-color: rgba(120, 167, 65, 0.8);
     border-radius: 4px;
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
     /* margin: -4px -8px; */
     /* padding: 4px 8px; */
 }
 
 /* remove to the components table */
+.our-services,
+.prices-section,
+.reviews-section{
+    background: rgba(255,255,255,0.95);
+}
 .our-services{   
     border-bottom: solid 2px #8d78af;
 }
 .price-item{
-    background-color: #ebf2fb;
-    position: relative;
+    background-color: rgba(193, 220, 255, 0.5);
+    /* background-color: rgba(235, 242, 251,0.5);;position: relative;
     /* padding-bottom: 40px; */
 }
 .price-item-wrap{
