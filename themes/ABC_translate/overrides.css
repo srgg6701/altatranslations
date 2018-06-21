@@ -142,7 +142,7 @@ width: 50%;
     background: transparent;
 }
 .service-item-description a{
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.25);
 }
 
 #lang_sel_list{
@@ -160,4 +160,10 @@ width: 50%;
     .navigation-block {
         padding: 15px;
     }   
+}
+
+@media screen and (max-width: 1400px){
+    .our-services {
+        padding-bottom: 50px;
+    }
 }

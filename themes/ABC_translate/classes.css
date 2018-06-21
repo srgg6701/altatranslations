@@ -2,12 +2,15 @@
     position: absolute;
 }
 .btn-link{
-    color: darkslateblue;
+    /* color: darkslateblue; */
+    color: white;
+    /* font-weight: bold; */
     font-size: 16px;
     margin: -4px -8px;
     padding: 4px 8px;
     position: absolute;
     text-decoration: underline;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px -1px rgba(0,0,0,0.25);
     transform: translateX(-50%);
     left: 50%;
 }
@@ -19,4 +22,22 @@
     text-decoration: none;
     /* margin: -4px -8px; */
     /* padding: 4px 8px; */
+}
+
+/* remove to the components table */
+.our-services{   
+    border-bottom: solid 2px #8d78af;
+}
+.price-item{
+    background-color: #ebf2fb;
+    position: relative;
+    /* padding-bottom: 40px; */
+}
+.price-item-wrap{
+    /* background-color: #ebf2fb; */
+    /* outline: solid 1px red; */
+    display: flex;
+}
+.price-item-description{
+    margin-bottom: 50px;
 }
