@@ -12035,7 +12035,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 
 .price-item {
     overflow: hidden;
-    padding: 0 7px
+    padding: 0 7px;
 }
 
 .price-item__image {
