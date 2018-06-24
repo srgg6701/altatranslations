@@ -11775,7 +11775,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
     position: relative
 }
 
-.top-main:after {
+/*.top-main:after {
     content: "";
     background: url('http://altatranslations.nl/wp-content/uploads/2017/12/how_it_works_05-new.png') center;
     background-size: cover;
@@ -11785,7 +11785,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
     top: 0;
     bottom: 0;
     z-index: -1
-}
+}*/
 
 .top-main-text {
     top: auto;

@@ -11,6 +11,22 @@
 }
 
 /* */
+#li-services-providers a{
+    text-decoration: none;
+}
+#li-services-providers span{
+    background-color: #78a741;
+    border-radius:50%;
+    color: white;
+    display: inline-block;
+    font-size: 0.7rem;
+    height: 22px;
+    margin-left: 4px;
+    text-align: center;
+    text-shadow: none;
+    width: 22px;
+}
+
 #logo-link, #logo-link-bottom {
     display: inline-block;
     font-size: 33px;
@@ -27,7 +43,7 @@
 #logo-link-bottom{
     color:white;
     color: #ff6b85;
-    /* color: red; */
+    font-size: 1.1rem;
     text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
@@ -88,13 +104,50 @@
     z-index: 2;
     transform: rotate(85deg);
 }
+#logo-link span:nth-child(6) {
+    color: #bbb;
+    font-size: 0.95rem;
+    margin-left: 2px;
+}
+
+#note-providers{
+    margin: 6px 15px;
+    display: none;
+}
+
+#note-providers >div{
+    background-color: white;
+    border: solid 1px rgb(190, 179, 220);
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    color: #78a741;
+}
 
 #row-prices {
     display: flex;
 }
+.main-container.main-slogan [class|="lang"]{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container.main-slogan .lang-dutch{
+    color: #6665fe;
+}
 
-#top-main {
-    /* background: url(http://altatranslations.nl/wp-content/uploads/2017/01/img-header-bg.jpg); */
+.main-container.main-slogan .lang-russian{
+    color: #f964e5;
+}
+
+.main-container.main-slogan .lang-english{
+    color: #fb5a5a;
+}
+
+.main-container.main-slogan .lang-ukrainian{
+    color: #ff9b22;
+}
+
+.main-container.main-slogan ul li:nth-child(2)::after{
+    
 }
 
 .price-item a {

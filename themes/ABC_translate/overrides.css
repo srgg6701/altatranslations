@@ -2,7 +2,7 @@ body{
     /* padding: 10px 4px; */
     background: url(../../sources/images/pexels-photo-705674.jpeg);
     background-size: 100%;
-    background-position: center 146%;
+    /* background-position: center 146%; */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -12,7 +12,7 @@ body > header{
 }
 header{
     background: rgba(81,55,148,0.6);
-    /* background: linear-gradient(to bottom, rgba(81, 55, 148, .75), rgba(255,255,255,0.5)); */
+    background: linear-gradient(to top, rgba(81, 55, 148, 0.5), rgba(81, 55, 148, 1));
 }
 header > .top-container{
     display:flex;
@@ -61,18 +61,12 @@ nav.main-menu{
     /* margin-bottom: 20px; */
 }
 .main-slogan h4{
-    
-/* font-weight: bold; */
-    
-font-size: 25px;
-    
-line-height: 1.2;
-    
-/* margin-bottom: 16px; */
-    
-margin-top: -10px;
-    
-width: 96%;
+    /* font-weight: bold; */
+    font-size: 25px;
+    line-height: 1.2;
+    /* margin-bottom: 16px; */
+    /* margin-top: -10px; */
+    width: 96%;
 }
 .main-slogan li{
     text-align:left;
@@ -95,7 +89,7 @@ width: 96%;
 .top-main-text{
     /* background-color: rgba(255,255,255,0.5); */
     text-align: center;
-    padding: 100px  20px 20px;
+    padding: 0;
     position: relative;
 }
 .widget-block{
@@ -130,21 +124,18 @@ width: 96%;
 }
 .main-slogan{
     background-color: rgba(255,255,255,0.8);
-    /* background-color: rgba(0,0,0,0.25); */
     border-radius: 10px;
     font-size: 1.7rem;
-    margin: -20px auto -54px;
-    padding: 20px;
+    margin: 34px auto 36px;
+    padding: 30px 30px 38px;
     text-align: left;
-    transform: translateY(-56px);
     width: 50%;
 }
 .main-slogan ul{
     /* margin: auto -46px auto 0; */
     /* text-align: left; */
-    /* width: 110%; */
-    margin-bottom: 12px;
-    margin-top: 12px;
+    width: 80%;
+    margin: 18px auto;
     /* transform: translateX(calc(5% + 4px)); */
 }
 .main-slogan ul li:before{
