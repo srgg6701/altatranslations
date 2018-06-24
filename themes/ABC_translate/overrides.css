@@ -58,15 +58,16 @@ nav.main-menu{
 .main-slogan p
 {
     margin: auto;
-    /* margin-bottom: 20px; */
 }
 .main-slogan h4{
-    /* font-weight: bold; */
-    font-size: 25px;
-    line-height: 1.2;
-    /* margin-bottom: 16px; */
-    /* margin-top: -10px; */
-    width: 96%;
+    
+font-size: 25px;
+    
+line-height: 1.2;
+    
+margin-top: 6px;
+    
+width: 96%;
 }
 .main-slogan li{
     text-align:left;
@@ -88,10 +89,14 @@ nav.main-menu{
     padding-left: 20px;
 }
 .top-main-text{
-    /* background-color: rgba(255,255,255,0.5); */
-    text-align: center;
-    padding: 0;
-    position: relative;
+    
+/* background-color: rgba(255,255,255,0.5); */
+    
+text-align: center;
+    
+padding: 0;
+    
+position: relative;
 }
 .widget-block{
     
@@ -124,13 +129,20 @@ nav.main-menu{
     font-size:initial;
 }
 .main-slogan{
-    background-color: rgba(255,255,255,0.9);
-    border-radius: 10px;
-    font-size: 1.7rem;
-    margin: 34px auto 36px;
-    padding: 30px 30px 38px;
-    text-align: left;
-    width: 50%;
+    
+background-color: rgba(255,255,255,0.9);
+    
+border-radius: 10px;
+    
+font-size: 1.7rem;
+    
+margin: 34px auto 36px;
+    
+padding: 30px 30px 38px;
+    
+text-align: left;
+    
+width: 50%;
 }
 .main-slogan ul{
     /* margin: auto -46px auto 0; */
