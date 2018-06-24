@@ -1,10 +1,10 @@
 var $liServiceProviders = $('#li-services-providers'),
     $noteProviders = $('#note-providers'),
     action;
-$liServiceProviders
+$liServiceProviders.find('>a')
     .on('mouseenter', function(event){
         $noteProviders.slideDown();
-    })
-    .on('mouseleave', function(){
+    });
+$liServiceProviders.on('mouseleave', function(){
         $noteProviders.slideUp();
     });
