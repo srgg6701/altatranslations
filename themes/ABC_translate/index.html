@@ -165,11 +165,11 @@
         }
          /*  */
     </script>
-    <!-- <script type="text/javascript" charset="UTF-8" src="index_files/common.js"></script> 
+    <script type="text/javascript" charset="UTF-8" src="index_files/common.js"></script> 
       <script type="text/javascript" charset="UTF-8" src="index_files/util.js"></script>
       <script type="text/javascript" charset="UTF-8" src="index_files/map.js"></script>
       <script type="text/javascript" charset="UTF-8" src="index_files/marker.js"></script>
-      <script type="text/javascript" charset="UTF-8" src="index_files/infowindow.js"></script>-->
+      <script type="text/javascript" charset="UTF-8" src="index_files/infowindow.js"></script>
     <style type="text/css">
         .gm-style {
             font: 400 11px Roboto, Arial, sans-serif;
@@ -329,7 +329,7 @@
     </style>
     <link rel="stylesheet" href="classes.css">
     <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="overrides.css">
+    <link rel="stylesheet" href="selectors.css">
     <link rel="stylesheet" href="font-awesome.css">
     <script id="js_controls" charset="UTF-8"></script>
     <script id="js_stats" charset="UTF-8"></script>
@@ -348,7 +348,6 @@
                             <span class="absolute"></span>
                             <span class="absolute"></span>
                             <span>Alta</span>Translations<span>.nl</span>
-                            <!-- <img src="index_files/main-logo.png" alt="ALTA Translations"> -->
                         </a>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
@@ -483,20 +482,8 @@
             </div>
         </div>
     </section>
-    <!--<section class="about-section">
-        <div class="about-container">
-            <h2 class="middle-heading">About Us</h2>
-            <div class="about-text">
-                <p>Alta Global Translations delivers (speed) translation and interpretation services Russian-English, Ukrainian-English
-                    for (semi-) government agencies, service providers (lawyers, notaries, health professionals), humanitarian
-                    organizations, businesses and individuals all over the Netherlands.</p>
-            </div>
-            <a href="http://altatranslations.nl/o-nas/" class="order-link">know more</a>
-        </div>
-    </section>-->
     <section class="our-services">
         <div class="services-container">
-            <!-- <h2 class="middle-heading white-heading">our services</h2> -->
             <div class="our-services-wrap">
                 <div class="service-item">
                     <div class="item-substrate-wrap">
@@ -973,9 +960,6 @@
                             <span class="absolute"></span>
                             <span>Alta</span>Translations<span>.nl</span>
                         </a>
-                        <!-- <a href="http://altatranslations.nl/">
-                            <img src="index_files/footer-logo.png" alt="main-logo">
-                        </a> -->
                     </div>
                     <div>All rights reserved © 2018 Alta Global</div>
                     <div>Created by
@@ -1108,28 +1092,6 @@
             </a>
         </div>
     </div>
-    <div id="js_scripts"></div>
-    <script>
-        window.onload = function () {
-            var cnt = 0,
-                intv = setInterval(function () {
-                    if (typeof google !== "undefined") {
-                        document.getElementById('js_scripts').innerHTML = '<script charset="UTF-8" src="index_files/common.js"><\/script><script charset="UTF-8" src="index_files/util.js"><\/script><script charset="UTF-8" src="index_files/map.js"><\/script><script charset="UTF-8" src="index_files/marker.js"><\/script><script charset="UTF-8" src="index_files/infowindow.js"><\/script>';
-                        console.log('google!');
-                        ['onion', 'controls', 'stats'].forEach(function (fileName) {
-                            document.getElementById('js_' + fileName).src = 'index_files/' + fileName + '.js';
-                        });
-                        clearInterval(intv);
-                    }
-                    cnt++;
-                    if (cnt > 70) {
-                        clearInterval(intv);
-                        console.warn('no google...');
-                    }
-                }, 100);
-
-        };
-    </script>
     <script src="js/redesign-common.js"></script>
 </body>
 </html>
