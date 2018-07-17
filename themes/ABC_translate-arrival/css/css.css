@@ -6,11 +6,11 @@ body{
     background-attachment: fixed;
 }
 
-header{
+/*header{
     background: rgba(81,55,148,0.6);
     background: linear-gradient(to top, rgba(81, 55, 148, 0.5), rgba(81, 55, 148, 1));
     display: none;
-}
+}*/
 
 #ascrail2001 {
     background-color: #eee;
@@ -23,7 +23,7 @@ header{
 
 #logo-link, #logo-link-bottom {
     display: inline-block;
-    font-size: 33px;
+    font-size: 30px;
     padding-left: 48px;
     position: relative;
     text-decoration: none;
@@ -41,6 +41,20 @@ header{
     text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
+#main-container-inner{
+    display: flex;
+}
+
+#navigation-contacts{
+    display: flex;
+    text-align: center;
+    width: 15%;
+}
+
+#navigation-top{
+    width: 65%;
+}
+
 #note-providers{
     margin: 6px 15px;
     display: none;
@@ -51,4 +65,7 @@ header{
     justify-content: space-between;
 }
 
+#select-lang{
+    float: right;
+}
 

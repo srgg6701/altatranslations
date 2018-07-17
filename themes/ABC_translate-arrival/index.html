@@ -340,7 +340,7 @@
     <section id="top-main" class="top-main">
         <div class="navigation-block">
             <div class="main-container">
-                <div class="row">
+                <div class="row" id="main-container-inner">
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 logo-header">
                         <a id="logo-link" href="http://altatranslations.nl/">
                             <span class="absolute"></span>
@@ -350,7 +350,32 @@
                             <span>Alta</span>Translations<span>.nl</span>
                         </a>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                    <div id="navigation-contacts">
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                <!-- <a href="tel:Tel. 071 522 50 46">Tel. 071 522 50 46</a>
+                                <a href="tel:Mobile 0639140189">Mobile 0639140189</a> -->
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <a href="mailto:info@altatranslations.nl">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <!-- <span>info@altatranslations.nl</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <span class="address">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <!-- <span>Postcode 2317GR Leiden - t. 0715225046</span> -->
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- col-lg-8 col-md-8 col-sm-6  -->
+                    <div class="container" id="navigation-top">
                         <div class="search-block">
                             <form action="http://altatranslations.nl/" id="searchform">
                                 <input type="text" placeholder="Search" value="" name="s" id="s">
@@ -413,6 +438,8 @@
                                         <li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484">
                                             <a href="http://altatranslations.nl/kontaktyi/">Contacts</a>
                                         </li>
+                                        <li><a href="http://altatranslations.nl/" class="lang_sel_sel">
+                                            <img class="iclflag" src="index_files/en.png" alt="en" title="English">&nbsp;</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -420,8 +447,30 @@
                     </div>
                 </div>
             </div>
+            <!--<div class="choosing-lang">
+                    <div class="panel-lang">
+                        <div class="widget-block">
+                            <div id="lang_sel_list" class="lang_sel_list_horizontal">
+                                <ul>
+                                    <li class="icl-en">
+                                        <a href="http://altatranslations.nl/" class="lang_sel_sel">
+                                            <img class="iclflag" src="index_files/en.png" alt="en" title="English">&nbsp;</a>
+                                    </li>
+                                    <li class="icl-nl">
+                                        <a href="http://altatranslations.nl/?lang=nl" class="lang_sel_other">
+                                            <img class="iclflag" src="index_files/nl.png" alt="nl" title="Nederlands">&nbsp;</a>
+                                    </li>
+                                    <li class="icl-ru">
+                                        <a href="http://altatranslations.nl/?lang=ru" class="lang_sel_other">
+                                            <img class="iclflag" src="index_files/ru.png" alt="ru" title="Русский">&nbsp;</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
         </div>
-        <header>
+        <!--<header>
             <div class="top-container">
                 <div class="header-contacts-info">
                     <ul class="contacs-list">
@@ -444,30 +493,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="choosing-lang">
-                    <div class="panel-lang">
-                        <div class="widget-block">
-                            <div id="lang_sel_list" class="lang_sel_list_horizontal">
-                                <ul>
-                                    <li class="icl-en">
-                                        <a href="http://altatranslations.nl/" class="lang_sel_sel">
-                                            <img class="iclflag" src="index_files/en.png" alt="en" title="English">&nbsp;</a>
-                                    </li>
-                                    <li class="icl-nl">
-                                        <a href="http://altatranslations.nl/?lang=nl" class="lang_sel_other">
-                                            <img class="iclflag" src="index_files/nl.png" alt="nl" title="Nederlands">&nbsp;</a>
-                                    </li>
-                                    <li class="icl-ru">
-                                        <a href="http://altatranslations.nl/?lang=ru" class="lang_sel_other">
-                                            <img class="iclflag" src="index_files/ru.png" alt="ru" title="Русский">&nbsp;</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </header>
+        </header>-->
         <div class="top-main-text">
             <div class="main-container main-slogan">
                 <h4>We deliver translation and interpretation services all over the Netherlands for:</h4>
@@ -476,7 +503,7 @@
                     <li id="li-services-providers">services providers organizations<a href="javascript:void(0)"><span>?</span><div id="note-providers"><div>lawyers, notaries, health professionals etc</div></div></a></li>
                     <li>businesses and individuals</li>
                 </ul>
-                <p><strong>All directions</strong> between <span class="lang-dutch">Dutch</span>, <span class="lang-russian">Russian</span>, <span class="lang-english">English</span> and <span class="lang-ukrainian">Ukrainian</span></p>
+                <p>All directions between <span class="lang-dutch">Dutch</span>, <span class="lang-russian">Russian</span>, <span class="lang-english">English</span> and <span class="lang-ukrainian">Ukrainian</span></p>
                 <a href="http://altatranslations.nl/razmestit-zakaz/" class="order-link">Order or Offer</a>
                 <a href="http://altatranslations.nl/o-nas/" class="btn-link">Know more</a>
             </div>
