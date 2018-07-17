@@ -48,6 +48,7 @@
 
 .navigation-block{
     background: rgba(255,255,255,.95);
+    height: 66px;
 }
 
 @media screen and (max-width: 1400px){ 
