@@ -23,6 +23,10 @@
     justify-content: space-around;
 }
 
+.item-substrate-wrap{
+    border-color: #666;
+}
+
 .main-slogan{
     background-color: rgba(255,255,255,0.9);
     border-radius: 10px;
@@ -48,7 +52,7 @@
 
 @media screen and (max-width: 1400px){ 
     .navigation-block {
-        padding: 15px;
+        padding: 10px 15px;
     }   
 }
 
@@ -105,4 +109,8 @@
 }
 .price-item-description{
     margin-bottom: 50px;
+}
+
+.top-main{
+    margin-bottom: 10px;
 }
