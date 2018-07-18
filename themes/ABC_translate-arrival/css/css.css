@@ -1,16 +1,11 @@
 body{
-    background: url(../../../sources/images/pexels-photo-705674.jpeg);
-    background: url(../../../../../sources/images/universal-language.jpg);
+    background: url(../images/theme-image_universal-language.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-/*header{
-    background: rgba(81,55,148,0.6);
-    background: linear-gradient(to top, rgba(81, 55, 148, 0.5), rgba(81, 55, 148, 1));
-    display: none;
-}*/
+/*header{}*/
 
 #ascrail2001 {
     background-color: #eee;
