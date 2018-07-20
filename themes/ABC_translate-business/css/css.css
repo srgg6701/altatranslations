@@ -88,6 +88,10 @@ width: 100%;
     display: none;
 } */
 
+#row-footer {
+    overflow:hidden;
+}
+
 #row-prices {
     display: flex;
     justify-content: space-between;
@@ -112,7 +116,7 @@ width: 100%;
     background-size: cover;
     /* background-size: contain; */
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: center;
     /* background-attachment: fixed; */
     overflow:hidden;
 }

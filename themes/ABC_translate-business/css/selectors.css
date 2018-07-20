@@ -84,6 +84,10 @@
     margin-left: 2px;
 }
 
+#main-slogan h4 div{
+    margin-top: 12px;
+}
+
 #navigation-contacts ul{
     height: 24px;
     margin: auto;
@@ -173,9 +177,10 @@ nav.main-menu{
 
 .main-slogan ul li{
     background-repeat: no-repeat;
+    font-size: 22px;
     height:54px;
     line-height: 47px;
-    margin: 4px 0;
+    /* margin: 4px 0; */
     padding-left: 63px;
 }
 
