@@ -1,8 +1,9 @@
 body{
-    background: url(../images/theme-businessman.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #c7cacd;
+}
+
+body *{
+    box-sizing: border-box;
 }
 
 /*header{}*/
@@ -14,6 +15,14 @@ body{
 
 #lang_sel_list{
     height: 13px;
+}
+
+#logo-header{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    width: 25%;
 }
 
 #logo-link, #logo-link-bottom {
@@ -36,18 +45,42 @@ body{
     text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
-#main-container-inner{
+#main-container{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#main-container-navigation-block-inner{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+
+#mySidenav{
+    
+/* margin-right: auto; */
+    
+width: 100%;
+}
+
+#navigation-block{
+    display:flex;
+    justify-content: space-between;
 }
 
 #navigation-contacts{
     display: flex;
+    margin: auto;
     text-align: center;
-    width: 15%;
+    white-space: nowrap;
+    width: 20%;
 }
 
 #navigation-top{
-    width: 65%;
+    display: flex;
+    margin: auto;
+    width: 55%;
 }
 
 #note-providers{
@@ -60,7 +93,26 @@ body{
     justify-content: space-between;
 }
 
+#row-review{
+    overflow:hidden;
+}
+
+#searchform{
+    display: inline-block;
+    margin-left: 15px;
+}
+
 #select-lang{
     float: right;
 }
 
+#top-main{
+    background: url(../images/theme-businessman.png);
+    background-size: 100%;
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* background-attachment: fixed; */
+    overflow:hidden;
+}
