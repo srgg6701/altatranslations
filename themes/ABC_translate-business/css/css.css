@@ -58,8 +58,10 @@ body *{
 }
 
 #mySidenav{
-    /* margin-right: auto; */
-    width: 100%;
+    
+/* margin-right: auto; */
+    
+width: 100%;
 }
 
 #navigation-block{
@@ -89,6 +91,10 @@ body *{
 #row-prices {
     display: flex;
     justify-content: space-between;
+}
+
+#row-review{
+    overflow:hidden;
 }
 
 #searchform{
