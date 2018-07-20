@@ -5,7 +5,7 @@
     width: 17px !important;
 }
 
-#li-services-providers a{
+/*#li-services-providers a{
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@
     text-align: center;
     text-shadow: none;
     width: 22px;
-}
+}*/
 
 #logo-link span,
 #logo-link-bottom span {
@@ -97,13 +97,13 @@
     padding-right:0;
 }
 
-#note-providers >div{
+/* #note-providers >div{
     background-color: white;
     border: solid 1px rgba(120, 167, 65, 0.55);
     font-size: 0.8rem;
     padding: 5px 10px;
     color: #78a741;
-}
+} */
 
 #row-prices >div{
     width: 32%;
@@ -163,11 +163,34 @@ nav.main-menu{
     margin: 18px auto;
 }
 
-.main-slogan ul li:before{
-    content: "✔";
+/*.main-slogan ul li:before{
+    content: " ";
     color: green;
     font-weight: bold;
-    margin-right: 8px;
+    margin-bottom:-14px;
+    margin-right: 58px;
+}*/
+
+.main-slogan ul li{
+    background-repeat: no-repeat;
+    height:54px;
+    line-height: 47px;
+    margin: 4px 0;
+    padding-left: 63px;
+}
+
+.main-slogan ul li:nth-child(1){
+    background-image: url(../images/icon-museum-1.png);
+}
+.main-slogan ul li:nth-child(2){
+    background-image: url(../images/icons-service-provider-1.png);
+}
+.main-slogan ul li:nth-child(3){
+    background-image: url(../images/icon-business-1.png);
+}
+
+.main-slogan ul li span{
+    color: inherit;
 }
 
 .service-item-description a{

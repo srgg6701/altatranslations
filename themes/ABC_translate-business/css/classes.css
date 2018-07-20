@@ -23,6 +23,11 @@
     justify-content: space-around;
 }
 
+.hint{
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+
 .item-substrate-wrap{
     border-color: #666;
     border-radius: 0;

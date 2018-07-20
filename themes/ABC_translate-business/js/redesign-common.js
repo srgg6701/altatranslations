@@ -1,4 +1,4 @@
-var $liServiceProviders = $('#li-services-providers'),
+/* var $liServiceProviders = $('#li-services-providers'),
     $noteProviders = $('#note-providers'),
     action;
 $liServiceProviders.find('>a')
@@ -7,4 +7,4 @@ $liServiceProviders.find('>a')
     });
 $liServiceProviders.on('mouseleave', function(){
         $noteProviders.slideUp();
-    });
+    }); */

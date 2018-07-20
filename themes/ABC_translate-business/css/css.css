@@ -83,10 +83,10 @@ width: 100%;
     width: 55%;
 }
 
-#note-providers{
+/* #note-providers{
     margin: 6px 15px;
     display: none;
-}
+} */
 
 #row-prices {
     display: flex;
