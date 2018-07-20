@@ -84,9 +84,10 @@
     margin-left: 2px;
 }
 
-#main-slogan h4 div{
-    margin-top: 12px;
-}
+/*#main-slogan h4 div{   
+    margin-top: 12px;   
+    display: inline;
+}*/
 
 #navigation-contacts ul{
     height: 24px;
@@ -178,7 +179,7 @@ nav.main-menu{
 .main-slogan ul li{
     background-repeat: no-repeat;
     font-size: 22px;
-    height:54px;
+    height: 50px;
     line-height: 47px;
     /* margin: 4px 0; */
     padding-left: 63px;
@@ -192,6 +193,9 @@ nav.main-menu{
 }
 .main-slogan ul li:nth-child(3){
     background-image: url(../images/icon-business-1.png);
+}
+.main-slogan ul li:nth-child(4){
+    background-image: url(../images/icon-crowd-1.png);
 }
 
 .main-slogan ul li span{
