@@ -2,6 +2,7 @@
 $(document).ready(function () {
     var mySidenavId = '#mySidenav',
         $mySidenav = $(mySidenavId),
+        $closeBtn = $('.closebtn'),
         $plash = $('.dark-overlay'),
         classStart = 'start',
         classActive = 'active',
@@ -11,10 +12,12 @@ $(document).ready(function () {
         // because of clash with the old css
         $mySidenav.toggleClass(classActive).toggleClass(classStart);
         $plash.fadeIn(speedOverlay);
+        $closeBtn.show();
     });
     function closeMenu() {
         $mySidenav.removeClass(classActive);
         $plash.fadeOut(speedOverlay);
+        $closeBtn.hide();
     }
     $plash.mousedown(function (e) {
         var clicked = $(e.target);
@@ -24,9 +27,13 @@ $(document).ready(function () {
             closeMenu();
         }
     });
+    
     $('.main-navigation-menu li a').click(closeMenu);
-    $('.closebtn').on('click', closeMenu);
+    
+    $closeBtn.on('click', closeMenu);
+
     $("body").niceScroll();
+    
     $('.main-navigation-menu > li:nth-child(3) > a').on('click', function (e) {
         e.preventDefault();
     });

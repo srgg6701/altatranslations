@@ -14,6 +14,9 @@ body * {
 }
 
 #closebtn {
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    display: none;
     height: 20px;
     width: 20px;
     z-index: 11;
@@ -145,6 +148,13 @@ body * {
         padding: 25px;
         width: 50%;
         z-index: 1001;
+    }
+    #nav-main-menu #search-block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+        padding-top: 24px;
+        border-top: solid 1px white;
     }
 }
 
