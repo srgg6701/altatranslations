@@ -11790,14 +11790,14 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 }*/
 
 .top-main-text {
-    /* top: auto; */
-    /* left: auto; */
-    /* right: auto; */
-    /* transform: none; */
-    /* -webkit-transform: none; */
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    -webkit-transform: none;
     /* padding: 60px 20px 40px; */
-    /* z-index: 6; */
-    /* position: relative; */
+    z-index: 6;
+    position: relative;
 }
 
 .order-link {
@@ -13070,7 +13070,7 @@ span.wpcf7-not-valid-tip {
     .menu-item-has-children .sub-menu {
         position: absolute;
         background: rgba(81,55,148,1);
-        width: 180px
+        width: 180px;
     }
 
     .menu-item-has-children .sub-menu li:hover {
@@ -13154,7 +13154,7 @@ span.wpcf7-not-valid-tip {
     .close-button {
         background: url('../images/close.png') no-repeat;
         width: 18px;
-        height: 18px
+        height: 18px;
     }
 
     .sidenav {
@@ -13212,7 +13212,7 @@ span.wpcf7-not-valid-tip {
     .menu-item-has-children .sub-menu {
         position: relative;
         padding-left: 20px;
-        display: block
+        display: block;
     }
 
     .menu-item-has-children .sub-menu li {

@@ -13,6 +13,12 @@ body *{
     width: 17px !important;
 }
 
+#closebtn{
+    height: 20px;
+    width: 20px;
+    z-index: 11;
+}
+
 #lang_sel_list{
     height: 13px;
 }
@@ -56,37 +62,139 @@ body *{
     justify-content: stretch;
     width: 100%;
 }
+#main-slogan{
+    background: linear-gradient(to right, rgba(255,255,255,1) 70%, rgba(255,255,255,0.4) 100%);
+    box-shadow: 10px 10px 46px 10px rgba(0,0,0,0.15);
+    margin: 0;
+    padding: 30px 30px 16px;
+    position: relative;
+    
+}
+@media screen and (max-width: 1024px){
+    #main-slogan{
+        border-bottom: #513794 2px solid;
+        border-top: #513794 2px solid;    
+    }
+}
+@media screen and (min-width: 1025px){
+    #main-slogan{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1281px){
+    #main-slogan{
+        background-color: rgba(255,255,255,0.9);
+        border-bottom: none;
+        border-top: none;
+        max-width: 600px;
+        margin: 40px 50% 40px auto;
+        width: 50%;
+    }
+}
+
+#menu-hamburger{
+    padding-top: 0;
+}
+
+@media screen and (max-width: 1200px){
+    #menu-hamburger {
+        display: inline-block;
+        float: right;
+    }
+    #menu-hamburger i {
+        color: rgb(81,55,148);
+        font-size: 2rem;
+    }
+    #navigation-block {
+        /* z-index: 12; */
+    }
+}
+
+@media screen and (min-width: 1201px){
+    #navigation-block {
+        display:flex;
+    }    
+}
 
 #mySidenav{
-    
-/* margin-right: auto; */
-    
-width: 100%;
+    right: -100%;
+    transition: all ease 0.5s;
+}
+#mySidenav.start{
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+}
+#mySidenav.active{
+    transition: all ease 0.5s;
+    right:0;
+}
+@media screen and (max-width: 1200px){
+    #mySidenav {
+        background: linear-gradient(to right, rgba(81,55,148,1) 0%, rgba(81,55,148,1) 0%, rgba(94,60,149,1) 34%, rgba(103,63,149,1) 66%, rgba(112,66,150,1) 100%);
+        display: inline-block;
+        height: 100%;
+        min-width:320px;
+        overflow-x: hidden;
+        top: 0;
+        position: fixed;
+        padding: 25px;
+        width: 50%;
+        z-index: 1001;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    #mySidenav{
+        /*display: block;*/
+        width: 100%;
+    }
+}
+
+#nav-main-menu{
+    z-index: 10;
 }
 
 #navigation-block{
-    display:flex;
+    /* display:flex; */
     justify-content: space-between;
 }
-
 #navigation-contacts{
-    display: flex;
+    position: absolute;
+    right: 53px;
+    top: 145px;
+    white-space: nowrap;
+    z-index: 20;
+} 
+
+@media screen and (min-width: 1025px){
+  #navigation-contacts{
+    display: flex;  
+    position: static;
+    width: 80%
+  }
+}
+
+@media screen and (min-width: 1201px){
+  #navigation-contacts{
     margin: auto;
     text-align: center;
-    white-space: nowrap;
     width: 20%;
+  }    
 }
 
 #navigation-top{
-    display: flex;
     margin: auto;
     width: 55%;
 }
 
-/* #note-providers{
-    margin: 6px 15px;
-    display: none;
-} */
+@media screen and (min-width: 1201px){
+    #navigation-top{
+        display: flex;
+    }
+}
 
 #row-footer {
     overflow:hidden;
@@ -111,12 +219,16 @@ width: 100%;
 }
 
 #top-main{
-    background: url(../images/theme-businessman.png);
-    background-size: 100%;
+    background: url(../images/theme-businessman-big.jpg);
     background-size: cover;
-    /* background-size: contain; */
+    /* background-size: auto 100%; */
     background-repeat: no-repeat;
-    background-position: center;
-    /* background-attachment: fixed; */
+    background-position: 60% center;
+    /*  */
     overflow:hidden;
+}
+@media screen and (min-width: 900px) {
+    #top-main{
+        background-position: center;
+    }
 }
