@@ -278,5 +278,6 @@ body * {
 @media screen and (min-width: 900px) {
     #top-main {
         background-position: center;
+        box-shadow: 0 0 40px rgba(0,0,0,0.35) inset;
     }
 }
