@@ -137,6 +137,7 @@ max-width: 360px;
 
 #searchform input {
     background-color: white;
+    min-width: 100%;
 }
 
 body > header{
@@ -322,7 +323,7 @@ nav .main-navigation-menu li +li{
 }
 @media screen and (max-width: 1200px){
     #search-block > span{
-        margin-right: 20px;
+        margin-right: -4px;
         order: 2;
     }
     #search-block > span img{
@@ -331,7 +332,25 @@ nav .main-navigation-menu li +li{
         border: solid 1px rgba(255,255,255,0.5);
     }
     #search-block > form{
+        margin-left: 0;
         order: 1;
+        width: 80%;
+    }
+    #search-block > form input{
+        display: inline-block;
+        opacity: 1;
+        min-width: auto;
+        position: static;
+        width: calc(100% - 20px);
+    }
+    #search-block > form button{
+        float: right;
+        vertical-align: unset;
+        margin-right: -8px;
+        margin-top: 11px;
+    }
+    #search-block a {
+        margin-top: 5px;
     }
 }
 

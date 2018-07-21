@@ -3,12 +3,12 @@ $(document).ready(function () {
     var mySidenavId = '#mySidenav',
         $mySidenav = $(mySidenavId),
         $closeBtn = $('.closebtn'),
+        $mainNavigationMenu = $('.main-navigation-menu'),
         $plash = $('.dark-overlay'),
         classStart = 'start',
         classActive = 'active',
         speedOverlay = 600;
     $('#menu-hamburger').on('click', function () {
-        //if ($mySidenav.hasClass(classStart)) $mySidenav.removeClass(classStart);
         // because of clash with the old css
         $mySidenav.toggleClass(classActive).toggleClass(classStart);
         $plash.fadeIn(speedOverlay);
@@ -28,13 +28,13 @@ $(document).ready(function () {
         }
     });
     
-    $('.main-navigation-menu li a').click(closeMenu);
+    $mainNavigationMenu.find('li a').click(closeMenu);
     
     $closeBtn.on('click', closeMenu);
 
     $("body").niceScroll();
-    
-    $('.main-navigation-menu > li:nth-child(3) > a').on('click', function (e) {
+    // FIXME: optimize this!
+    $mainNavigationMenu.find('> li:nth-child(3) > a').on('click', function (e) {
         e.preventDefault();
     });
     $(window).scroll(function () { }).on('resize', function(){

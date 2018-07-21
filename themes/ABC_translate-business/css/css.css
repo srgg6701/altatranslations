@@ -243,8 +243,17 @@ body * {
     justify-content: space-between;
 }
 
-#row-review {
-    overflow: hidden;
+.reviews-section {
+    display: none;
+}
+
+@media screen and (min-width: 1025px){
+    .reviews-section{
+        display: block;
+    }
+    #row-review {
+        overflow: hidden;
+    }
 }
 
 #searchform {
