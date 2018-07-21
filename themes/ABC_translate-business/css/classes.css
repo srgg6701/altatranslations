@@ -1,6 +1,9 @@
 .absolute{
     position: absolute;
 }
+.blue-link{
+    color: #2795c5;
+}
 .btn-link{
     bottom: 20px;
     color: darkslateblue;
@@ -126,9 +129,24 @@
     margin: auto -7px;       
     width: auto;
 }
+
 .price-item-wrap{
     display: flex;
 }
+
+@media screen and (max-width: 1024px){
+    #row-prices div .price-item{
+        margin: auto -15px;
+    }
+    #row-prices .price-item-wrap{
+        align-self: start;
+        height: 100%;
+    }
+    .prices-section {
+        padding-bottom: 0;
+    }
+}
+
 .price-item-description{
     margin-bottom: 50px;
 }

@@ -25,7 +25,7 @@
     transform: rotate(21deg);
 }
 
-#logo-link span:nth-child(1){
+#logo-link > span:nth-child(1){
     background-color: #513794;
 }
 
@@ -44,7 +44,7 @@
     transform: rotate(42deg);
 }
 
-#logo-link span:nth-child(3) {
+/*#logo-link span:nth-child(3) {
     height: 16.5px;
     left: 18px;
     top: 14px;
@@ -65,10 +65,14 @@
     color: #bbb;
     font-size: 0.95rem;
     margin-left: 2px;
+}*/
+
+#logo-link .logo-container{
+    color: #e40505;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5), 0 1px 1px rgba(255,255,255,0.5);
 }
 
 #navigation-contacts ul{
-    height: 24px;
     margin: auto;
 }
 
@@ -86,6 +90,16 @@
         margin-bottom: 20px;
         text-align: center;
     }
+    .main-slogan h4, .main-slogan p, .main-slogan li{
+        
+max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #navigation-contacts ul{
+        height: 24px;
+    } 
 }
 
 @media screen and (max-width: 1200px){
@@ -115,8 +129,10 @@
     }
 }
 
-#row-prices >div{
-    width: 32%;
+@media screen and (min-width: 1025px){ 
+    #row-prices >div{
+        width: 32%;
+    }  
 }
 
 #searchform input {
@@ -197,6 +213,10 @@ nav.main-menu{
     line-height: 47px;
     text-align:left;
     padding-left: 63px;
+}
+
+.main-slogan ul li a:hover{
+    text-decoration: none;
 }
 
 .main-slogan ul li:nth-child(1){
