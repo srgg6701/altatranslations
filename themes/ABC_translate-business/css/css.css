@@ -267,6 +267,8 @@ body * {
 
 #top-main {
     background: url(../images/theme-businessman-big.jpg);
+    background: url(../images/theme-businessman-big-contrast.jpg);
+    background: url(../images/theme-businessman-big-2.jpg);
     background-size: cover;
     /* background-size: auto 100%; */
     background-repeat: no-repeat;
