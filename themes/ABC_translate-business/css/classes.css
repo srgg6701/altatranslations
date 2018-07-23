@@ -87,7 +87,19 @@
 .top-main-text{
     /* text-align: center; */
     padding: 0;
-    /* position: relative; */
+    position: relative;
+}
+
+.top-main-text::after{
+    background: yellow;
+    background: transparent;
+    box-shadow: 20px 0 40px rgba(0,0,0,0.35) inset;
+    content: ' ';
+    position: absolute;
+    bottom: -40px;
+    top: -40px;
+    width: 100%;
+    z-index: -1;
 }
 
 .top-container .header-contacts-info{
