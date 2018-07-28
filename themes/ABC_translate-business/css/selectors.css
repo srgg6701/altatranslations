@@ -33,8 +33,8 @@
     background-color: rgb(176, 176, 255);
 }
 
-#logo-link span:nth-child(2),
-#logo-link-bottom span:nth-child(2) {
+#logo-link > span:nth-child(2),
+#logo-link-bottom > span:nth-child(2) {
     background-color: rgba(255, 255, 255, 1);
     height: 22px;
     left: 14px;
@@ -205,13 +205,15 @@ nav.main-menu{
 
 .main-slogan ul{
     width: 80%;
-    margin: 18px auto;
+    margin: 0.5rem auto;
+    font-size: 0.7rem;
 }
 .main-slogan ul li{
     background-repeat: no-repeat;
     color: inherit;
-    min-height: 50px;
-    line-height: 47px;
+    margin: 2px 0;
+    min-height: 1.5rem;
+    line-height: 1.565rem;
     text-align:left;
     padding-left: 63px;
 }
@@ -222,6 +224,7 @@ nav.main-menu{
 
 .main-slogan ul li:nth-child(1){
     background-image: url(../images/icon-museum-1.png);
+    /* background-size: 42px; */
 }
 .main-slogan ul li:nth-child(2){
     background-image: url(../images/icons-service-provider-1.png);
@@ -231,6 +234,12 @@ nav.main-menu{
 }
 .main-slogan ul li:nth-child(4){
     background-image: url(../images/icon-crowd-1.png);
+}
+
+.main-slogan ul li,
+.main-slogan p{
+    font-size: 0.75rem;
+    background-size: 1.65rem;
 }
 
 .main-slogan ul li span{
@@ -244,7 +253,6 @@ nav.main-menu{
 .main-slogan h4,
 .main-slogan p,
 .main-slogan li{
-    font-size: 20px;
     color: inherit;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(255,255,255,1);
@@ -270,8 +278,8 @@ nav.main-menu{
 }
 
 .main-container.main-slogan [class|="lang"]{
-    font-size: 20px;
-    /* font-weight: bold; */
+    font-size: 0.666rem;
+    font-weight: bold;
 }
 
 .main-container.main-slogan .lang-dutch{
