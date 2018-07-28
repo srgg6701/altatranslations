@@ -1,11 +1,11 @@
 #row-prices {
-    >div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > div {
         @media screen and (max-width: 1024px) {
             background-color: #cfdcee;
-            div .price-item {
+            .price-item {
                 margin: auto -15px;
             }
             .price-item-wrap {
