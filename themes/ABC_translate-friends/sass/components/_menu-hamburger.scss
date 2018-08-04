@@ -1,0 +1,11 @@
+#menu-hamburger {
+    padding-top: 0;
+    @media screen and (max-width: 1200px) {
+        display: inline-block;
+        float: right;
+        i {
+            color: #513794;
+            font-size: 2rem;
+        }
+    }
+}

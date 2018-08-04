@@ -51,7 +51,8 @@
         }
     }
     @media screen and (min-width: 1025px) {
-        width: 40%;
+        transform: scale(0.8);
+        width: 50%;
     }
     @media screen and (min-width: 1281px) {
         background-color: rgba(255, 255, 255, 0.9);

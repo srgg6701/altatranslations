@@ -460,11 +460,13 @@ body * {
 #top-main {
   background: url(../images/theme-businessman-big.jpg);
   background: url(../images/theme-businessman-big-contrast.jpg);
-  background: url(../images/theme-businessman-big-2.jpg);
+  /* background: url(../images/theme-businessman-big-2.jpg); */
+  background: url(../images/theme-businessman-big-saturated.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60% center;
-  overflow: hidden; }
+  overflow: hidden;
+  }
   @media screen and (min-width: 900px) {
     #top-main {
       background-position: center;
@@ -526,7 +528,8 @@ body * {
       color: inherit; }
   @media screen and (min-width: 1025px) {
     #main-slogan {
-      width: 40%; } }
+      transform: scale(0.8);
+      width: 50%; } }
   @media screen and (min-width: 1281px) {
     #main-slogan {
       background-color: rgba(255, 255, 255, 0.9);
