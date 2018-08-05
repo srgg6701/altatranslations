@@ -12024,13 +12024,14 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 }
 
 .service-item-description a:hover {
-    color: #78a741;
+    /* color: #78a741; */
+    /* font-weight: bold; */
     text-decoration: none;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
     -ms-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out
+    transition: all 0.4s ease-out;
 }
 
 .prices-section {
