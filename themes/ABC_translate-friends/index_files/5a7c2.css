@@ -1984,7 +1984,7 @@ button,input,select,textarea {
 a {
     color: #337ab7;
     color: #673f95;
-    /* color: #78a741; */
+    color: #78a741;
     text-decoration: none;
 }
 
@@ -12015,7 +12015,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 }
 
 .service-item-description a {
-    /* color:#fff; */
+    color:#fff;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
     -ms-transition: all 0.4s ease-out;
