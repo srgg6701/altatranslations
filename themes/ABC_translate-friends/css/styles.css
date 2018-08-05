@@ -475,7 +475,8 @@ body * {
   background-position: left bottom;
   background-size: cover;
   padding: 0;
-  position: relative; }
+  position: relative;
+  }
 
 #main-slogan {
   margin-bottom: 2.5rem;

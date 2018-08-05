@@ -12858,7 +12858,8 @@ span.wpcf7-not-valid-tip {
     }
 
     footer {
-        padding: 53px 15px 41px
+        background: #676b01;
+        padding: 53px 15px 41px;
     }
 
     .order-process-section {
