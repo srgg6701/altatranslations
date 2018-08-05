@@ -1,13 +1,8 @@
 #top-main {
-    background: url(../images/theme-businessman-big.jpg);
-    background: url(../images/theme-businessman-big-contrast.jpg);
-    background: url(../images/theme-businessman-big-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 60% center;
-    overflow: hidden;
-    @media screen and (min-width: 900px) {
+    background-color: $color-olive;
+    margin-bottom: -0.8rem;
+    /*@media screen and (min-width: 900px) {
         background-position: center;
         box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) inset;
-    }
+    }*/
 }

@@ -2,8 +2,7 @@
   position: absolute; }
 
 .blue-link {
-  color: #2795c5;
-  }
+  color: #2795c5; }
 
 .btn-link {
   bottom: 20px;
@@ -32,13 +31,9 @@
   border-color: #8e8d8d;
   border-radius: 0; }
 
-.logo-container {
-  /* @media screen and (max-width: 768px) {
-        display: none;
-    } */ }
-  @media screen and (min-width: 769px) {
-    .logo-container-mobile {
-      display: none; } }
+@media screen and (min-width: 769px) {
+  .logo-container-mobile {
+    display: none; } }
 
 .reviews-section {
   display: none; }
@@ -52,10 +47,7 @@
   padding-top: 0; }
 
 .navigation-block {
-  background: rgba(255, 255, 255, 1);
-  height: 66px;
-  padding: 0;
-  }
+  padding: 0; }
   @media screen and (max-width: 1200px) {
     .navigation-block {
       padding: 10px 15px; } }
@@ -69,21 +61,11 @@
   padding-right: 20px;
   padding-left: 20px; }
 
-.our-services,
-.prices-section,
-.reviews-section {
-  background: rgba(255, 255, 255, 0.95); }
-
-.our-services {
-  border-bottom: solid 2px #8d78af; }
-
 @media screen and (max-width: 1024px) {
   .prices-section {
     padding-bottom: 0; } }
 
 @media screen and (max-width: 1200px) {
-  .our-services {
-    padding-bottom: 50px; }
   .dark-overlay {
     position: fixed;
     width: 100%;
@@ -99,49 +81,64 @@
     border-radius: 0 !important;
     width: 17px !important; }
 
+.price-item a {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: "PF DinText Pro";
+  font-weight: 300;
+  color: #2795c5; }
+  .price-item a.know-more {
+    bottom: 30px;
+    margin-left: 22px;
+    position: absolute; }
+
+.service-item-description a {
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
+
 body > header {
   background: rgba(0, 0, 50, 0.65); }
 
-nav.main-menu {
-  margin: auto; }
-
-.header-contacts-info .contact-list {
-  display: flex;
-  justify-content: space-around; }
-  .header-contacts-info .contact-list a,
-  .header-contacts-info .contact-list .address span {
-    display: inline-block;
-    transform: translateY(-4px) !important;
-    -webkit-transform: translateY(-4px) !important;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.32); }
-
-.contact-list li a,
-.contact-list .address {
-  font-size: initial; }
-
 .contact-list li i {
   font-size: 46px;
-  color: #78a741;
-  color: #666;
+  color: white;
   margin: auto 10px; }
   @media screen and (min-width: 1025px) {
     .contact-list li i {
       font-size: 22px; } }
 
+nav.main-menu {
+  margin: auto; }
+
+#navigation-contacts .contact-list li {
+  padding-right: 0; }
+  @media screen and (max-width: 1024px) {
+    #navigation-contacts .contact-list li {
+      display: block;
+      margin-bottom: 20px;
+      text-align: center; } }
+
 nav .main-navigation-menu li + li {
   padding-right: 38px; }
+
+.header-contacts-info .contact-list {
+  display: flex;
+  justify-content: space-around; }
+
+.header-contacts-info .contact-list a, .header-contacts-info .contact-list
+.address span {
+  display: inline-block;
+  transform: translateY(-4px) !important;
+  -webkit-transform: translateY(-4px) !important;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.32); }
+
+.contact-list li a, .contact-list
+.address {
+  font-size: initial; }
 
 nav .main-navigation-menu li {
   padding-left: 0; }
   nav .main-navigation-menu li:last-child {
     padding-right: 0; }
-  nav .main-navigation-menu li a {
-    color: #fff;
-    font-size: 16px !important;
-    font-weight: normal; }
-    @media screen and (min-width: 1201px) {
-      nav .main-navigation-menu li a {
-        color: #666; } }
   @media screen and (max-width: 1200px) {
     nav .main-navigation-menu li ul li {
       padding-left: 20px; } }
@@ -153,9 +150,6 @@ nav .main-navigation-menu li {
     padding-left: 20px;
     display: block;
     width: 100%; } }
-
-.service-item-description a {
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
 
 header > .top-container {
   display: flex;
@@ -173,33 +167,21 @@ header > .top-container {
 
 .price-item {
   background-color: rgba(193, 220, 255, 0.5); }
-  .price-item-description {
-    margin-bottom: 50px; }
   .price-item__image {
     margin: auto -7px;
     width: auto; }
   .price-item-wrap {
     display: flex; }
-  .price-item a {
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    font-family: "PF DinText Pro";
-    font-weight: 300;
-    color: #2795c5; }
-    .price-item a.know-more {
-      bottom: 30px;
-      margin-left: 22px;
-      position: absolute; }
-  .price-item-description .excerpt + a {
-    bottom: 20px;
-    position: absolute; }
+  .price-item-description {
+    margin-bottom: 50px; }
+
+.price-item-description .excerpt + a {
+  bottom: 20px;
+  position: absolute; }
 
 .panel-lang .widget-block {
   overflow: hidden;
   display: flex; }
-
-body {
-  background-color: #c7cacd; }
 
 body * {
   box-sizing: border-box; }
@@ -232,13 +214,10 @@ body * {
   #logo-link > span:nth-child(1),
   #logo-link-bottom > span:nth-child(1) {
     font-weight: normal;
-    left: 10px; }
-    #logo-link > span:nth-child(1):nth-child(1),
-    #logo-link-bottom > span:nth-child(1):nth-child(1) {
-      transform: rotate(21deg); }
+    left: 10px;
+    transform: rotate(21deg); }
   #logo-link > span:nth-child(2),
   #logo-link-bottom > span:nth-child(2) {
-    background-color: white;
     height: 22px;
     left: 14px;
     top: 9.5px;
@@ -247,16 +226,18 @@ body * {
     transform: rotate(42deg); }
 
 #logo-link > span:nth-child(1) {
-  background-color: #513794;
+  background-color: #d1da29;
   height: 29px;
   top: 5.5px;
   width: 29px; }
 
+#logo-link > span:nth-child(2) {
+  background-color: #969a25; }
+
 #logo-link .logo-container {
-  color: #e40505;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), 0 1px 1px rgba(255, 255, 255, 0.5); }
+  color: #d1da29; }
   #logo-link .logo-container span:nth-child(1) {
-    color: #513794; }
+    color: white; }
   #logo-link .logo-container span:nth-child(3) {
     color: #ccc; }
 
@@ -327,7 +308,15 @@ body * {
       width: 100%; } }
 
 #nav-main-menu {
+  color: white;
   z-index: 10; }
+  #nav-main-menu li a {
+    color: white;
+    font-size: 0.625rem;
+    font-weight: normal; }
+  @media screen and (min-width: 1201px) {
+    #nav-main-menu li {
+      color: #666; } }
   @media screen and (max-width: 1200px) {
     #nav-main-menu .main-navigation-menu li {
       display: inline-block;
@@ -343,7 +332,9 @@ body * {
         background-color: #78a741; } }
 
 #navigation-block {
-  justify-content: space-between; }
+  background-color: #969a25;
+  justify-content: space-between;
+  height: auto; }
   @media screen and (min-width: 1201px) {
     #navigation-block {
       display: flex; } }
@@ -376,16 +367,14 @@ body * {
     margin: auto; }
     #navigation-contacts ul li {
       display: inline-block; }
+      #navigation-contacts ul li i {
+        color: white;
+        font-size: 0.92rem; }
+      #navigation-contacts ul li:first-child i {
+        font-size: 1.1rem; }
     @media screen and (min-width: 1025px) {
       #navigation-contacts ul {
         height: 24px; } }
-  #navigation-contacts .contact-list li {
-    padding-right: 0; }
-    @media screen and (max-width: 1024px) {
-      #navigation-contacts .contact-list li {
-        display: block;
-        margin-bottom: 20px;
-        text-align: center; } }
 
 #navigation-top {
   margin: auto;
@@ -393,6 +382,12 @@ body * {
   @media screen and (min-width: 1201px) {
     #navigation-top {
       display: flex; } }
+
+#our-services {
+  border-bottom: solid 2px #dbddd2;
+  padding-bottom: 50px; }
+  #our-services .services-container {
+    padding-top: 0.917rem; }
 
 #row-footer {
   overflow: hidden; }
@@ -456,72 +451,57 @@ body * {
     background-color: white;
     min-width: 100%; }
 
+#section-buttons {
+  display: flex;
+  justify-content: space-evenly; }
+  #section-buttons a.order-link {
+    min-width: 40%; }
+  #section-buttons a:nth-child(2).order-link:not(:hover) {
+    background-color: #78a741; }
+
 #select-lang {
   float: right; }
 
 #top-main {
-  /* background: url(../images/doors.jpg); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: 60% center; */
-  /* overflow: hidden; */
-  }
-  @media screen and (min-width: 900px) {
-    #top-main {
-      /* background-position: center; */
-      /* box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) inset; */
-      } }
+  background-color: #969a25;
+  margin-bottom: -0.8rem;
+  /*@media screen and (min-width: 900px) {
+        background-position: center;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) inset;
+    }*/ }
 
 #top-main-text {
-  padding: 0;
-  position: relative;
-  background: url(../images/doors.jpg);
+  background-image: url(../images/doors-to-the-left.jpg);
+  background-position: left bottom;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  }
-
-  #top-main-text::after {
-    background: transparent;
-    box-shadow: 20px 0 40px rgba(0, 0, 0, 0.35) inset;
-    content: ' ';
-    position: absolute;
-    bottom: -40px;
-    top: -40px;
-    width: 100%;
-    z-index: -1; }
-  @media screen and (min-width: 900px) {
-    #top-main-text {
-      background-position: left center;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.25) inset;
-      } }    
+  padding: 0;
+  position: relative; }
 
 #main-slogan {
-  /* background: linear-gradient(to right, black 70%, rgba(0, 255, 0, 0.4) 100%); */
-  /* box-shadow: 10px 10px 46px 10px rgba(0, 0, 0, 0.15); */
-  /* background: #513794; */
-  margin: 0;
-  padding: 30px 30px 16px;
-  position: relative;
-  }
+  margin-bottom: 2.5rem;
+  margin-left: 0;
+  padding: 1.28rem;
+  position: relative; }
   #main-slogan h4,
   #main-slogan li,
   #main-slogan p {
     font-size: 20px;
-    color: inherit;
-    text-align: center;
-    /* text-shadow: 1px 1px 1px white; */
-    }
+    color: white;
+    text-align: center; }
   #main-slogan h4,
   #main-slogan p {
     margin: auto; }
   #main-slogan h4 {
+    color: #676b01;
+    font-size: 0.958rem;
+    font-weight: bold;
     line-height: 1.2;
-    width: 96%; }
+    margin-top: 0.3333rem;
+    padding: 0 20px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.25), 2px 2px rgba(255, 255, 255, 0.2); }
   #main-slogan ul {
-    width: 80%;
-    margin: 18px auto; }
+    width: calc(100% - (2 * $offset-horizontal));
+    margin: 0.75rem auto 0.1rem; }
     #main-slogan ul li:nth-child(1) {
       background-image: url(../images/icon-museum-1.png); }
     #main-slogan ul li:nth-child(2) {
@@ -531,24 +511,30 @@ body * {
     #main-slogan ul li:nth-child(4) {
       background-image: url(../images/icon-crowd-1.png); }
   #main-slogan li {
+    background-color: rgba(150, 154, 37, 0.2);
     background-repeat: no-repeat;
+    background-position: 0.82rem;
     color: inherit;
-    min-height: 50px;
+    margin: 2px auto;
+    min-height: 2.085rem;
     line-height: 47px;
+    line-height: 1.958rem;
     text-align: left;
-    padding-left: 63px; }
-    #main-slogan li a:hover {
-      text-decoration: none; }
+    padding-left: 3.4rem;
+    }
+    #main-slogan li a {
+      color: white;
+      font-size: 21px;
+      text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15); }
+      #main-slogan li a:hover {
+        text-decoration: none; }
     #main-slogan li span {
       color: inherit; }
   @media screen and (min-width: 1025px) {
     #main-slogan {
-      transform: scale(0.9);
-      width: 50%;
-      } }
+      width: 50%; } }
   @media screen and (min-width: 1281px) {
     #main-slogan {
-      background-color: rgba(255, 255, 255, 0.9);
       border-bottom: none;
       border-top: none;
       max-width: 600px;
@@ -574,6 +560,3 @@ body * {
     color: #fb5a5a; }
   #main-slogan .lang-ukrainian {
     color: #ff9b22; }
-#main-slogan li a{
-  color: white;
-}

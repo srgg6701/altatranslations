@@ -39,9 +39,6 @@
 }
 
 .logo-container {
-    /* @media screen and (max-width: 768px) {
-        display: none;
-    } */
     @media screen and (min-width: 769px) {
         &-mobile {
             display: none;
@@ -63,8 +60,6 @@
 }
 
 .navigation-block {
-    background: rgba(255, 255, 255, 0.95);
-    height: 66px;
     padding: 0;
     @media screen and (max-width: 1200px) {
         padding: 10px 15px;

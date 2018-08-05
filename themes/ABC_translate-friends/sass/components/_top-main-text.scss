@@ -1,15 +1,8 @@
 #top-main-text{
+    background-image: url(../images/doors-to-the-left.jpg);
+    background-position: left bottom;
+    background-size: cover;
     padding: 0;
     position: relative;
-    &::after {
-      background: transparent;
-      box-shadow: 20px 0 40px rgba(0, 0, 0, 0.35) inset;
-      content: ' ';
-      position: absolute;
-      bottom: -40px;
-      top: -40px;
-      width: 100%;
-      z-index: -1;
-    }
 }
 @import 'top-main-text/main-slogan';

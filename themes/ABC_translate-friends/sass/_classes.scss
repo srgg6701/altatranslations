@@ -39,9 +39,6 @@
 }
 
 .logo-container {
-    /* @media screen and (max-width: 768px) {
-        display: none;
-    } */
     @media screen and (min-width: 769px) {
         &-mobile {
             display: none;
@@ -63,8 +60,6 @@
 }
 
 .navigation-block {
-    background: rgba(255, 255, 255, 0.95);
-    height: 66px;
     padding: 0;
     @media screen and (max-width: 1200px) {
         padding: 10px 15px;
@@ -82,16 +77,6 @@
     padding-left: 20px;
 }
 
-.our-services,
-.prices-section,
-.reviews-section {
-    background: rgba(255, 255, 255, 0.95);
-}
-
-.our-services {
-    border-bottom: solid 2px #8d78af;
-}
-
 @media screen and (max-width: 1024px) {
     .prices-section {
         padding-bottom: 0;
@@ -99,9 +84,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .our-services {
-        padding-bottom: 50px;
-    }
     .dark-overlay {
         position: fixed;
         width: 100%;

@@ -1984,7 +1984,7 @@ button,input,select,textarea {
 a {
     color: #337ab7;
     color: #673f95;
-    color: #78a741;
+    /* color: #78a741; */
     text-decoration: none;
 }
 
@@ -11809,6 +11809,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
     text-align: center !important;
     padding: 19px 56px;
     background-color: #78a741;
+    background: #969a25;
     color: #fff;
     font-family: 'PF DinText Pro';
     font-size: 0.7rem;
@@ -11827,7 +11828,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
     text-decoration: none;
     color: #fff;
     background-color: #96bc69;
-    border-bottom: 3px solid transparent
+    border-bottom: 3px solid transparent;
 }
 
 .main-slogan {
@@ -11841,7 +11842,8 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 }
 
 .main-slogan p {
-    color: white
+    color: white;
+    /* display: none; */
 }
 
 .main-slogan span {
@@ -13662,7 +13664,7 @@ span.wpcf7-not-valid-tip {
 
 nav .main-navigation-menu li a {
     color: #313131;
-    font-size: 0.675rem !important;
+    /* font-size: 0.675rem !important; */
     font-family: 'PF DinText Pro';
     font-weight: bold;
     text-transform: uppercase;

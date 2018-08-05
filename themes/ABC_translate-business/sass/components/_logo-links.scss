@@ -7,14 +7,13 @@
     text-decoration: none;
     >span {
         &:nth-child(1) {
+            background-color: $color-green-yellow;
             font-weight: normal;
             left: 10px;
-            &:nth-child(1) {
-                transform: rotate(21deg);
-            }
+            transform: rotate(21deg);
         }
         &:nth-child(2) {
-            background-color: white;
+            background-color: $color-olive;
             height: 22px;
             left: 14px;
             top: 9.5px;
@@ -35,11 +34,10 @@
         }
     }
     .logo-container {
-        color: #e40505;
-        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), 0 1px 1px rgba(255, 255, 255, 0.5);
+        color: $color-green-yellow;
         span {
             &:nth-child(1) {
-                color: $color-dark-violet;
+                color: white;
             }
             &:nth-child(3) {
                 color: #ccc;

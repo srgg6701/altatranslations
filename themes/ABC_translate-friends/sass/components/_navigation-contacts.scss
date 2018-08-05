@@ -26,17 +26,16 @@
         margin: auto;
         li {
             display: inline-block;
+            i{
+                color: white;
+                font-size: 0.92rem;
+            }
+            &:first-child i{
+                font-size: 1.1rem;
+            }
         }
         @media screen and (min-width: 1025px) {
             height: 24px;
-        }
-    }
-    .contact-list li {
-        padding-right: 0;
-        @media screen and (max-width: 1024px) {
-            display: block;
-            margin-bottom: 20px;
-            text-align: center;
         }
     }
 }

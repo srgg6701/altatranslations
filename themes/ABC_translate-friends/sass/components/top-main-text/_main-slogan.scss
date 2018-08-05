@@ -1,28 +1,32 @@
 #main-slogan {
-    background: linear-gradient(to right, white 70%, rgba(255, 255, 255, 0.4) 100%);
-    box-shadow: 10px 10px 46px 10px rgba(0, 0, 0, 0.15);
-    margin: 0;
-    padding: 30px 30px 16px;
+    $offset-horizontal: 20px;
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+    padding: 1.28rem;
     position: relative;
     h4,
     li,
     p {
         font-size: 20px;
-        color: inherit;
+        color: white;
         text-align: center;
-        text-shadow: 1px 1px 1px white;
     }
     h4,
     p {
         margin: auto;
     }
     h4 {
+        color: #676b01;
+        font-size: 0.958rem;
+        font-weight: bold;
         line-height: 1.2;
-        width: 96%;
+        margin-top: 0.3333rem;
+        padding: 0 $offset-horizontal;
+        text-shadow: 1px 1px rgba(255, 255, 255, 0.25), 2px 2px rgba(255, 255, 255, 0.2);
     }
     ul {
-        width: 80%;
-        margin: 18px auto;
+        width: calc(100% - (2 * $offset-horizontal));
+        margin: 0.75rem auto 0.1rem;
         li:nth-child(1) {
             background-image: url(../images/icon-museum-1.png);
         }
@@ -37,25 +41,31 @@
         }
     }
     li {
+        background-color: rgba(150, 154, 37, 0.2);
         background-repeat: no-repeat;
+        background-position: 0.82rem;
         color: inherit;
-        min-height: 50px;
-        line-height: 47px;
+        margin: 2px auto;
+        min-height: 2.085rem;
+        line-height: 1.958rem;
         text-align: left;
-        padding-left: 63px;
-        a:hover {
-            text-decoration: none;
+        padding-left: 3.4rem;;
+        a {
+            color: white;
+            font-size: 21px;
+            text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15);
+            &:hover {
+                text-decoration: none;
+            }
         }
         span {
             color: inherit;
         }
     }
     @media screen and (min-width: 1025px) {
-        transform: scale(0.8);
         width: 50%;
     }
     @media screen and (min-width: 1281px) {
-        background-color: rgba(255, 255, 255, 0.9);
         border-bottom: none;
         border-top: none;
         max-width: 600px;
