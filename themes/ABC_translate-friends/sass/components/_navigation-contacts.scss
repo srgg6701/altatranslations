@@ -1,0 +1,41 @@
+#navigation-contacts {
+    position: absolute;
+    right: 43px;
+    top: 145px;
+    white-space: nowrap;
+    z-index: 20;
+    @media screen and (max-width: 580px) {
+        right: 0;
+    }
+    @media screen and (max-width: 1024px) {
+        box-shadow: 0 0 28px #ddd;
+        background-color: white;
+        padding: 10px 0;
+    }
+    @media screen and (min-width: 1025px) {
+        display: flex;
+        position: static;
+        width: 80%;
+    }
+    @media screen and (min-width: 1201px) {
+        margin: auto;
+        text-align: center;
+        width: 20%;
+    }
+    ul {
+        margin: auto;
+        li {
+            display: inline-block;
+            i{
+                color: white;
+                font-size: 0.92rem;
+            }
+            &:first-child i{
+                font-size: 1.1rem;
+            }
+        }
+        @media screen and (min-width: 1025px) {
+            height: 24px;
+        }
+    }
+}

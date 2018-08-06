@@ -1,0 +1,16 @@
+#section-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        &.order-link {
+            min-width: 40%;
+        }
+        &:nth-child(2) {
+            &.order-link {
+                &:not(:hover) {
+                    background-color: #78a741;
+                }
+            }
+        }
+    }
+}
