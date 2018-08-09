@@ -38,12 +38,18 @@
     }
     .logo-container {
         color: $color-green-yellow;
+        text-shadow: 1px 1px rgba(0,0,0,0.5);
         span {
             &:nth-child(1) {
                 color: white;
             }
             &:nth-child(3) {
                 color: #ccc;
+            }
+        }
+        @media screen and (min-width: 769px) {
+            &-mobile {
+                display: none;
             }
         }
     }

@@ -53,7 +53,7 @@
             padding: 10px 15px;
             span {
                 background-position: center; // box-shadow: 2px 2px 6px rgba(150, 154, 37, 0.75);
-                border: solid 1px rgba(0,0,0,0.25);
+                border: solid 1px rgba(0, 0, 0, 0.25);
                 display: block;
                 font-size: 0;
                 height: 0;
@@ -74,35 +74,35 @@
                 &:nth-child(4) {
                     background-image: url('../images/flags/ukr.png')
                 }
-                &:hover{
+                &:hover {
                     opacity: 1;
                 }
             }
         }
-    }
-    li {
-        background-color: rgba(150, 154, 37, 0.2);
-        background-repeat: no-repeat;
-        background-position: 0.82rem;
-        color: inherit;
-        margin: 2px auto;
-        min-height: 2.085rem;
-        line-height: 1.958rem;
-        text-align: left;
-        padding-left: 3.4rem;
-        &:hover:not(.flags) {
-            background-color: $color-olive;
-        }
-        a {
-            color: white;
-            font-size: 21px;
-            text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15);
-            &:hover {
-                text-decoration: none;
-            }
-        }
-        span {
+        li {
+            background-color: rgba(150, 154, 37, 0.2);
+            background-repeat: no-repeat;
+            background-position: 0.82rem;
             color: inherit;
+            margin: 2px auto;
+            min-height: 2.085rem;
+            line-height: 1.9;
+            text-align: left;
+            padding-left: 3.4rem;
+            &:hover:not(.flags) {
+                background-color: $color-olive;
+            }
+            a {
+                color: white;
+                font-size: 21px;
+                text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15);
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            span {
+                color: inherit;
+            }
         }
     }
     @media screen and (min-width: 1025px) {

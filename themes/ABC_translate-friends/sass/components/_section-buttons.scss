@@ -5,6 +5,9 @@
         &.order-link {
             min-width: 40%;
         }
+        &:nth-child(1){
+            background-color: $color-olive-dark;
+        }
         &:nth-child(2) {
             &.order-link {
                 &:not(:hover) {

@@ -31,10 +31,6 @@
   border-color: #8e8d8d;
   border-radius: 0; }
 
-@media screen and (min-width: 769px) {
-  .logo-container-mobile {
-    display: none; } }
-
 .reviews-section {
   display: none; }
   @media screen and (min-width: 1025px) {
@@ -187,6 +183,7 @@ body * {
   box-sizing: border-box; }
 
 footer {
+  background: none;
   background-color: #676b01; }
 
 #closebtn {
@@ -238,11 +235,15 @@ footer {
   background-color: #969a25; }
 
 #logo-link .logo-container {
-  color: #d1da29; }
+  color: #d1da29;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5); }
   #logo-link .logo-container span:nth-child(1) {
     color: white; }
   #logo-link .logo-container span:nth-child(3) {
     color: #ccc; }
+  @media screen and (min-width: 769px) {
+    #logo-link .logo-container-mobile {
+      display: none; } }
 
 #logo-link-bottom {
   font-size: 1.1rem;
@@ -335,7 +336,7 @@ footer {
         background-color: #78a741; } }
 
 #navigation-block {
-  background-color: #969a25;
+  background-color: #676b01;
   justify-content: space-between;
   height: auto; }
   @media screen and (min-width: 1201px) {
@@ -388,7 +389,8 @@ footer {
 
 #our-services {
   border-bottom: solid 2px #dbddd2;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  padding-top: 40px; }
   #our-services .services-container {
     padding-top: 0.917rem; }
 
@@ -459,6 +461,8 @@ footer {
   justify-content: space-evenly; }
   #section-buttons a.order-link {
     min-width: 40%; }
+  #section-buttons a:nth-child(1) {
+    background-color: #676b01; }
   #section-buttons a:nth-child(2).order-link:not(:hover) {
     background-color: #78a741; }
 
@@ -546,26 +550,26 @@ footer {
           background-image: url("../images/flags/ukr.png"); }
         #main-slogan ul .flags span:hover {
           opacity: 1; }
-  #main-slogan li {
-    background-color: rgba(150, 154, 37, 0.2);
-    background-repeat: no-repeat;
-    background-position: 0.82rem;
-    color: inherit;
-    margin: 2px auto;
-    min-height: 2.085rem;
-    line-height: 1.958rem;
-    text-align: left;
-    padding-left: 3.4rem; }
-    #main-slogan li:hover:not(.flags) {
-      background-color: #969a25; }
-    #main-slogan li a {
-      color: white;
-      font-size: 21px;
-      text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15); }
-      #main-slogan li a:hover {
-        text-decoration: none; }
-    #main-slogan li span {
-      color: inherit; }
+    #main-slogan ul li {
+      background-color: rgba(150, 154, 37, 0.2);
+      background-repeat: no-repeat;
+      background-position: 0.82rem;
+      color: inherit;
+      margin: 2px auto;
+      min-height: 2.085rem;
+      line-height: 1.9;
+      text-align: left;
+      padding-left: 3.4rem; }
+      #main-slogan ul li:hover:not(.flags) {
+        background-color: #969a25; }
+      #main-slogan ul li a {
+        color: white;
+        font-size: 21px;
+        text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15); }
+        #main-slogan ul li a:hover {
+          text-decoration: none; }
+      #main-slogan ul li span {
+        color: inherit; }
   @media screen and (min-width: 1025px) {
     #main-slogan {
       width: 50%; } }
