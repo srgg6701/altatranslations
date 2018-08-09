@@ -60,7 +60,7 @@
                 margin: auto;
                 opacity: 0.35;
                 padding-bottom: 64%;
-                // margin-bottom: 0.6rem;
+                transition: opacity ease 0.3s;
                 width: 1.7rem;
                 &:nth-child(1) {
                     background-image: url('../images/flags/nl-1.png')
@@ -73,6 +73,9 @@
                 }
                 &:nth-child(4) {
                     background-image: url('../images/flags/ukr.png')
+                }
+                &:hover{
+                    opacity: 1;
                 }
             }
         }
@@ -109,7 +112,7 @@
         border-bottom: none;
         border-top: none;
         max-width: 600px;
-        margin: 40px 50% 40px auto;
+        margin: auto 50% 40px auto;
         width: 50%;
         h4,
         li,
