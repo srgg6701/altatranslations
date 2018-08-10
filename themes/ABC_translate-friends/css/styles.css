@@ -491,6 +491,7 @@ footer {
 #main-slogan {
   margin-bottom: 2.5rem;
   margin-left: 0;
+  max-width: 600px;
   padding: 1.28rem;
   position: relative; }
   #main-slogan h4,
@@ -574,13 +575,12 @@ footer {
         color: inherit; }
   @media screen and (min-width: 1025px) {
     #main-slogan {
+      margin: auto 50% 1rem auto;
       width: 50%; } }
   @media screen and (min-width: 1281px) {
     #main-slogan {
       border-bottom: none;
       border-top: none;
-      max-width: 600px;
-      margin: auto 50% 1rem auto;
       width: 50%; }
       #main-slogan h4,
       #main-slogan li,

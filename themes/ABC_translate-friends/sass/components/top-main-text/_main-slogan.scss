@@ -2,6 +2,7 @@
     $offset-horizontal: 20px;
     margin-bottom: 2.5rem;
     margin-left: 0;
+    max-width: 600px;
     padding: 1.28rem;
     position: relative;
     h4,
@@ -106,13 +107,12 @@
         }
     }
     @media screen and (min-width: 1025px) {
+        margin: auto 50% 1rem auto;
         width: 50%;
     }
     @media screen and (min-width: 1281px) {
         border-bottom: none;
         border-top: none;
-        max-width: 600px;
-        margin: auto 50% 1rem auto;
         width: 50%;
         h4,
         li,
