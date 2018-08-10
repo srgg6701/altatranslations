@@ -15,9 +15,9 @@
     p {
         margin: auto;
     }
-    h4 {
+    #top-main & h4 {
         color: $color-olive-dark;
-        font-size: 0.958rem;
+        font-size: 0.95rem;
         font-weight: bold;
         line-height: 1.2;
         margin-top: 0.3333rem;
@@ -86,7 +86,6 @@
             color: inherit;
             margin: 2px auto;
             min-height: 2.085rem;
-            line-height: 1.9;
             text-align: left;
             padding-left: 3.4rem;
             &:hover:not(.flags) {
@@ -94,7 +93,8 @@
             }
             a {
                 color: white;
-                font-size: 21px;
+                font-size: 0.85rem;
+                line-height: 2.381;
                 text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15);
                 &:hover {
                     text-decoration: none;
@@ -112,7 +112,7 @@
         border-bottom: none;
         border-top: none;
         max-width: 600px;
-        margin: auto 50% 40px auto;
+        margin: auto 50% 1rem auto;
         width: 50%;
         h4,
         li,

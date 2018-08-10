@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     a {
+        border-bottom: none;
         &.order-link {
+            box-shadow: 1px 1px 4px rgba(103,107,1,0.5);
             min-width: 40%;
         }
         &:nth-child(1){

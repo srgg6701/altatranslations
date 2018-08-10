@@ -459,12 +459,15 @@ footer {
 #section-buttons {
   display: flex;
   justify-content: space-evenly; }
-  #section-buttons a.order-link {
-    min-width: 40%; }
-  #section-buttons a:nth-child(1) {
-    background-color: #676b01; }
-  #section-buttons a:nth-child(2).order-link:not(:hover) {
-    background-color: #78a741; }
+  #section-buttons a {
+    border-bottom: none; }
+    #section-buttons a.order-link {
+      box-shadow: 1px 1px 4px rgba(103, 107, 1, 0.5);
+      min-width: 40%; }
+    #section-buttons a:nth-child(1) {
+      background-color: #676b01; }
+    #section-buttons a:nth-child(2).order-link:not(:hover) {
+      background-color: #78a741; }
 
 #select-lang {
   float: right; }
@@ -499,9 +502,9 @@ footer {
   #main-slogan h4,
   #main-slogan p {
     margin: auto; }
-  #main-slogan h4 {
+  #top-main #main-slogan h4 {
     color: #676b01;
-    font-size: 0.958rem;
+    font-size: 0.95rem;
     font-weight: bold;
     line-height: 1.2;
     margin-top: 0.3333rem;
@@ -557,14 +560,14 @@ footer {
       color: inherit;
       margin: 2px auto;
       min-height: 2.085rem;
-      line-height: 1.9;
       text-align: left;
       padding-left: 3.4rem; }
       #main-slogan ul li:hover:not(.flags) {
         background-color: #969a25; }
       #main-slogan ul li a {
         color: white;
-        font-size: 21px;
+        font-size: 0.85rem;
+        line-height: 2.381;
         text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15); }
         #main-slogan ul li a:hover {
           text-decoration: none; }
@@ -578,7 +581,7 @@ footer {
       border-bottom: none;
       border-top: none;
       max-width: 600px;
-      margin: auto 50% 40px auto;
+      margin: auto 50% 1rem auto;
       width: 50%; }
       #main-slogan h4,
       #main-slogan li,
