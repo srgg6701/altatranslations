@@ -207,7 +207,7 @@ footer {
 #logo-link,
 #logo-link-bottom {
   display: inline-block;
-  font-size: 30px;
+  font-size: 1.2rem;
   padding-left: 48px;
   position: relative;
   text-decoration: none; }
@@ -266,7 +266,7 @@ footer {
 #main-container {
   display: flex;
   justify-content: space-between;
-  width: 100%; }
+  width: 90%; }
 
 #main-container-navigation-block-inner {
   display: flex;
@@ -316,7 +316,7 @@ footer {
   z-index: 10; }
   #nav-main-menu li a {
     color: white;
-    font-size: 0.625rem;
+    font-size: 0.6rem;
     font-weight: normal; }
   @media screen and (min-width: 1201px) {
     #nav-main-menu li {
@@ -566,9 +566,8 @@ footer {
         background-color: #969a25; }
       #main-slogan ul li a {
         color: white;
-        font-size: 0.85rem;
-        line-height: 2.381;
-        text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.3), -1px 0px 0 rgba(0, 0, 0, 0.15); }
+        font-size: 0.8rem;
+        line-height: 2.6; }
         #main-slogan ul li a:hover {
           text-decoration: none; }
       #main-slogan ul li span {
