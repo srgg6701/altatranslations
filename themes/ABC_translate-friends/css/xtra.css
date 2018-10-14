@@ -3,11 +3,13 @@
     flex-wrap: wrap;
 }
 #main-slogan ul li{
+    background-position: 0.6rem;
     display: flex;
     margin-right: 1px;
     margin-bottom: 1px;
+    margin-top:0;
     padding: 0.832rem 0.42rem;
-    padding-left: 80px;
+    padding-left: 3rem;
     width: calc(50% - 2px) !important;
 }
 #main-slogan ul li:nth-child(5){
@@ -19,9 +21,14 @@
 #main-slogan ul li a{
     color: #3f4200;
     font-size: 0.7rem;
+    line-height: 1.423;
     margin: auto 0;
     text-transform: uppercase;
     text-shadow: 1.5px 1.25px 0 rgba(255, 255, 255, 0.65);
+}
+#main-slogan ul li:hover a{
+    color:white;
+    text-shadow: none;
 }
 #main-slogan ul li.flags{
     flex-wrap: wrap;
