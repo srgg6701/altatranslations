@@ -1,3 +1,39 @@
+#main-slogan ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#main-slogan ul li{
+    display: flex;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 0.832rem 0.42rem;
+    padding-left: 80px;
+    width: calc(50% - 2px) !important;
+}
+#main-slogan ul li:nth-child(5){
+    border-bottom: none;
+}
+#main-slogan ul li + li{
+    margin-top:0;
+}
+#main-slogan ul li a{
+    color: #3f4200;
+    font-size: 0.7rem;
+    margin: auto 0;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.25px 0 rgba(255, 255, 255, 0.65);
+}
+#main-slogan ul li.flags{
+    flex-wrap: wrap;
+    width: 25% !important;
+}
+#main-slogan ul li.flags span{
+    background-size: cover;
+    border: 0;
+    height: 19%;
+    padding-bottom: 0;
+    width: 51%;
+}
 @media screen and (min-width: 1281px){
 
     /* #main-slogan{
@@ -8,11 +44,6 @@
 
     /* #main-slogan ul{
         margin: 2rem 20px 1.5rem;
-    } */
-
-    /* #main-slogan ul li a{
-        font-size: 0.9rem;
-        line-height: 3;
     } */
 
     /* #top-main #main-slogan h4{
