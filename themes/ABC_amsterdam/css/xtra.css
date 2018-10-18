@@ -4,10 +4,6 @@
 }
 #main-slogan ul li{
     background-position: 0.85rem;
-    background-color: rgba(255, 255, 255, 1);
-    /* border: solid 4px rgba(103, 107, 1, 0.5); */
-    /* border-radius: 4px; */
-    /* box-shadow: 0 0 16px rgba(0,0,0,0.5); */
     display: flex;
     margin-right: 1px;
     margin-bottom: 1px;
@@ -16,7 +12,6 @@
     padding: 1.2rem;
     padding-left: 3.5rem;
     width: calc(50% - 1px) !important;
-    /* color: #dfe4cd; */
 }
 #main-slogan ul li:nth-child(5){
     display: none;
@@ -71,35 +66,93 @@
     /* height: 0; */
     margin: 4rem auto 4rem 0;
     margin: 3rem auto 5rem 1rem;
-    /* margin-left: 6rem; */
+    margin-left: 0;
     /* padding-bottom: 31%; */
     /* width: 38%; */
-    width: 38%;
     display: flex;
     /* margin-top: 3rem; */
-    /* margin-bottom: 3rem; */
+    margin-bottom: 3rem;
+    flex-direction: column;
+    position: relative;
+    width: 45%;
 }
-#presentation > div{
-    background-color: rgba(255,255,255,0.95);
-    background-image: url('../images/elegant-woman-inviting.jpg');
-    background-repeat: no-repeat;
-    display: flex;
-    margin: 31px auto;
-    /* border: solid 2px #ddd; */
+#presentation-text{
+    /* opacity: 0; */
+    height: 80%;
+    position: absolute;
+    pointer-events: none;
     width: 100%;
+}
+#presentation-text.started{
+  background-color: rgba(0,0,0,0.75);
+}
+#presentation-text > div{
+    color: white;
+    font-size: 1.35rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+#presentation-image,
+#presentation-text{
+    display: flex;
+}
+#presentation-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    margin: 31px auto;
     margin: 0;
 }
-#presentation > div::before{
-    /* background: rgba(0,0,0,0.5); */
+#presentation-image::before{
+    background: rgba(0,0,0,0.5);
     color: #ddd;
-    /* color: white; */
-    /* text-shadow: 2px 2px 0px rgba(0,0,0,1); */
-    /* font-weight: bold; */
     content: ' ';
-    /*Welcome to the Netherlands!*/
-    /* font-size: 3.3rem; */
-    /* margin:auto; */
     text-align: center;
+}
+
+#presentation-image.stopped::before{
+    background-color: black;
+    border-radius: 50%;
+    border: solid;
+    content: '▐ ▌';
+    font-size: 2rem;
+    line-height: 2.4;
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+#presentation > section{
+  /* background-color: rgba(0, 60, 100,0.7); */
+  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(13, 29, 50, 1);
+  display: flex;
+  height: 20%;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+#presentation > section > div{
+  border: solid 2px white;
+  display: inline-block;
+  height: 1rem;
+  margin :auto;
+  width: 1rem;
+}
+
+#presentation > section > div.active{
+    background-color: #78a741;
+    background-color: rgb(104, 161, 156);
+}
+
+#presentation-text.initial{
+    background-color: white;
+}
+
+#presentation-text.initial > div{
+    color:black;
 }
 
 #top-main{
@@ -117,11 +170,25 @@
   background-image: url(../images/amsterdam.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.95;
+  /* opacity: 0.95; */
   opacity: 0.75;
+  opacity: 0.5;
+  /* opacity: 0.35; */
+  /* opacity: 0.2; */
   position:absolute;
   top: 0;
   bottom: 0;
   width: 100%;
   z-index: -1;
+}
+.transparent{
+    opacity:0;
+    transition: all 1.5s ease;
+}
+.non-transparent{
+    opacity:1;
+    transition: all 1.5s ease;
+}
+#presentation-text.non-transparent{
+    background-color: rgba(0,0,0,0.75);
 }
