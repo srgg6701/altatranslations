@@ -1,5 +1,6 @@
 .menu-item-has-children .sub-menu {
     background-color: rgba(13, 29, 50, 0.7);
+    width: auto;
 }
 .menu-item-has-children .sub-menu li:hover{    
     background-color: #0d1d32;
@@ -10,6 +11,13 @@
 #nav-main-menu > ul > li > a{
     display:inline-block;
     padding: 21px;
+}
+#nav-main-menu ul.sub-menu li{
+    padding: 10px 24px 10px 20px;
+    display: block;
+}
+#nav-main-menu ul.sub-menu li >a{
+    white-space: nowrap;
 }
 #nav-main-menu > ul > li:hover{
     background-color: rgb(79, 92, 108);

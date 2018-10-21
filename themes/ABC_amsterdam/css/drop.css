@@ -2,3 +2,8 @@
     background: none;
     content: none;
 }
+
+.menu-item-has-children .sub-menu li{
+    transition: none;
+    width: auto;
+}

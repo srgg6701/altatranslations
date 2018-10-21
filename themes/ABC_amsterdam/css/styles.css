@@ -327,7 +327,8 @@ footer {
     font-weight: normal; }
   @media screen and (min-width: 1201px) {
     #nav-main-menu li {
-      color: #666; } }
+      color: #666;
+      } }
   @media screen and (max-width: 1200px) {
     #nav-main-menu .main-navigation-menu li {
       display: inline-block;
