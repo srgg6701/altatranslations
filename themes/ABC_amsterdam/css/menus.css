@@ -1,0 +1,20 @@
+.menu-item-has-children .sub-menu {
+    background-color: rgba(13, 29, 50, 0.7);
+}
+.menu-item-has-children .sub-menu li:hover{    
+    background-color: #0d1d32;
+}
+#nav-main-menu > ul > li{
+    padding:0;
+}
+#nav-main-menu > ul > li > a{
+    display:inline-block;
+    padding: 21px;
+}
+#nav-main-menu > ul > li:hover{
+    background-color: rgb(79, 92, 108);
+}
+nav .main-navigation-menu{
+    margin:0;
+    display: block;
+}

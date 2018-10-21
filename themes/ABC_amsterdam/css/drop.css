@@ -1,0 +1,4 @@
+.middle-heading:after, .order-heading:first-child:after, nav>.main-navigation-menu>li>a:after{
+    background: none;
+    content: none;
+}
