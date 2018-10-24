@@ -1,0 +1,6 @@
+.item-substrate-wrap{
+    border-color: #a7b8cd;
+}
+.item-substrate-wrap:hover{
+    border: 10px solid var(--bg-blue-grey);
+}

@@ -7,3 +7,7 @@
     transition: none;
     width: auto;
 }
+
+.item-substrate-wrap{
+    border-radius: 0;
+}

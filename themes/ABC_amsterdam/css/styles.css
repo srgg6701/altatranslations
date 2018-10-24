@@ -26,11 +26,6 @@
   text-decoration: none;
   border-bottom: dotted 1px; }
 
-.item-substrate-wrap {
-  border-color: #666;
-  border-color: #8e8d8d;
-  border-radius: 0; }
-
 .reviews-section {
   display: none; }
   @media screen and (min-width: 1025px) {
@@ -87,9 +82,6 @@
     bottom: 30px;
     margin-left: 22px;
     position: absolute; }
-
-.service-item-description a {
-  color: #676b01; }
 
 body > header {
   background: rgba(0, 0, 50, 0.65); }
@@ -344,9 +336,7 @@ footer {
         background-color: #78a741; } }
 
 #navigation-block {
-  background-color: #676b01;
   background-color: rgb(13, 29, 50);
-  /* background-color: rgb(104, 161, 156); */
   justify-content: space-between;
   height: auto;
   }

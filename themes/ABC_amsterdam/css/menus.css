@@ -20,7 +20,7 @@
     white-space: nowrap;
 }
 #nav-main-menu > ul > li:hover{
-    background-color: rgb(79, 92, 108);
+    background-color: var(--bg-blue-grey);
 }
 nav .main-navigation-menu{
     margin:0;
