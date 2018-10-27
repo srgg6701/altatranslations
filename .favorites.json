@@ -3,6 +3,8 @@
         "type": "Group",
         "name": "Theme Friends",
         "parent_id": null,
-        "id": "fYgICUb1Q5VpSovN"
+        "id": "fYgICUb1Q5VpSovN",
+        "workspaceRoot": null,
+        "workspacePath": null
     }
 ]
