@@ -112,7 +112,7 @@ $(document).ready(function () {
         console.log('setImgInvisible');
         $presentationImgDiv.removeClass(classNonTransparent).addClass(classTransparent);
     }
-
+    //
     function runCaruselInterval(start) {
         console.log('runCaruselInterval');
         carouselRun = true;
@@ -130,7 +130,7 @@ $(document).ready(function () {
                     var tmtRunCarousel = setTimeout(carousel, 1500);
                     start = false;
                 } else {
-                    ++cnt;
+                    // ++cnt;
                     carousel();
                 }
             }
@@ -149,7 +149,7 @@ carousel
         // after 1.5 sec
         // black, img is invisible by default
         tmtShow = setTimeout(() => {
-            console.log('setTimeout tmtShow');
+            console.log('setTimeout tmtShow, cnt=>', cnt);
             // cnt is incremented after the function is completed
             $presentationStages.removeClass(activeClass);
             // mark square stage
@@ -161,6 +161,7 @@ carousel
             // set .non-transparent
             setImgVisible();
             removeBlack();
+            ++cnt;
         }, 2000);
     }
     //
