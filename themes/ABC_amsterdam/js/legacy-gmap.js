@@ -41,7 +41,7 @@ function initMap() {
 
         map: map,
 
-        icon: 'index_files/map-label.png'
+        icon: '../../sources/index_files/map-label.png'
 
     });
     // create info window         
