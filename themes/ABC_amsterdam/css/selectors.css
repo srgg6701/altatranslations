@@ -8,7 +8,15 @@
 }
 
 /* img */
-
+.item-substrate-wrap svg g path[style*="fill"]{
+    fill: var(--bg-blue-grey) !important;
+    stroke: var(--bg-blue-grey) !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 .item-substrate-wrap:hover svg {
     -webkit-transform: rotateY(180deg);
     -wo-transform: rotateY(180deg);
