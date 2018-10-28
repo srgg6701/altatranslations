@@ -10,4 +10,5 @@
 
 .item-substrate-wrap{
     border-radius: 0;
+    display: flex;
 }
