@@ -12,7 +12,7 @@ const pix = stages.map(stage => {
     const pic = new Image();
     pic.src = `images/${stage[0]}.jpg`;
     return pic;
-}); console.log(pix);
+});
 // taken from CMS bundle (270cc.js)
 $(document).ready(function () {
     const mySidenavId = '#mySidenav',
@@ -60,9 +60,9 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
-    $(window).scroll(function () { }).on('resize', function () {
+    /* $(window).scroll(function () { }).on('resize', function () {
         document.title = $('body')[0].getBoundingClientRect().width;
-    });
+    }); */
     // - carousel -
     const activeClass = 'active', stoppedClass = 'stopped',
         sqLen = $presentationStages.length;
@@ -150,12 +150,12 @@ $(document).ready(function () {
         // after 1.5 sec
         // black, img is invisible by default
         timeoutCarouselPresentation = setTimeout(() => {
-            //console.log('setTimeout tmtShow, cnt=>', cnt);
+            // console.log('setTimeout tmtShow, cnt=>', cnt);
             // cnt is incremented after the function is completed
             $presentationStages.removeClass(activeClass);
             // mark square stage
             $presentationStages.eq(cnt).addClass(activeClass);
-            document.title = 'cnt=' + cnt;
+            // document.title = 'cnt=' + cnt;
             // 3. set new image
             $presentationImgDiv.css('background-image', `url(${pix[cnt].src})`);
             // 4. toggle image visibility: transparent -> non-transparent
