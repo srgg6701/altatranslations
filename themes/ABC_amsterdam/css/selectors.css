@@ -8,14 +8,25 @@
 }
 
 /* img */
-.item-substrate-wrap svg g path[style*="fill"]{
+.item-substrate-wrap svg g *[style*="fill:#78a741"],
+.item-substrate-wrap svg g *[style*="fill:transparent"]{ 
     fill: var(--bg-blue-grey) !important;
-    stroke: var(--bg-blue-grey) !important;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+.item-substrate-wrap svg g *[style*="stroke:#78a741"],
+.item-substrate-wrap svg g *[style*="stroke:transparent"]{ 
+    stroke: var(--bg-blue-grey) !important;
+}
+.item-substrate-wrap svg{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;    
 }
 .item-substrate-wrap:hover svg {
     -webkit-transform: rotateY(180deg);

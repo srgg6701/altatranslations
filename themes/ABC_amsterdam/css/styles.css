@@ -390,8 +390,10 @@ footer {
 
 #our-services {
   border-bottom: solid 2px #dbddd2;
+  box-shadow: 0 -12px 82px rgba(0,0,0,1);
   padding-bottom: 50px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  }
   #our-services .services-container {
     padding-top: 0.917rem; }
 
@@ -494,7 +496,7 @@ footer {
 #top-main-text {
   padding: 0;
   position: relative;
-  border-bottom: solid 4px #676b01;
+  /* border-bottom: solid 4px #676b01; */
   }
 #top-main-text-inner{
   display: flex;
