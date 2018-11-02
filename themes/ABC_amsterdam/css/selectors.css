@@ -1,6 +1,11 @@
 /* a */
 .service-item-description a {
     color: rgb(165, 119, 70);
+    color: #8193a9;
+    color: #aeb6bf;
+    /* color: rgb(13, 29, 50); */
+    text-shadow: 2px 1px 28px rgba(0,0,0,0.1), -1px -1px rgba(13,29,50,1);
+    letter-spacing: 0.05rem;
 }
 .item-substrate-wrap a {
     display: flex;
@@ -17,9 +22,17 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.item-substrate-wrap:hover svg g *[style*="fill:#78a741"],
+.item-substrate-wrap:hover svg g *[style*="fill:transparent"]{
+    fill: var(--color-blue-grey) !important;
+}
 .item-substrate-wrap svg g *[style*="stroke:#78a741"],
 .item-substrate-wrap svg g *[style*="stroke:transparent"]{ 
     stroke: var(--bg-blue-grey) !important;
+}
+.item-substrate-wrap:hover svg g *[style*="stroke:#78a741"],
+.item-substrate-wrap:hover svg g *[style*="stroke:transparent"]{ 
+    stroke: var(--color-blue-grey) !important;
 }
 .item-substrate-wrap svg{
     -webkit-transition: all 0.3s ease;

@@ -173,6 +173,7 @@ header > .top-container {
 
 body * {
   box-sizing: border-box;
+  /* display: flex; */
   }
 
 footer {
@@ -387,15 +388,31 @@ footer {
   @media screen and (min-width: 1201px) {
     #navigation-top {
       display: flex; } }
-
 #our-services {
+  background-color: white;
   border-bottom: solid 2px #dbddd2;
-  box-shadow: 0 -12px 82px rgba(0,0,0,1);
+  display: flex;
   padding-bottom: 50px;
   padding-top: 40px;
+  position: relative;
+  }
+  #our-services::after {
+    box-shadow: 0 -12px 82px rgba(0,0,0,1);
+    content: " ";
+    height:50%;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index: -1;
   }
   #our-services .services-container {
-    padding-top: 0.917rem; }
+    /* display: inline-block; */
+    padding-top: 0.917rem;
+    }
+#our-services-wrap{
+  display: flex;
+  justify-content: center;  
+}
 
 #row-footer {
   overflow: hidden; }
