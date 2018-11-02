@@ -406,7 +406,7 @@ footer {
     z-index: -1;
   }
   #our-services .services-container {
-    /* display: inline-block; */
+    display: inline-block;
     padding-top: 0.917rem;
     }
 #our-services-wrap{

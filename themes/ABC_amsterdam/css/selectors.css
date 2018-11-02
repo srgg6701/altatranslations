@@ -23,7 +23,9 @@
     transition: all 0.3s ease;
 }
 .item-substrate-wrap:hover svg g *[style*="fill:#78a741"],
-.item-substrate-wrap:hover svg g *[style*="fill:transparent"]{
+.item-substrate-wrap:hover svg g *[style*="fill:transparent"],
+.item-substrate-wrap.active svg g *[style*="fill:#78a741"],
+.item-substrate-wrap.active svg g *[style*="fill:transparent"]{
     fill: var(--color-blue-grey) !important;
 }
 .item-substrate-wrap svg g *[style*="stroke:#78a741"],
@@ -31,7 +33,9 @@
     stroke: var(--bg-blue-grey) !important;
 }
 .item-substrate-wrap:hover svg g *[style*="stroke:#78a741"],
-.item-substrate-wrap:hover svg g *[style*="stroke:transparent"]{ 
+.item-substrate-wrap:hover svg g *[style*="stroke:transparent"],
+.item-substrate-wrap.active svg g *[style*="stroke:#78a741"],
+.item-substrate-wrap.active svg g *[style*="stroke:transparent"]{ 
     stroke: var(--color-blue-grey) !important;
 }
 .item-substrate-wrap svg{

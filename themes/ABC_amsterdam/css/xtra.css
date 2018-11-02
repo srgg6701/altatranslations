@@ -49,7 +49,9 @@
     border-top: none;
     margin: 3rem 0;
 }
-
+#our-services-wrap .service-item{
+    width: 18%;
+}
 /*  */
 #presentation {
     margin: 4rem auto 4rem 0;
@@ -138,6 +140,10 @@
 
 #presentation-text.initial > div{
     color:black;
+}
+
+#services-container{
+    max-width: none;
 }
 
 #top-main{
