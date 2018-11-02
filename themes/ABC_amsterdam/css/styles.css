@@ -178,7 +178,9 @@ body * {
 
 footer {
   background: none;
-  background-color: #676b01; }
+  position: relative;
+  padding: 32px;
+  }
 
 #closebtn {
   background-image: url(../images/close.png);
@@ -254,9 +256,11 @@ footer {
     height: 29px;
     width: 29px; }
   #logo-link-bottom span:nth-child(2) {
+    background: white;
     top: 6.5px;
     height: 22px;
-    width: 22px; }
+    width: 22px;
+    }
   #logo-link-bottom span:nth-child(3), #logo-link-bottom span:nth-child(5) {
     color: #bebeff;
     z-index: 1 !important; }
@@ -485,26 +489,13 @@ footer {
     letter-spacing: 1.25px;
     }
     #section-buttons a.order-link {
-      /* box-shadow: 1px 1px 10px 15px rgba(255, 255, 255, 0.15); */
-      /* background-color: #b5d9d6; */
       transition: none;
       min-width: 40%;
       }
     #section-buttons a.order-link:hover {
-      background: #e0e8f3;
+      /* background: #e0e8f3; */
       /*transition: none;*/
-      color: darkblue;
-      }
-    #section-buttons a:nth-child(1) {
-      /* background-color: #676b01; */
-      background: linear-gradient(to bottom, rgb(201, 150, 74), rgba(167, 107, 75, 1));
-      /* background: linear-gradient(to bottom, rgb(13, 29, 50), rgba(13, 29, 50, 0.5)); */
-      /* background: linear-gradient(to bottom, rgb(224, 232, 243), rgba(13, 29,50, 0.95)); */
-      }
-    #section-buttons a:nth-child(2).order-link:not(:hover) {
-      /* background-color: #78a741; */
-      background: linear-gradient(to bottom, rgb(104, 161, 156), rgb(82, 120, 116));
-      /* background: linear-gradient(to bottom, rgb(104, 161, 156), rgba(104, 161, 156, 0.5)); */
+      /* color: darkblue; */
       }
 
 #select-lang {

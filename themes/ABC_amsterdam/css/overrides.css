@@ -1,3 +1,6 @@
+footer{
+    padding:0;
+}
 .middle-heading:after, .order-heading:first-child:after, nav>.main-navigation-menu>li>a:after{
     background: none;
     content: none;
@@ -11,4 +14,14 @@
 .item-substrate-wrap{
     border-radius: 0;
     display: flex;
+}
+
+.price-item-wrap .hov-el{
+    background: rgba(165, 119, 70, 0.5);
+}
+.price-item-wrap:nth-child(2n) .hov-el{
+    background: rgb(100, 154, 149, 0.8);
+}
+.price-item-wrap:nth-child(3n) .hov-el{
+    background: rgba(80, 93, 109,0.75);
 }
