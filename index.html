@@ -12,10 +12,22 @@
 <body>
     <h4>
         <ul class="presentation">
-            <li><a href="themes/">Local, themes</a></li>
+            <li><a id="link-current-theme"></a>
+                <script>
+                    const link = document.getElementById('link-current-theme');
+                    if (location.href.indexOf('://localhost') !== -1) {
+                        link.href = "/themes";
+                        link.innerHTML = "Local/themes";
+                    } else {
+                        link.href = "ABC_amsterdam";
+                        link.innerHTML = "Current theme: ABC_amsterdam";
+                    }
+                </script>
+            </li>
             <li><a href="http://altatranslations.nl/">AltaTranslations.nl</a></li>
             <li><a href="http://dev.altatranslations.nl/">Dev.AltaTranslations.nl</a></li>
         </ul>
     </h4>
 </body>
+
 </html>
