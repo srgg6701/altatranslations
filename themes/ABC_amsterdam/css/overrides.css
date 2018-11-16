@@ -1,6 +1,9 @@
 .container{
     width:auto;
 }
+.contacs-list li .footer-mail-link{
+    color: var(--color-logo-link);
+}
 footer{
     padding:0;
 }
@@ -16,12 +19,14 @@ footer{
     transition: none;
     width: auto;
 }
-
+.order-section{
+    background: none;
+}
 .order-link{
     margin: 0;
 }
 .order-section{
-    padding: 80px;
+    padding: 0;
 }
 .price-item-wrap .hov-el{
     background: rgba(165, 119, 70, 0.5);

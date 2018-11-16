@@ -31,7 +31,6 @@ a.order-link:hover {
 }
 
 .container-wrapper{
-    /* outline: solid 1px red; */
     max-width: 1350px;
     margin: auto;
 }
@@ -42,7 +41,7 @@ a.order-link:hover {
     position: relative;
 }
 .order-section::after{
-    background: url(../images/professional-translate-golden.jpg) no-repeat;
+    /* background: url(../images/professional-translate-golden.jpg) no-repeat; */
     /* background: url(../images/professional-translate.jpg) right center no-repeat; */
     background-size: cover;
     content: " ";

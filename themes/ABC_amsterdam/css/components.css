@@ -85,7 +85,7 @@
 
 #logo-link-bottom span:nth-child(1) {
     top: 3px;
-    background-color: #bebeff;
+    background-color: var(--color-logo-link);
     height: 29px;
     width: 29px;
 }
@@ -99,7 +99,7 @@
 
 #logo-link-bottom span:nth-child(3),
 #logo-link-bottom span:nth-child(5) {
-    color: #bebeff;
+    color: var(--color-logo-link);
     z-index: 1 !important;
 }
 
@@ -117,6 +117,13 @@
     display: flex;
     justify-content: stretch;
     width: 100%;
+}
+
+#make-order-online{
+    background: url('../images/professional-translate-golden.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px 60px;
 }
 
 #menu-hamburger {
@@ -319,18 +326,19 @@
 
 #our-services-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #top-main-text .container-wrapper>section:nth-child(1) {
     padding-right: 2rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
-    width: 41%;
+    width: 45%;
 }
 
 #top-main-text .container-wrapper>section:nth-child(2) {
-    width: 59%;
+    display: flex;
+    width: 55%;
 }
 
 #presentation-stages {
@@ -344,16 +352,25 @@
 }
 
 #presentation-stages>div {
-    border: solid 2px white;
+    background: rgb(255,255,255);
     display: inline-block;
     height: 1rem;
     margin: auto;
+    margin-bottom: 2rem;
+    opacity: 0.33;
     width: 1rem;
 }
 
 #presentation-stages>div.active {
-    background-color: #78a741;
-    background-color: rgb(104, 161, 156);
+    opacity: 1;
+}
+
+#presentation-side-top{
+    /* margin-top: 3rem; */
+}
+
+#presentation-side-bottom{
+    /* margin-bottom: 3rem; */
 }
 
 #presentation-side-top section:nth-child(1) {
@@ -478,9 +495,9 @@
 }
 
 #top-main-text {
-    padding: 0;
+    padding-bottom: 3.5rem;
+    padding-top: 3rem;
     position: relative;
-    /* border-bottom: solid 4px #676b01; */
 }
 
 #top-main-text-inner {
@@ -662,10 +679,10 @@
 #ul-services li {
     background-position: 0.85rem;
     display: flex;
+    min-height: 5.66rem;
     margin-right: 1px;
     margin-bottom: 1px;
     margin-top: 0;
-    padding: 0.832rem 0.42rem;
     padding: 1.2rem;
     padding-left: 3.5rem;
     width: calc(50% - 1px) !important;

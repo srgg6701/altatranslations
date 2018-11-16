@@ -11926,12 +11926,12 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 
 .service-item {
     width: 20%;
-    float: left;
-    padding: 0 1%;
+    /* float: left; */
+    /* padding: 0 1%; */
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
     -o-perspective: 800px;
-    perspective: 800px
+    perspective: 800px;
 }
 
 .item-substrate-wrap {
@@ -12188,12 +12188,12 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 }
 
 .order-section {
-    background: url(../images/professional-translate.jpg) right center no-repeat;
-    background-size: cover;
+    /* background: url(../images/professional-translate.jpg) right center no-repeat; */
+    /* background-size: cover; */
     width: 100%;
     background-size: cover;
     padding: 86px 15px 91px;
-    text-align: center
+    text-align: center;
 }
 
 .order-section .wrap_btn .order-link {
@@ -12321,11 +12321,11 @@ footer {
 .contacs-list li .footer-mail-link {
     color: #9fb77b;
     margin-bottom: 102px;
-    display: block
+    display: block;
 }
 
 .contacs-list li .footer-mail-link:hover, .contacs-list li .footer-mail-link:active, .contacs-list li .footer-mail-link:focus {
-    color: #9fb77b
+    /* color: #9fb77b */
 }
 
 .footer-contacts .contacs-list li:first-child {
