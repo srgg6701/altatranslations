@@ -5,7 +5,8 @@ $(function () {
         // .initial by default -- background-color: white;
         $presentationTextDiv = $('#presentation-text'),
         $presentationTextBlock = $presentationTextDiv.find('> div'),
-        $presentationStages = $presentation.find('> section > div'),
+        //$presentationStages = $presentation.find('> section > div'),
+        $presentationStages = $('#presentation-side-bottom-right > section > div'),
         activeClass = 'active', stoppedClass = 'stopped',
         sqLen = $presentationStages.length;
 
