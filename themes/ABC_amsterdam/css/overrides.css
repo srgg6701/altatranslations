@@ -1,3 +1,6 @@
+.container{
+    width:auto;
+}
 footer{
     padding:0;
 }
@@ -27,3 +30,13 @@ footer{
 .price-item-wrap:nth-child(3n) .hov-el{
     background: rgba(80, 93, 109,0.75);
 }
+
+
+#ascrail2001 {
+  background-color: #eee;
+  width: 17px !important; }
+  #ascrail2001 > div {
+    background-color: #673f95 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 17px !important; }

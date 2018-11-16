@@ -5,6 +5,14 @@
     background: linear-gradient(to bottom, rgb(104, 161, 156), rgb(82, 120, 116));
 }
 
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .item-substrate-wrap{
     border-color: var(--color-blue-grey);
 }
@@ -20,6 +28,13 @@ a.order-link:hover {
     background: #e0e8f3;
     color: darkblue;
 }
+
+.container-wrapper{
+    outline: solid 1px red;
+    max-width: 1350px;
+    margin: auto;
+}
+
 .order-section{
     background-color: rgba(0, 100, 0, 0.2);
     background-size: cover;
