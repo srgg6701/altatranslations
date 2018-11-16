@@ -15,6 +15,7 @@
 
 .item-substrate-wrap{
     border-color: var(--color-blue-grey);
+    display: flex;
 }
 .item-substrate-wrap:hover,
 .item-substrate-wrap.active{
@@ -30,7 +31,7 @@ a.order-link:hover {
 }
 
 .container-wrapper{
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     max-width: 1350px;
     margin: auto;
 }

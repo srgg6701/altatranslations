@@ -4,6 +4,9 @@
 footer{
     padding:0;
 }
+.item-substrate-wrap{
+    border-radius: 0;
+}
 .middle-heading:after, .order-heading:first-child:after, nav>.main-navigation-menu>li>a:after{
     background: none;
     content: none;
@@ -14,9 +17,8 @@ footer{
     width: auto;
 }
 
-.item-substrate-wrap{
-    border-radius: 0;
-    display: flex;
+.order-link{
+    margin: 0;
 }
 .order-section{
     padding: 80px;
