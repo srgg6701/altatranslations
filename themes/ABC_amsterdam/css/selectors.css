@@ -56,3 +56,7 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+.order-section .wrap_btn{
+    margin-top: 60px;
+}

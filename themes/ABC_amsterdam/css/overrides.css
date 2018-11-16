@@ -15,7 +15,9 @@ footer{
     border-radius: 0;
     display: flex;
 }
-
+.order-section{
+    padding: 80px;
+}
 .price-item-wrap .hov-el{
     background: rgba(165, 119, 70, 0.5);
 }

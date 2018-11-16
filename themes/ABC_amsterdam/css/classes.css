@@ -21,6 +21,19 @@ a.order-link:hover {
     color: darkblue;
 }
 .order-section{
-    background: url(../images/professional-translate-golden.jpg) right center no-repeat;   
+    background-color: rgba(0, 100, 0, 0.2);
     background-size: cover;
+    position: relative;
+}
+.order-section::after{
+    background: url(../images/professional-translate-golden.jpg) no-repeat;
+    /* background: url(../images/professional-translate.jpg) right center no-repeat; */
+    background-size: cover;
+    content: " ";
+    height: 100%;
+    left: 0;
+    position:absolute;
+    top:0;
+    width: 100%;
+    z-index: -1;
 }
