@@ -54,9 +54,9 @@ $(function () {
         e.preventDefault();
     });
 
-    /* $(window).scroll(function () { }).on('resize', function () {
+    $(window)./* scroll(function () { }). */on('resize', function () {
         document.title = $('body')[0].getBoundingClientRect().width;
-    }); */
+    });
 });
 
 
