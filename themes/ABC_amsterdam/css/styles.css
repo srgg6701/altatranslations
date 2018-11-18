@@ -28,7 +28,7 @@
 
 .reviews-section {
   display: none; }
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1281px) {
     .reviews-section {
       display: block; } }
 
@@ -39,9 +39,10 @@
 
 .navigation-block {
   padding: 0; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1280px) {
     .navigation-block {
-      padding: 10px 15px; } }
+      /* padding: 10px 0; */
+      } }
 
 .panel-lang {
   overflow: hidden;
@@ -52,11 +53,11 @@
   padding-right: 20px;
   padding-left: 20px; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .prices-section {
     padding-bottom: 0; } }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .dark-overlay {
     position: fixed;
     width: 100%;
@@ -81,7 +82,7 @@ body > header {
   font-size: 46px;
   color: white;
   margin: auto 10px; }
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1281px) {
     .contact-list li i {
       font-size: 22px; } }
 
@@ -90,7 +91,7 @@ nav.main-menu {
 
 #navigation-contacts .contact-list li {
   padding-right: 0; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1280px) {
     #navigation-contacts .contact-list li {
       display: block;
       margin-bottom: 20px;
@@ -118,11 +119,11 @@ nav .main-navigation-menu li {
   padding-left: 0; }
   nav .main-navigation-menu li:last-child {
     padding-right: 0; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1280px) {
     nav .main-navigation-menu li ul li {
       padding-left: 20px; } }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .menu-item-has-children .sub-menu {
     background: transparent;
     position: relative;

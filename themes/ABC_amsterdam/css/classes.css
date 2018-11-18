@@ -32,7 +32,19 @@ a.order-link:hover {
 
 .container-wrapper{
     max-width: 1350px;
-    margin: auto;
+}
+
+@media screen and (min-width: 1201px) {
+    .container-wrapper{
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .container-wrapper{
+        max-width: 1350px;
+    }    
 }
 
 .order-section{

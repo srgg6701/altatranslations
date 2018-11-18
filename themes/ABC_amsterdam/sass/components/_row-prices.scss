@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     > div {
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1280px) {
             background-color: #cfdcee;
             .price-item {
                 margin: auto -15px;
@@ -13,7 +13,7 @@
                 height: 100%;
             }
         }
-        @media screen and (min-width: 1025px) {
+        @media screen and (min-width: 1281px) {
             width: 32%;
         }
     }

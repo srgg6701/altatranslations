@@ -29,7 +29,7 @@ i {
         font-size: 46px;
         color: white;
         margin: auto 10px;
-        @media screen and (min-width: 1025px) {
+        @media screen and (min-width: 1281px) {
             font-size: 22px;
         }
     }
@@ -44,7 +44,7 @@ nav {
 li {
     #navigation-contacts .contact-list & {
         padding-right: 0;
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1280px) {
             display: block;
             margin-bottom: 20px;
             text-align: center;
@@ -92,7 +92,7 @@ li a,
                 padding-right: 0;
             }
             ul li {
-                @media screen and (max-width: 1200px) {
+                @media screen and (max-width: 1280px) {
                     padding-left: 20px;
                 }
             }
@@ -100,7 +100,7 @@ li a,
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .sub-menu {
         .menu-item-has-children & {
             background: transparent;

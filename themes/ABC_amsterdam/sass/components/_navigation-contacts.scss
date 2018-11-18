@@ -7,17 +7,17 @@
     @media screen and (max-width: 580px) {
         right: 0;
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1280px) {
         box-shadow: 0 0 28px #ddd;
         background-color: white;
         padding: 10px 0;
     }
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1281px) {
         display: flex;
         position: static;
         width: 80%;
     }
-    @media screen and (min-width: 1201px) {
+    @media screen and (min-width: 1281px) {
         margin: auto;
         text-align: center;
         width: 20%;
@@ -34,7 +34,7 @@
                 font-size: 1.1rem;
             }
         }
-        @media screen and (min-width: 1025px) {
+        @media screen and (min-width: 1281px) {
             height: 24px;
         }
     }

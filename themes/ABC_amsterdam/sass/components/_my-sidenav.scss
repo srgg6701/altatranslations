@@ -12,7 +12,7 @@
         transition: all ease 0.5s;
         right: 0;
     }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1280px) {
         background: linear-gradient(to right, #513794 0%, #513794 0%, #5e3c95 34%, #673f95 66%, #704296 100%);
         display: inline-block;
         height: 100%;
@@ -24,7 +24,7 @@
         width: 50%;
         z-index: 1001;
     }
-    @media screen and (min-width: 1201px) {
+    @media screen and (min-width: 1281px) {
         width: 100%;
     }
 }

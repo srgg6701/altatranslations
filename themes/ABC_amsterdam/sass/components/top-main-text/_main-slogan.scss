@@ -16,7 +16,7 @@
     p {
         margin: auto;
     }
-    #top-main & h4 {
+    #top-main-section & h4 {
         color: $color-olive-dark;
         font-size: 0.95rem;
         font-weight: bold;
@@ -131,7 +131,7 @@
             margin: 2rem 20px 1.5rem;
         }
     }
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1281px) {
         margin: auto 50% 1rem auto;
         width: 50%;
     }
@@ -143,7 +143,7 @@
             line-height: 1.2;
         }
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1280px) {
         border-bottom: #513794 2px solid;
         border-top: #513794 2px solid;
         max-width: 360px;

@@ -12,8 +12,8 @@
 }
 
 #logo-header {
-    margin: auto;
-    padding-left: 15px;
+    /* margin: auto; */
+    /* padding-left: 15px; */
     padding-right: 15px;
     white-space: nowrap;
     width: 25%;
@@ -109,18 +109,17 @@
 
 #main-container {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: space-around;
 }
 
 #main-container-navigation-block-inner {
     display: flex;
     justify-content: stretch;
-    margin: 7.5px auto;
+    margin: 7.5px 0;
     width: 100%;
 }
 
-#make-order-online{
+#make-order-online-section{
     background: url('../images/professional-translate-golden.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +130,7 @@
     padding-top: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #menu-hamburger {
         display: inline-block;
         float: right;
@@ -160,7 +159,7 @@
     right: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #mySidenav {
         background: linear-gradient(to right, #513794 0%, #513794 0%, #5e3c95 34%, #673f95 66%, #704296 100%);
         display: inline-block;
@@ -175,7 +174,7 @@
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1281px) {
     #mySidenav {
         width: 100%;
     }
@@ -192,13 +191,13 @@
     font-weight: normal;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1281px) {
     #nav-main-menu li {
         color: #666;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #nav-main-menu .main-navigation-menu li {
         display: inline-block;
         text-align: left;
@@ -219,11 +218,10 @@
 
 #navigation-block {
     background-color: rgb(13, 29, 50);
-    justify-content: space-between;
     height: auto;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1281px) {
     #navigation-block {
         display: flex;
     }
@@ -243,7 +241,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     #navigation-contacts {
         box-shadow: 0 0 28px #ddd;
         background-color: white;
@@ -251,7 +249,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     #navigation-contacts {
         display: flex;
         position: static;
@@ -259,7 +257,7 @@
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1281px) {
     #navigation-contacts {
         margin: auto;
         text-align: center;
@@ -284,18 +282,18 @@
     font-size: 1.1rem;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     #navigation-contacts ul {
         height: 24px;
     }
 }
 
 #navigation-top {
-    margin: auto;
-    width: 55%;
+    margin: 0;
+    width: 75%;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1281px) {
     #navigation-top {
         display: flex;
     }
@@ -329,13 +327,13 @@
     width: 50%;
 }
 
-@media screen and (min-width: 961px){
+@media screen and (min-width: 1281px){
     #our-services-wrap .service-item{
         width: 33.33%;
     }
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1281px){
     #our-services-wrap .service-item{
         width: 18%;
     }
@@ -357,13 +355,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 960px){
-    #presentation-side-top-left,
-    #presentation-side-top-right,
-    #presentation-side-bottom-left,
-    #presentation-side-bottom-right{
-        width: 100%;
-    }
+@media screen and (max-width: 1200px){
     #presentation-stages{
         padding-top: 2rem !important;
     }
@@ -375,8 +367,15 @@
     }
 }
 
-
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1201px){
+    #top-main-text .container-wrapper>section:nth-child(1) {
+        width: 25%;
+    }
+    #top-main-text .container-wrapper>section:nth-child(2) {
+        width: 75%;
+    }    
+}
+@media screen and (min-width: 1281px){
     #top-main-text .container-wrapper>section:nth-child(1) {
         width: 45%;
     }
@@ -394,7 +393,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 961px){
+@media screen and (min-width: 1281px){
     #presentation-stages {
         padding: 0 2rem;
     }
@@ -414,7 +413,7 @@
     opacity: 1;
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1281px){
     #presentation-side-bottom,
     #presentation-side-top{
         border: solid 10px rgba(255,255,255,0.76);
@@ -431,9 +430,11 @@
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    position: relative;
 }
 
 #presentation-side-bottom{
+    background: linear-gradient(to top, #0d1d32, transparent);
     border-top: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -459,7 +460,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     #row-prices>div {
         background-color: #cfdcee;
     }
@@ -472,19 +473,19 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     #row-prices>div {
         width: 32%;
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     #row-review {
         overflow: hidden;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #search-block>span {
         margin-right: -4px;
         order: 2;
@@ -562,7 +563,7 @@
 #top-main-text {
     position: relative;
 }
-@media screen and (min-width: 961px){
+@media screen and (min-width: 1281px){
     #top-main-text {
         padding-bottom: 3.5rem;
         padding-top: 2.65rem;    
@@ -600,9 +601,47 @@
 #presentation-side-top-left-top h4 {
     color: white;
     font-size: 0.95rem;
-    /* line-height: 1.2; */
-    /* margin-top: 0.3333rem; */
-    /* padding: 0 20px; */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1201px){
+    #presentation {
+        margin-top: 5rem !important;
+    }
+    #presentation-side-top-left-top h4 {
+        color: white;
+        display: flex;
+        font-size: 0.95rem;
+        height: 5rem;
+        position: absolute;
+        left: 25%;
+        /* background: #257474; */
+        background-color: rgba(13, 29, 50, 0.7);
+        right: 0;
+        /* top: 1.5rem; */
+        z-index: 2;
+    }
+    #presentation-side-top-left-top h4 div{
+        margin: auto;
+    }
+    #presentation-side-top-left{
+        padding-top: 0 !important;
+    }
+    #ul-services li{
+        background-position: center 1rem !important;
+        position: relative;
+        width: 100% !important;
+    }
+    #ul-services li a{
+        bottom: 0;
+        font-size: 0.5rem !important;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        padding-left: 0.35rem;
+        padding-right: 0.35rem;
+        right: 0;
+        top: 60%;
+    }
 }
 
 #presentation-side-top-left-top span {
@@ -618,8 +657,12 @@
 }
 
 #ul-services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
     position: relative;
 }
+
 
 #ul-services li:nth-child(1) {
     background-image: url(../images/icon-museum-1.png);
@@ -736,15 +779,6 @@
     color: inherit;
 }
 
-@media screen and (min-width: 1281px) {
-    #ul-services {}
-}
-
-#ul-services {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #ul-services li {
     background-position: 0.85rem;
     display: flex;
@@ -757,7 +791,13 @@
     width: 100%;
 }
 
-@media screen and (min-width: 620px){
+@media screen and (max-width: 1280px) and (min-width: 1201px){
+    #ul-services {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 1200px){
     #ul-services li {
         width: calc(50% - 1px) !important;
     }
@@ -799,7 +839,7 @@
     width: 51%;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     #main-slogan {
         margin: auto 50% 1rem auto;
         /* width: 50%; */
@@ -823,7 +863,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     #main-slogan {
         border-bottom: #513794 2px solid;
         border-top: #513794 2px solid;
@@ -849,18 +889,4 @@
 
 #main-slogan .lang-ukrainian {
     color: #ff9b22;
-}
-
-#ul-services {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@media screen and (min-width: 1281px) {
-    #ul-services {}
-}
-
-#ul-services {
-    margin-top: 1.5rem;
-    position: relative;
 }
