@@ -607,6 +607,19 @@
     #presentation {
         margin-top: 5rem !important;
     }
+    #presentation-side-bottom-left,
+    #presentation-side-bottom-right{
+        padding-bottom:0.6rem !important;
+        padding-top:0.6rem !important;
+        position: relative;
+    }
+    #presentation-side-bottom-left a:nth-child(1){
+	   margin: auto;
+	   padding-left: 10px;
+	   padding-right: 10px;
+	   text-align: center;
+	   width: 100%;
+	}
     #presentation-side-top-left-top h4 {
         color: white;
         display: flex;
@@ -614,16 +627,15 @@
         height: 5rem;
         position: absolute;
         left: 25%;
-        /* background: #257474; */
         background-color: rgba(13, 29, 50, 0.7);
         right: 0;
-        /* top: 1.5rem; */
         z-index: 2;
     }
     #presentation-side-top-left-top h4 div{
         margin: auto;
     }
     #presentation-side-top-left{
+        padding-bottom: 0 !important;
         padding-top: 0 !important;
     }
     #ul-services li{
