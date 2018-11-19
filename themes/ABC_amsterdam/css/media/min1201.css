@@ -1,8 +1,9 @@
 @media screen and (min-width: 1201px){
     #top-main-text .container-wrapper>section:nth-child(1) {
+        padding-right: 2rem;
         width: 25%;
     }
     #top-main-text .container-wrapper>section:nth-child(2) {
         width: 75%;
-    }    
+    }
 }

@@ -86,7 +86,7 @@
         min-height: auto !important;
         height: 4.54rem;
         position: relative;
-        /* width: 100% !important; */
+        width: 100% !important;
     }
     #ul-services li a {
         /* bottom: 0; */

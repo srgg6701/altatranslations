@@ -1,0 +1,5 @@
+@media screen and (min-width: 581px){
+    #ul-services li {
+        width: calc(50% - 1px);
+    }
+}
