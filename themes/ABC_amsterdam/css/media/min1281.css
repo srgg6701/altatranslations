@@ -82,10 +82,4 @@
         padding-bottom: 3.5rem;
         padding-top: 2.65rem;    
     }
-    #ul-services li a {
-        font-size: 0.9rem;
-    }
-    #ul-services li {
-        width: calc(50% - 1px) !important;
-    }
 }

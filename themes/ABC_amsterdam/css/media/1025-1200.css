@@ -1,0 +1,8 @@
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #ul-services {
+        flex-wrap: nowrap;
+    }
+    #ul-services li {
+        /* width: 100% !important; */
+    }
+}

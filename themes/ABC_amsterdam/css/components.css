@@ -462,17 +462,6 @@
     opacity: 1;
 }
 
-#ul-services li {
-    background-color: rgb(224, 232, 243);
-    background-repeat: no-repeat;
-    background-position: 0.82rem;
-    display: flex;
-    color: inherit;
-    min-height: 2.085rem;
-    text-align: left;
-    padding-left: 3.4rem;
-}
-
 #ul-services li:nth-child(5) {
     border-bottom: none;
 }
@@ -509,6 +498,10 @@
 
 #ul-services li {
     background-position: 0.85rem;
+    background-color: rgb(224, 232, 243);
+    background-repeat: no-repeat;
+    color: inherit;
+    text-align: left;
     display: flex;
     min-height: 5.66rem;
     margin-right: 1px;
