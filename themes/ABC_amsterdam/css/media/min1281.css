@@ -1,0 +1,91 @@
+@media screen and (min-width: 1281px){
+    #main-slogan {
+        margin: auto 50% 1rem auto;
+        /* width: 50%; */
+    }
+    #main-slogan {
+        background-color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(13, 29, 50, 0.7);
+        border-bottom: none;
+        border-top: none;
+        margin: 3rem 0;
+    }
+    #mySidenav {
+        width: 100%;
+    }
+    #nav-main-menu li {
+        color: #666;
+    }
+    #navigation-block {
+        display: flex;
+    }
+    #navigation-contacts {
+        display: flex;
+        position: static;
+        width: 80%;
+    }
+    #navigation-contacts {
+        margin: auto;
+        text-align: center;
+        width: 20%;
+    }
+    #navigation-contacts ul {
+        height: 24px;
+    }
+    #navigation-top {
+        display: flex;
+    }
+    #our-services-wrap .service-item{
+        width: 33.33%;
+    }
+    #our-services-wrap .service-item{
+        width: 18%;
+    }
+    #presentation-side-top-left-top h4,
+    #presentation-side-top-left-top li,
+    #presentation-side-top-left-top p {
+        font-size: 25px;
+        /* line-height: 1.2; */
+    }
+    #presentation-side-top-left-top h4 {
+        font-size: 1.15rem;
+        font-size: 1.35rem;
+    }
+    #presentation-stages {
+        padding: 0 2rem;
+    }
+    #presentation-side-bottom,
+    #presentation-side-top{
+        border: solid 10px rgba(255,255,255,0.76);
+        border-radius: 4px;
+    }
+    #presentation-side-top{
+        border-bottom: none;
+    }
+    #presentation-side-bottom{
+        border-top: none;
+    }
+    #row-prices>div {
+        width: 32%;
+    }
+    #row-review {
+        overflow: hidden;
+    }
+    #top-main-text .container-wrapper>section:nth-child(1) {
+        width: 45%;
+    }
+    #top-main-text .container-wrapper>section:nth-child(2) {
+        width: 55%;
+    }
+    #top-main-text {
+        padding-bottom: 3.5rem;
+        padding-top: 2.65rem;    
+    }
+    #ul-services li a {
+        font-size: 0.9rem;
+    }
+    #ul-services li {
+        width: calc(50% - 1px) !important;
+    }
+}
