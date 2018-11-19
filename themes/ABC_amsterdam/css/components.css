@@ -223,7 +223,7 @@
 }
 
 #top-main-text .container-wrapper>section:nth-child(1) {
-    /* padding-right: 2rem; */
+    padding-right: 2rem;
     padding-bottom: 2rem;
     /* padding-left: 2rem; */
 }
@@ -277,7 +277,7 @@
     flex-wrap: wrap;
     background: rgb(13, 29, 50, 0.85);
     padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 
 #presentation-side-top{
