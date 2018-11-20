@@ -1,0 +1,14 @@
+@media screen and (max-width: 1350px) and (min-width: 1201px){
+    #ul-services li{
+        width: 100% !important;
+    }   
+}
+
+@media screen and (min-width: 1601px){
+    #top-main-text .container-wrapper>section:nth-child(1) {
+        width: 45%;
+    }
+    #top-main-text .container-wrapper>section:nth-child(2) {
+        width: 55%;
+    }
+}

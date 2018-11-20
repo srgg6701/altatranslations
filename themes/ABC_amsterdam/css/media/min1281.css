@@ -72,12 +72,6 @@
     #row-review {
         overflow: hidden;
     }
-    #top-main-text .container-wrapper>section:nth-child(1) {
-        width: 45%;
-    }
-    #top-main-text .container-wrapper>section:nth-child(2) {
-        width: 55%;
-    }
     #top-main-text {
         padding-bottom: 3.5rem;
         padding-top: 2.65rem;    

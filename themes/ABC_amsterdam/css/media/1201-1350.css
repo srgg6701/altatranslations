@@ -1,4 +1,5 @@
-@media screen and (max-width: 1280px) and (min-width: 1201px) {
+@media screen and (max-width: 1350px) and (min-width: 1201px)
+{
     #presentation {
         margin-top: 4.5rem !important;
     }

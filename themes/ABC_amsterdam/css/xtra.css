@@ -102,3 +102,152 @@
     background-color: rgba(0,0,0,0.75);
     background-color: rgba(13, 29, 50, 0.9);
 }
+
+/* TEMP */
+
+#menu-verhnee-menyu-angliyskiy{
+  display: none;
+}
+
+#presentation-side-top,
+#presentation-side-bottom{
+  display: none;
+}
+#home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1350px;
+  width: 100%;
+}
+
+#presentation-box{
+  display:flex;
+}
+
+#section-header::after{
+  content: "320";
+  /* width: 100px; */
+  /* height: 100px; */
+}
+
+@media screen and (min-width: 1201px){
+  width: 90%; 
+}
+
+#section-header{
+  background-color: rgba(255,255,0, 0.5);
+  padding: 20px;
+}
+
+#section-presentation{
+  outline: solid 1px red;
+  height: 40vw;
+  max-height: 50vh;
+  min-height: 40vh;
+  background-color: rgba(0,255,0, 0.5);
+  padding: 20px;
+  width: 67%;
+}
+
+#section-services{
+  background-color: rgba(0,255,255, 0.5);
+  padding: 20px;
+  width: 33%;
+}
+#section-buttons{
+  background-color: rgba(255,0,255, 0.5);
+  padding: 20px;
+}
+#section-stages{
+  background-color: rgba(0,0,255, 0.5);
+  padding: 20px;
+}
+
+/* breakpoints */
+@media screen and (min-width: 321px){
+  #section-header::after{
+    content: "321 -> 768";
+  }
+}
+
+@media screen and (min-width: 769px){
+  #section-header{
+    background-color: blue;
+    color: white;
+  }
+  #section-header::after{
+    content: "769 -> 1024";
+  }
+}
+
+@media screen and (min-width: 1025px){
+  #section-header{
+    background-color: darkviolet;
+    color: white;
+  }
+  #section-header::after{
+    content: "1025 -> 1200";
+  }
+}
+
+@media screen and (min-width: 1201px){
+  #section-header{
+    background-color: orange;
+    color: white;
+  }
+  #section-header::after{
+    content: "1201 -> 1280";
+  }
+}
+
+@media screen and (min-width: 1281px){
+  #section-header{
+    background-color: #ccc;
+    color: black;
+  }
+  #section-header::after{
+    content: "1281 -> 1366";
+  }
+}
+
+@media screen and (min-width: 1367px){
+  #section-header{
+    background-color: lime;
+    color: white;
+  }
+  #section-header::after{
+    content: "1367 -> 1600";
+  }
+}
+
+@media screen and (min-width: 1601px){
+  #section-header{
+    background-color: pink;
+    color: black;
+  }
+  #section-header::after{
+    content: "1601 -> 1920";
+  }
+}
+
+@media screen and (min-width: 1921px){
+  #section-header{
+    background-color: #333;
+    color: yellow;
+  }
+  #section-header::after{
+    content: "1921 -> 2160";
+  }
+}
+
+@media screen and (min-width: 2161px){
+  #section-header{
+    background-color: #fff;
+    color: red;
+  }
+  #section-header::after{
+    content: "2161 +";
+  }
+}
