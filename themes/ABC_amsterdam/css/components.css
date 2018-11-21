@@ -333,7 +333,7 @@
 }
 
 #top-main-text {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     position: relative;
 }
