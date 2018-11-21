@@ -48,3 +48,13 @@ footer{
     border-radius: 0 !important;
     width: 17px !important;
     }
+
+@media screen and (max-width: 360px){
+.order-link, .submit-button {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 8px 23px;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+}

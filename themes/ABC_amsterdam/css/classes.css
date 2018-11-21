@@ -23,7 +23,7 @@
 }
 a.order-link,
 a.order-link:hover{
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 a.order-link:hover {
     background: #e0e8f3;
