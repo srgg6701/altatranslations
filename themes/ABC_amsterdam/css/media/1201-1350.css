@@ -66,6 +66,7 @@
         padding-left: 40%;
         /* padding-right: 2rem; */
     }
+
     #presentation-text.non-transparent {
         background-color: rgb(224, 232, 243, 0.9) !important;
     }

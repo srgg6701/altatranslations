@@ -1,0 +1,87 @@
+/*width: 67%;*/
+
+@media screen and (min-width: 321px) {
+    #section-header::after {
+        content: "321 -> 768";
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #section-header {
+        background-color: blue;
+        color: white;
+    }
+    #section-header::after {
+        content: "769 -> 1024";
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #section-header {
+        background-color: darkviolet;
+        color: white;
+    }
+    #section-header::after {
+        content: "1025 -> 1200";
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #section-header {
+        background-color: orange;
+        color: white;
+    }
+    #section-header::after {
+        content: "1201 -> 1280";
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    #section-header {
+        background-color: #ccc;
+        color: black;
+    }
+    #section-header::after {
+        content: "1281 -> 1366";
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    #section-header {
+        background-color: lime;
+        color: white;
+    }
+    #section-header::after {
+        content: "1367 -> 1600";
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    #section-header {
+        background-color: pink;
+        color: black;
+    }
+    #section-header::after {
+        content: "1601 -> 1920";
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    #section-header {
+        background-color: #333;
+        color: yellow;
+    }
+    #section-header::after {
+        content: "1921 -> 2160";
+    }
+}
+
+@media screen and (min-width: 2161px) {
+    #section-header {
+        background-color: #fff;
+        color: red;
+    }
+    #section-header::after {
+        content: "2161 +";
+    }
+}
