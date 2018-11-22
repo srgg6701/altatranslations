@@ -1,5 +1,5 @@
 .menu-item-has-children .sub-menu {
-    background-color: rgba(13, 29, 50, 0.7);
+    /* background-color: rgba(13, 29, 50, 0.7); */
     width: auto;
 }
 .menu-item-has-children .sub-menu li:hover{    

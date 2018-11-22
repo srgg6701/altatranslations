@@ -1,0 +1,28 @@
+#navigation-contacts {
+    /* position: absolute; */
+    right: 43px;
+    top: 145px;
+    white-space: nowrap;
+    z-index: 20;
+    background: transparent !important;
+    /* outline: solid 1px red; */
+}
+#navigation-contacts:not(.display-block){
+    display:none;    
+}
+#navigation-contacts ul {
+    margin: auto;
+}
+
+#navigation-contacts ul li {
+    display: inline-block;
+}
+
+#navigation-contacts ul li i {
+    color: white;
+    font-size: 0.92rem;
+}
+
+#navigation-contacts ul li:first-child i {
+    font-size: 1.1rem;
+}

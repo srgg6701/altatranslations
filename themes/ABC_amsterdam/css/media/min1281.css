@@ -11,14 +11,9 @@
         border-top: none;
         margin: 3rem 0;
     }
-    #menu-aside {
-        width: 100%;
-    }
+
     #nav-main-menu li {
         color: #666;
-    }
-    #navigation-block {
-        display: flex;
     }
     #navigation-contacts {
         display: flex;

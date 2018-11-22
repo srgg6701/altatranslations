@@ -79,6 +79,10 @@ a.order-link:hover {
     z-index: -1;
 }
 
+.display-block{
+    display: block;
+}
+
 .wrapper-frame{
     padding-bottom: var(--offset-mobile);
     padding-top: var(--offset-mobile);

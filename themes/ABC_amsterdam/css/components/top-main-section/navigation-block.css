@@ -1,0 +1,10 @@
+#navigation-block {
+    background-color: var(--main-blue-dark);
+    height: auto;
+}
+
+@media screen and (min-width: 1281px){
+    #navigation-block {
+        display: flex;
+    }
+}

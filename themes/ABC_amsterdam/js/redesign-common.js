@@ -15,8 +15,10 @@ const pix = stages.map(stage => {
 });
 // taken from CMS bundle (270cc.js)
 $(function () {
-    const mySidenavId = '#menu-aside',
-        $menuAside = $(mySidenavId),
+    const displayBlockClass = 'display-block', 
+        menuAside = '#menu-aside',
+        $menuAside = $(menuAside),
+        $navigationContacts = $('#navigation-contacts'),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
         $plash = $('.dark-overlay'),
@@ -25,19 +27,24 @@ $(function () {
         speedOverlay = 600;
     $('#menu-hamburger').on('click', function () {
         // because of clash with the old css
-        $menuAside.toggleClass(classActive).toggleClass(classStart);
+        $menuAside.toggleClass(classActive)
+            .toggleClass(classStart)
+            .on('transitionend', function(){
+                $navigationContacts.toggleClass(displayBlockClass);
+                $closeBtn.show();
+            });
         $plash.fadeIn(speedOverlay);
-        $closeBtn.show();
     });
     function closeMenu() {
         $menuAside.removeClass(classActive);
+        $navigationContacts.toggleClass(displayBlockClass);
         $plash.fadeOut(speedOverlay);
         $closeBtn.hide();
     }
 
     $plash.mousedown(function (e) {
         var clicked = $(e.target);
-        if (clicked.is(mySidenavId) || clicked.parents().is(mySidenavId)) {
+        if (clicked.is(menuAside) || clicked.parents().is(menuAside)) {
             return;
         } else {
             closeMenu();
