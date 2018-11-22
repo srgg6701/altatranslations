@@ -22,11 +22,16 @@ footer{
 .order-section{
     background: none;
 }
+
 .order-link{
     margin: 0;
 }
 .order-section{
     padding: 0;
+}
+.price-item{
+  margin-bottom: 0;
+  padding-bottom:0;
 }
 .price-item-wrap .hov-el{
     background: rgba(165, 119, 70, 0.5);
@@ -38,6 +43,13 @@ footer{
     background: rgba(80, 93, 109,0.75);
 }
 
+#prices-section{
+  padding: 0;
+}
+
+#row-prices >div{
+  padding:0;
+}
 
 #ascrail2001 {
   background-color: #eee;
@@ -49,12 +61,9 @@ footer{
     width: 17px !important;
     }
 
-@media screen and (max-width: 360px){
 .order-link, .submit-button {
     background-color: transparent;
     border-bottom: none;
-    padding: 8px 23px;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: normal;
-}
 }

@@ -1,0 +1,14 @@
+#prices-section .container-wrapper {
+    /* padding-bottom: var(--offset-mobile); */
+    padding-top: var(--offset-mobile);
+}
+
+#prices-section .price-item a.know-more {
+    bottom: 30px;
+    margin-left: var(--offset-mobile);
+    position: absolute;
+}
+
+#prices-section .price-item-description{
+    margin-bottom: 20px;
+}

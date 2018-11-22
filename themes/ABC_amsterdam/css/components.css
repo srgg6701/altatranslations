@@ -113,13 +113,6 @@
     width: 100%;
 }
 
-#make-order-online-section{
-    background: url('../images/professional-translate-golden.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 80px 20px 60px;
-}
-
 #menu-hamburger {
     padding-top: 0;
 }
@@ -190,39 +183,6 @@
     width: 75%;
 }
 
-#our-services {
-    background-color: white;
-    border-bottom: solid 2px #dbddd2;
-    display: flex;
-    padding-bottom: 50px;
-    padding-top: 40px;
-    position: relative;
-}
-
-#our-services::after {
-    box-shadow: 0 -12px 82px rgba(0, 0, 0, 1);
-    content: " ";
-    height: 50%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
-
-#our-services .services-container {
-    display: inline-block;
-    padding-top: 0.917rem;
-}
-
-#our-services-wrap .service-item{
-    width: 50%;
-}
-
-#our-services-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 /* #presentation-stages {
     display: flex;

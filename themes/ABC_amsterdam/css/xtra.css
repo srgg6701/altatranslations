@@ -24,7 +24,7 @@
 }
 #presentation-text > div{
     color: white;
-    font-size: 1.35rem;
+    font-size: var(--offset-mobile-top);
     margin: auto;
     padding: 1rem;
     text-align: center;

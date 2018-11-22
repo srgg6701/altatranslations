@@ -1,0 +1,17 @@
+#make-order-online-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+#make-order-online-section::after{
+    /* background: url('../../../images/professional-translate-golden.jpg'); */
+    /* content: " "; */
+    /* height: 100%; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 100%; */
+    /* z-index: -1; */
+}
+

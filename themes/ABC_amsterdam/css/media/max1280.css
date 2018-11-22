@@ -49,7 +49,7 @@
         background-color: #cfdcee;
     }
     #row-prices>div .price-item {
-        margin: auto -15px;
+        /* margin: auto -15px; */
     }
     #row-prices>div .price-item-wrap {
         align-self: start;

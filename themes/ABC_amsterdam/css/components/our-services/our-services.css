@@ -1,0 +1,43 @@
+#our-services {
+    background-color: white;
+    border-bottom: solid 2px #dbddd2;
+    display: flex;
+    /* padding-bottom: 50px; */
+    padding-top: 40px;
+    position: relative;
+}
+
+#our-services::after {
+    box-shadow: 0 -12px 82px rgba(0, 0, 0, 1);
+    content: " ";
+    height: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#our-services .services-container {
+    display: inline-block;
+    /* padding-top: 0.917rem; */
+}
+
+#our-services a {
+    
+font-size: 0.65rem;
+}
+
+#our-services-wrap .service-item{
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+#our-services-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.map-section {
+    border-top: none;
+}

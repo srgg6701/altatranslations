@@ -23,7 +23,7 @@
 }
 a.order-link,
 a.order-link:hover{
-    /* border-bottom: none; */
+    padding: 0.5rem;
 }
 a.order-link:hover {
     background: #e0e8f3;
@@ -47,13 +47,27 @@ a.order-link:hover {
     }    
 }
 
+.offset-mobile,
+.wrapper-frame{
+    padding-left: var(--offset-mobile);
+    padding-right: var(--offset-mobile);
+}
+
+.order-section .wrap_btn .order-link {
+    border-bottom: none;
+    display: block;
+    /* padding: 0.45rem 0; */
+    /* font-size: 0.65rem; */
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.25), 2px 2px 4px rgba(0,0,0,0.25);
+}
+
 .order-section{
     background-color: rgba(0, 100, 0, 0.2);
     background-size: cover;
     position: relative;
 }
 .order-section::after{
-    /* background: url(../images/professional-translate-golden.jpg) no-repeat; */
+    background: url(../images/professional-translate-golden.jpg) no-repeat;
     /* background: url(../images/professional-translate.jpg) right center no-repeat; */
     background-size: cover;
     content: " ";
@@ -63,4 +77,9 @@ a.order-link:hover {
     top:0;
     width: 100%;
     z-index: -1;
+}
+
+.wrapper-frame{
+    padding-bottom: var(--offset-mobile);
+    padding-top: var(--offset-mobile);
 }

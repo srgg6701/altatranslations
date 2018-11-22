@@ -1,0 +1,8 @@
+#bottom-menu-small-left,
+#bottom-menu-small-right{
+    display: none;
+}
+
+footer .footer-socials{
+    margin: var(--offset-mobile-top) auto;
+}

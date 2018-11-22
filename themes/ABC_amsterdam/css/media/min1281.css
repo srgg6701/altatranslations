@@ -36,12 +36,6 @@
     #navigation-top {
         display: flex;
     }
-    #our-services-wrap .service-item{
-        width: 33.33%;
-    }
-    #our-services-wrap .service-item{
-        width: 18%;
-    }
     #presentation-side-top-left-top h4,
     #presentation-side-top-left-top li,
     #presentation-side-top-left-top p {
@@ -50,7 +44,7 @@
     }
     #presentation-side-top-left-top h4 {
         font-size: 1.15rem;
-        font-size: 1.35rem;
+        font-size: var(--offset-mobile-top);
     }
     #presentation-stages {
         padding: 0 2rem;

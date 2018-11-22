@@ -50,19 +50,27 @@
     <link rel="stylesheet" href="css/index-legacy/5.css">
     <link rel="stylesheet" href="css/index-legacy/context-menu.css">
     <link rel="stylesheet" href="../../sources/fonts/font-awesome.css">
+    <link rel="stylesheet" href="css/overrides.css">
     <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/selectors.css">
-    <link rel="stylesheet" href="css/classes.css">
     <link rel="stylesheet" href="css/menus.css">
     <link rel="stylesheet" href="css/panels.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/xtra.css">
-    <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="css/classes.css">
     <!--presentation-->
     <link rel="stylesheet" href="css/components/presentation/presentation.css">
     <link rel="stylesheet" href="css/components/presentation/media.css">
-    <!--  -->
+    <!--our-services-->
+    <link rel="stylesheet" href="css/components/our-services/our-services.css">
+    <!-- make-order-online-section -->
+    <link rel="stylesheet" href="css/components/make-order-online-section/make-order-online-section.css">
+    <!-- prices-section -->
+    <link rel="stylesheet" href="css/components/prices-section/prices-section.css">
+    <!---->
+    <link rel="stylesheet" href="css/components/footer/footer.css">
+    <!---->
     <link rel="stylesheet" href="css/media/max580.css">
     <link rel="stylesheet" href="css/media/min581.css">
     <link rel="stylesheet" href="css/media/min769.css">
@@ -207,7 +215,7 @@
         </div>
         <div class="top-main-text" id="top-main-text">
             <section id="presentation-container">
-                <section id="section-header">
+                <section id="section-header" class="offset-mobile">
                     <h4>
                         <div>We deliver translation and interpretation services all over the Netherlands!
                             <span>Our clients are:</span>
@@ -221,7 +229,7 @@
                     <span>Ukranian</span>
                 </section>
                 <section id="section-presentation"></section>
-                <section id="section-stages">
+                <section id="section-stages" class="wrapper-frame">
                     <div class="active">&nbsp;</div>
                     <div></div>
                     <div></div>
@@ -231,10 +239,13 @@
                     <div></div>
                     <div></div>
                 </section>
-                <section id="section-services">
-                    <h5>Services</h5>
+                <section id="section-services" class="wrapper-frame">
+                    <div><a href="#">(semi-) government agencies</a></div>
+                    <div><a href="#">services providers organizations</a></div>
+                    <div><a href="#">businesses and professionals</a></div>
+                    <div><a href="#">individuals</a></div>
                 </section>
-                <section id="section-buttons">
+                <section id="section-buttons" class="wrapper-frame">
                     <a class="order-link btn-golden">Quote</a>
                     <a class="order-link btn-dark-azure">Calculate</a>
                 </section>
@@ -291,7 +302,7 @@
             </div>
         </div>
     </section>
-    <section id="our-services">
+    <section id="our-services" class="wrapper-frame">
         <div id="services-container" class="services-container container-wrapper">
             <div id="our-services-wrap">
                 <div class="service-item">
@@ -696,7 +707,7 @@
     <section id="prices-section" class="prices-section">
         <div class="container-wrapper">
             <h2 class="middle-heading black-heading">rates</h2>
-            <div class="row" id="row-prices">
+            <div id="row-prices">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 price-item-wrap">
                     <div class="price-item">
                         <div class="price-item__image price-translation" style="background:url(&#39;http://altatranslations.nl/wp-content/uploads/2017/02/juriidilised-tolked1-615x290.jpg&#39;) center center; background-size:cover; ">
@@ -708,7 +719,7 @@
                                 <div class="hov-el"></div>
                             </a>
                         </div>
-                        <div class="price-item-description">
+                        <div class="price-item-description offset-mobile">
                             <div class="price-block">
                                 25 €
                             </div>
@@ -732,7 +743,7 @@
                                 <div class="hov-el"></div>
                             </a>
                         </div>
-                        <div class="price-item-description">
+                        <div class="price-item-description offset-mobile">
                             <div class="price-block">
                                 26€
                             </div>
@@ -756,7 +767,7 @@
                                 <div class="hov-el"></div>
                             </a>
                         </div>
-                        <div class="price-item-description">
+                        <div class="price-item-description offset-mobile">
                             <h5>from 100 euro per hour</h5>
                             <div class="excerpt">Besides translating services, Alta Global Translations offers
                                 interpreting services for various
@@ -770,7 +781,7 @@
             </div>
         </div>
     </section>
-    <section id="make-order-online-section" class="order-section">
+    <section id="make-order-online-section" class="order-section wrapper-frame">
         <h2 class="order-heading">do you need a professional translation?</h2>
         <h2 class="order-heading">order it online</h2>
         <div class="wrap_btn">
@@ -779,9 +790,9 @@
         </div>
     </section>
     <section id="reviews-section" class="reviews-section">
-        <div class="main-container">
+        <div class="main-container wrapper-frame">
             <h2 class="middle-heading">Reviews</h2>
-            <div class="row" id="row-review">
+            <div id="row-review">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="review-row">
                         <div class="review-cell"></div>
@@ -1059,7 +1070,7 @@
     <footer class="navigation-panel">
         <div class="main-container">
             <div class="row" id="row-footer">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div id="bottom-menu-small-left" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                     <div class="footer-nav">
                         <div class="widget-block">
                             <div class="menu-futer-menyu-1-angliyskiy-container">
@@ -1081,7 +1092,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div id="bottom-menu-small-right" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                     <div class="footer-services">
                         <div class="widget-block">
                             <div class="menu-futer-menyu-2-angliyskiy-container">

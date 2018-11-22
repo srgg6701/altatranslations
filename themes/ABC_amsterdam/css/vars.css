@@ -5,4 +5,6 @@
     --color-logo-link: #bebeff;
     --mediaMin961: 961px;
     --mediaMin1025: 1025px;
+    --offset-mobile: 0.8333rem;
+    --offset-mobile-top: 1.35rem;
 }
