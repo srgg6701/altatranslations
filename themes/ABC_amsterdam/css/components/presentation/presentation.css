@@ -81,13 +81,17 @@
 #section-presentation {
     background-image: url(../../../images/professionals.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* outline: solid 1px red; */
     max-height: 50vh;
     height: 44.5vh;
     /* background-color: rgba(0, 255, 0, 0.5); */
     padding: 20px;
     width: 100%;
+}
+
+#section-presentation::before {
+    content: "0.667 : 408 x 612";
 }
 
 #section-header::after {

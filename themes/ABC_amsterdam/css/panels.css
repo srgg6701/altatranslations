@@ -4,7 +4,6 @@ footer .main-container{
     z-index: 1;
 }
 .navigation-panel{
-    background-color: var(--bg-dark);
 }
 
 footer.navigation-panel::after{

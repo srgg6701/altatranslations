@@ -14,6 +14,7 @@
 #logo-header {
     /* margin: auto; */
     /* padding-left: 15px; */
+    display: flex;
     padding-right: 15px;
     white-space: nowrap;
     width: 25%;
@@ -22,7 +23,9 @@
 #logo-link,
 #logo-link-bottom {
     display: inline-block;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 1rem;
+    margin: auto;
     padding-left: 48px;
     position: relative;
     text-decoration: none;
@@ -38,9 +41,12 @@
 #logo-link>span:nth-child(2),
 #logo-link-bottom>span:nth-child(2) {
     height: 22px;
+    height: 20px;
     left: 14px;
+    left: 13px;
     top: 9.5px;
     width: 22px;
+    width: 20px;
     z-index: 1;
     transform: rotate(42deg);
 }
@@ -49,8 +55,11 @@
     background-color: #d1da29;
     background-color: rgb(104, 161, 156);
     height: 29px;
+    height: 26px;
     top: 5.5px;
     width: 29px;
+    width: 26px;
+    /* transform: scale(0.9); */
 }
 
 #logo-link>span:nth-child(2) {
@@ -110,6 +119,7 @@
     display: flex;
     justify-content: stretch;
     margin: 7.5px 0;
+    padding-left: 0.2rem;
     width: 100%;
 }
 
@@ -147,7 +157,7 @@
 }
 
 #navigation-block {
-    background-color: rgb(13, 29, 50);
+    background-color: var(--main-blue-dark);
     height: auto;
 }
 
@@ -429,7 +439,7 @@
 
 #ul-services li:hover:not(.flags) a {
     color: white;
-    color: rgb(13, 29, 50);
+    color: var(--main-blue-dark);
     text-shadow: none;
 }
 

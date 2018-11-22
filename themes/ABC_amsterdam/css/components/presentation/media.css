@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 769px) {
     #section-header {
-        background-color: blue;
+        /* background-color: blue; */
         color: white;
     }
     #section-header::after {
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 1025px) {
     #section-header {
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         color: white;
     }
     #section-header::after {
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1201px) {
     #section-header {
-        background-color: orange;
+        /* background-color: orange; */
         color: white;
     }
     #section-header::after {
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 1281px) {
     #section-header {
-        background-color: #ccc;
+        /* background-color: #ccc; */
         color: black;
     }
     #section-header::after {
@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 1367px) {
     #section-header {
-        background-color: lime;
+        /* background-color: lime; */
         color: white;
     }
     #section-header::after {
@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 1601px) {
     #section-header {
-        background-color: pink;
+        /* background-color: pink; */
         color: black;
     }
     #section-header::after {

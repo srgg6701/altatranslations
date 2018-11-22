@@ -6,3 +6,11 @@
 footer .footer-socials{
     margin: var(--offset-mobile-top) auto;
 }
+
+footer .socials-block__list li{
+    outline: solid 1px rgba(255,255,255,0.5);
+    background-color: var(--main-blue-dark-rgba-05);
+    height: 3rem;
+    padding: 1rem;
+    width: 3rem;
+}

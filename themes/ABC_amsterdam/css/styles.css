@@ -169,7 +169,8 @@ body * {
   }
 
 footer {
-  background: none;
+  /* background: none; */
+  background-color: var(--main-blue-dark);
   position: relative;
   padding-top: var(--offset-mobile-top);
   padding-bottom: var(--offset-mobile-top);
