@@ -31,6 +31,7 @@
     }
     #row-prices>div {
         background-color: #cfdcee;
+        background-color: rgb(224, 232,243);
     }
     #row-prices>div .price-item {
         /* margin: auto -15px; */

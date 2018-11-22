@@ -141,7 +141,9 @@ header > .top-container {
     padding: unset; }
 
 .price-item {
-  background-color: rgba(193, 220, 255, 0.5); }
+  /* background-color: #b5d9d6; */
+  /* background-color: rgba(193, 220, 255, 0.5) !important; */
+  }
   .price-item__image {
     margin: auto -7px;
     width: auto; }
