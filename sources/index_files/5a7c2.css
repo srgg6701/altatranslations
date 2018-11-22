@@ -11695,7 +11695,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 .sidenav .closebtn {
     position: absolute;
     top: 20px;
-    right: 20px
+    right: 1.5rem;
 }
 
 .menu-item-has-children .sub-menu {
@@ -12353,7 +12353,7 @@ footer {
 }
 
 .socials-block__list li:last-child {
-    margin-right: 0
+    /* margin-right: 0; */
 }
 
 .socials-block__list li a {

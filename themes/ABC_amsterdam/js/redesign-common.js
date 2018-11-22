@@ -15,41 +15,28 @@ const pix = stages.map(stage => {
 });
 // taken from CMS bundle (270cc.js)
 $(function () {
-    const displayBlockClass = 'display-block', 
+    const displayBlockClass = 'display-block',
         menuAside = '#menu-aside',
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
-        $plash = $('.dark-overlay'),
         classStart = 'start',
         classActive = 'active',
         speedOverlay = 600;
+
+    $menuAside.on('transitionend', function () {
+        $navigationContacts.toggleClass(displayBlockClass);
+        $closeBtn.show();
+    });
     $('#menu-hamburger').on('click', function () {
         // because of clash with the old css
-        $menuAside.toggleClass(classActive)
-            .toggleClass(classStart)
-            .on('transitionend', function(){
-                $navigationContacts.toggleClass(displayBlockClass);
-                $closeBtn.show();
-            });
-        $plash.fadeIn(speedOverlay);
+        $menuAside.toggleClass(classActive).toggleClass(classStart);
     });
     function closeMenu() {
         $menuAside.removeClass(classActive);
-        $navigationContacts.toggleClass(displayBlockClass);
-        $plash.fadeOut(speedOverlay);
         $closeBtn.hide();
     }
-
-    $plash.mousedown(function (e) {
-        var clicked = $(e.target);
-        if (clicked.is(menuAside) || clicked.parents().is(menuAside)) {
-            return;
-        } else {
-            closeMenu();
-        }
-    });
 
     $mainNavigationMenu.find('li a').click(closeMenu);
 
