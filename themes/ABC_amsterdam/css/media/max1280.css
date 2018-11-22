@@ -12,7 +12,7 @@
         color: white;
         font-size: 2rem;
     }
-    #mySidenav {
+    #menu-aside {
         background: linear-gradient(to right, #513794 0%, #513794 0%, #5e3c95 34%, #673f95 66%, #704296 100%);
         display: inline-block;
         height: 100%;

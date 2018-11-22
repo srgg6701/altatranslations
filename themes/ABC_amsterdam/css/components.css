@@ -127,12 +127,12 @@
     padding-top: 0;
 }
 
-#mySidenav {
+#menu-aside {
     right: -100%;
     transition: all ease 0.5s;
 }
 
-#mySidenav .start {
+#menu-aside .start {
     transition: none;
     -webkit-transition: none;
     -moz-transition: none;
@@ -140,7 +140,7 @@
     -ms-transition: none;
 }
 
-#mySidenav .active {
+#menu-aside.active {
     transition: all ease 0.5s;
     right: 0;
 }

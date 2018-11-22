@@ -15,8 +15,8 @@ const pix = stages.map(stage => {
 });
 // taken from CMS bundle (270cc.js)
 $(function () {
-    const mySidenavId = '#mySidenav',
-        $mySidenav = $(mySidenavId),
+    const mySidenavId = '#menu-aside',
+        $menuAside = $(mySidenavId),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
         $plash = $('.dark-overlay'),
@@ -25,12 +25,12 @@ $(function () {
         speedOverlay = 600;
     $('#menu-hamburger').on('click', function () {
         // because of clash with the old css
-        $mySidenav.toggleClass(classActive).toggleClass(classStart);
+        $menuAside.toggleClass(classActive).toggleClass(classStart);
         $plash.fadeIn(speedOverlay);
         $closeBtn.show();
     });
     function closeMenu() {
-        $mySidenav.removeClass(classActive);
+        $menuAside.removeClass(classActive);
         $plash.fadeOut(speedOverlay);
         $closeBtn.hide();
     }

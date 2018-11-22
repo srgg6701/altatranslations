@@ -70,10 +70,6 @@
 #services-container{
 }
 
-#top-main-section{
-  background: transparent;
-  position: relative;
-}
 #top-main-text::after {
   content: ' ';
   background-image: url(../images/amsterdam.jpg);
@@ -106,7 +102,7 @@
 /* TEMP */
 
 #menu-verhnee-menyu-angliyskiy{
-  display: none;
+  /* display: none; */
 }
 
 #presentation-side-top,
