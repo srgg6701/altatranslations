@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     display: none;
     height: 20px;
+    position: fixed;
     width: 20px;
     z-index: 11;
 }
@@ -112,17 +113,6 @@
 
 #menu-hamburger {
     padding-top: 0;
-}
-
-#nav-main-menu {
-    color: white;
-    z-index: 10;
-}
-
-#nav-main-menu li a {
-    color: white;
-    font-size: 0.6rem;
-    font-weight: normal;
 }
 
 #navigation-top {

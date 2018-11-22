@@ -13,22 +13,6 @@
         font-size: 2rem;
     }
 
-    #nav-main-menu .main-navigation-menu li {
-        display: inline-block;
-        text-align: left;
-        padding: 5px 0;
-        width: 100%;
-    }
-    #nav-main-menu .main-navigation-menu .menu-item-has-children:hover .sub-menu {
-        display: block;
-        padding-left: 20px;
-    }
-    #nav-main-menu ul>li a {
-        width: 100%;
-    }
-    #nav-main-menu ul>li a:hover {
-        background-color: #78a741;
-    }
     #row-prices>div {
         background-color: #cfdcee;
         background-color: rgb(224, 232,243);
@@ -70,13 +54,7 @@
     #search-block a {
         margin-top: 5px;
     }
-    #nav-main-menu #search-block {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 24px;
-        padding-top: 24px;
-        border-top: solid 1px white;
-    }
+
     #presentation-stages{
         padding-top: 2rem !important;
     }

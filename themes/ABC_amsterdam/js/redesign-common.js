@@ -17,17 +17,19 @@ const pix = stages.map(stage => {
 $(function () {
     const displayBlockClass = 'display-block',
         menuAside = '#menu-aside',
+        $liHasChildren = $('.menu-item-has-children'),
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
         classStart = 'start',
-        classActive = 'active',
-        speedOverlay = 600;
+        classActive = 'active';
 
     $menuAside.on('transitionend', function () {
-        $navigationContacts.toggleClass(displayBlockClass);
-        $closeBtn.show();
+        if ($menuAside.hasClass(classActive)) {
+            $navigationContacts.addClass(displayBlockClass);
+            $closeBtn.show();
+        }
     });
     $('#menu-hamburger').on('click', function () {
         // because of clash with the old css
@@ -35,12 +37,20 @@ $(function () {
     });
     function closeMenu() {
         $menuAside.removeClass(classActive);
+        $navigationContacts.removeClass(displayBlockClass);
         $closeBtn.hide();
     }
 
-    $mainNavigationMenu.find('li a').click(closeMenu);
+    //$mainNavigationMenu.find('li a').click(closeMenu);
 
     $closeBtn.on('click', closeMenu);
+
+    $liHasChildren.on('click', function(){
+        var $subMenu = $(this).find('.sub-menu');
+        if (!$subMenu.visible()){
+            
+        }
+    });
 
     $("body").niceScroll();
     // FIXME: optimize this!

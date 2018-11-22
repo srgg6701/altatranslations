@@ -13111,9 +13111,9 @@ span.wpcf7-not-valid-tip {
     .main-menu {
         width: 100%;
         z-index: 9999;
-        float: none;
+        /* float: none; */
         padding-left: 0;
-        padding-top: 0
+        padding-top: 0;
     }
 
     .navigation-wrap {
@@ -13121,7 +13121,7 @@ span.wpcf7-not-valid-tip {
     }
 
     .main-navigation {
-        float: right
+        /* float: right */
     }
 
     nav .main-navigation-menu li {

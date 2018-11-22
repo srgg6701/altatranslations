@@ -1,15 +1,21 @@
 
 #menu-aside {
     background: linear-gradient(to right, var(--main-blue-dark), rgba(0,0,0,0.75));
+    bottom: 0;
     display: inline-block;
     height: 100%;
     min-width: 320px;
     overflow-x: hidden;
     top: 0;
+    padding: 0;
     position: fixed;
-    padding: 25px;
+    /* padding: 25px; */
     right: -100%;
     transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
     width: 100%;
     z-index: 19;
 }
@@ -35,4 +41,5 @@
     margin-top: 1.5rem;
     display: flex;
     padding-top: 0;
+    max-width: 100%;
 }

@@ -76,7 +76,9 @@ body > header {
       font-size: 22px; } }
 
 nav.main-menu {
-  margin: auto; }
+  margin: auto;
+  margin-top: 1rem;
+  }
 
 #navigation-contacts .contact-list li {
   padding-right: 0; }

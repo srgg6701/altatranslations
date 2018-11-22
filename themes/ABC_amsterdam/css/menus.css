@@ -1,5 +1,6 @@
 .menu-item-has-children .sub-menu {
     /* background-color: rgba(13, 29, 50, 0.7); */
+    display: none;
     width: auto;
 }
 .menu-item-has-children .sub-menu li:hover{    
@@ -9,8 +10,9 @@
     padding:0;
 }
 #nav-main-menu > ul > li > a{
-    display:inline-block;
-    padding: 21px;
+    display: block;
+    line-height: 3;
+    /* padding: 21px; */
 }
 #nav-main-menu ul.sub-menu li{
     padding: 10px 24px 10px 20px;
@@ -23,6 +25,6 @@
     background-color: var(--bg-blue-grey);
 }
 nav .main-navigation-menu{
-    margin:0;
+    /* margin: 1rem; */
     display: block;
 }
