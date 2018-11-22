@@ -33,11 +33,6 @@
     .reviews-section {
       display: block; } }
 
-.main-navigation {
-  padding-top: 0;
-  display: flex;
-  padding-top: 0; }
-
 .navigation-block {
   padding: 0; }
   @media screen and (max-width: 1280px) {
