@@ -17,7 +17,7 @@ const pix = stages.map(stage => {
 $(function () {
     const displayBlockClass = 'display-block',
         menuAside = '#menu-aside',
-        $liHasChildren = $('.menu-item-has-children'),
+        $liHasChildrenLink = $('.menu-item-has-children').has('ul'),
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
         $closeBtn = $('.closebtn'),
@@ -35,21 +35,24 @@ $(function () {
         // because of clash with the old css
         $menuAside.toggleClass(classActive).toggleClass(classStart);
     });
+    
     function closeMenu() {
         $menuAside.removeClass(classActive);
         $navigationContacts.removeClass(displayBlockClass);
         $closeBtn.hide();
     }
 
-    //$mainNavigationMenu.find('li a').click(closeMenu);
-
     $closeBtn.on('click', closeMenu);
+    // the first click on mobule. Next one is 'click' event
+    $liHasChildrenLink.on('mouseover', function(event){
+        $(this).find('.sub-menu').slideToggle(function(){
+            $(this).toggleClass('expanded');
+        });
+        $(this).toggleClass('hovered');
+    });
 
-    $liHasChildren.on('click', function(){
-        var $subMenu = $(this).find('.sub-menu');
-        if (!$subMenu.visible()){
-            $subMenu.slideDown();
-        }
+    $('.menu-item-has-children > a').on('click', function(event){
+        $(this).next('.sub-menu').hasClass('expanded') || event.preventDefault();
     });
 
     $("body").niceScroll();
