@@ -1,10 +1,13 @@
+:root{
+    --offset-right-close:1.35rem;
+}
 #closebtn {
     background-image: url(../images/close.png);
     background-repeat: no-repeat;
     display: none;
     height: 20px;
     position: fixed;
-    right: 1rem;
+    right: var(--offset-right-close);
     top: 0.8rem;
     width: 20px;
     z-index: 21;
