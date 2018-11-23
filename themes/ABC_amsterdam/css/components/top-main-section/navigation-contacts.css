@@ -29,3 +29,12 @@
 #navigation-contacts ul li:first-child i {
     font-size: 1.1rem;
 }
+
+#navigation-contacts .contact-list li {
+  padding-right: 0; }
+  @media screen and (max-width: 1280px) {
+    #navigation-contacts .contact-list li {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-align: center;
+      } }

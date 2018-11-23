@@ -6,6 +6,16 @@
     }
 }
 
+
+@media screen and (min-width: 600px){
+    #section-languages{
+        width: 6rem;
+    }
+    #section-header{
+        width: calc(100% - 6rem);
+    }
+}
+
 @media screen and (min-width: 769px) {
     #section-header {
         /* background-color: blue; */
@@ -17,6 +27,9 @@
 }
 
 @media screen and (min-width: 1025px) {
+    #presentation-container{
+        width: 80%;
+    }
     #section-header {
         /* background-color: darkviolet; */
         color: white;

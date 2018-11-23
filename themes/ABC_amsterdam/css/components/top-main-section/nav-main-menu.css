@@ -65,3 +65,14 @@
     right: 1.35rem;
     transform: rotate(45deg);
 }
+
+nav .main-navigation-menu li + li {
+  padding-right: 38px; }
+
+nav .main-navigation-menu li {
+  padding-left: 0; }
+  nav .main-navigation-menu li:last-child {
+    padding-right: 0; }
+  @media screen and (max-width: 1280px) {
+    nav .main-navigation-menu li ul li {
+      padding-left: 20px; } }

@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    #bottom-menu-small-left,
+    #bottom-menu-small-right {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #footer-inner-contacts {
+        max-width: 33%;
+        /* width: auto; */
+    }
+}

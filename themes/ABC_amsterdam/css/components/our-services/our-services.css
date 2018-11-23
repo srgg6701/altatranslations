@@ -22,9 +22,8 @@
     /* padding-top: 0.917rem; */
 }
 
-#our-services a {
-    
-font-size: 0.65rem;
+#our-services a {   
+    font-size: 0.65rem;
 }
 
 #our-services-wrap .service-item{
@@ -40,4 +39,10 @@ font-size: 0.65rem;
 
 .map-section {
     border-top: none;
+}
+
+.service-item-description a {
+    color: #aeb6bf;
+    text-shadow: 2px 1px 28px rgba(0,0,0,0.1), -1px -1px rgba(13,29,50,1);
+    letter-spacing: 0.05rem;
 }

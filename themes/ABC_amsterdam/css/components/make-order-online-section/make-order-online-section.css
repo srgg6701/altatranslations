@@ -1,7 +1,7 @@
 #make-order-online-section{
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 #make-order-online-section::after{

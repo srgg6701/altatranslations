@@ -6,12 +6,6 @@
     width: 100%;
 }
 
-@media screen and (min-width: 768px)/* and (max-width: 1350px)*/ {
-    #presentation-container{
-        width: 80%;
-    }
-}
-
 /* section-languages */
 #section-languages{
     background-color: rgba(255,255,255,0.65);
@@ -104,7 +98,7 @@
 #section-header {
     background-color: rgba(13, 29, 50, 0.65);
     padding: 20px;
-    padding: 1.4rem 0.833rem;
+    padding: 1.4rem var(--offset-mobile);
     position: relative;
     width: 64%;
 }
@@ -173,7 +167,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     background-color: rgba(0, 0, 0, 0.75);
     /* padding: 1.25rem; */
-    padding-bottom: var(--offset-mobile-top);
+    padding-bottom: var(--offset-mobile);
     display: flex;
     justify-content: space-between;
     width: 100%;

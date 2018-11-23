@@ -1,24 +1,74 @@
-#bottom-menu-small-left,
-#bottom-menu-small-right{
-    display: none;
-}
-
-footer .footer-socials{
+footer .footer-socials {
     margin: var(--offset-mobile-top) auto;
+    /* outline: solid 1px white; */
+    /* display: flex; */
 }
 
-footer .socials-block__list li{
+footer .socials-block__list li {
     outline: solid 4px rgba(13, 29, 50, 0.15);
+    display: inline-block;
     height: 3rem;
-    margin: auto 14px;
+    margin: auto;
     padding: 1rem;
     width: 3rem;
+    /* max-width: 50%; */
 }
 
-footer .socials-block__list li:nth-child(1){
+:root{
+  --offset-social-inner-margin:0.6rem;
+}
+footer .socials-block__list li:nth-child(1) {
     background-color: rgba(66, 103, 178, 0.35);
+    margin-right: var(--offset-social-inner-margin);
 }
-footer .socials-block__list li:nth-child(2){
+
+footer .socials-block__list li:nth-child(2) {
     background-color: rgba(0, 119, 181, 0.35);
+    margin-left: var(--offset-social-inner-margin);
 }
-   
+
+footer .main-container {
+    /* padding: 50px 80px; */
+    position: relative;
+    z-index: 1;
+}
+
+footer.navigation-panel::after {
+    background-image: url(../../../images/black-and-white-sunrise-boat-night-morning-city.jpg);
+    background-size: cover;
+    content: " ";
+    height: 100%;
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#footer-inner-logo {
+    /* width: 100%; */
+    margin: auto;
+}
+
+#bottom-menu-small-left,
+#bottom-menu-small-right {
+    
+max-width: 33%;
+    
+/* outline: solid 1px red; */
+    
+/* margin-bottom: 1rem; */
+}
+
+footer {
+  /* background: none; */
+  background-color: var(--main-blue-dark);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  position: relative;
+  padding-top: var(--offset-mobile-top);
+  padding-bottom: var(--offset-mobile-top);
+  padding-left: var(--offset-mobile);
+  padding-right: var(--offset-mobile);
+  }

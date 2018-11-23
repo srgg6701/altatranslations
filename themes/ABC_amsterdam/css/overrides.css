@@ -3,10 +3,16 @@
 }
 .contacs-list li .footer-mail-link{
     color: var(--color-logo-link);
+    margin-bottom: auto;
 }
 footer{
     padding:0;
 }
+
+.footer-nav, .footer-services, .footer-contacts {
+  border-right: none;
+}
+
 .item-substrate-wrap{
     border-radius: 0;
 }

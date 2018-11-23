@@ -2734,7 +2734,7 @@ pre code {
     }
 
     .col-sm-3 {
-        width: 25%
+        width: 25%;
     }
 
     .col-sm-2 {
@@ -11410,7 +11410,7 @@ ul {
 
 .main-container,.top-container {
     margin: 0 auto;
-    max-width: 1290px;
+    /* max-width: 1290px; */
 }
 
 .top-container {
@@ -12342,9 +12342,9 @@ footer {
 }
 
 .socials-block__list {
-    margin: 0;
-    display: inline-block;
-    padding-left: 0
+    margin: auto;
+    /* display: inline-block; */
+    padding-left: 0;
 }
 
 .socials-block__list li {
@@ -12354,7 +12354,7 @@ footer {
 }
 
 .socials-block__list li:last-child {
-    /* margin-right: 0; */
+    margin-right: 0;
 }
 
 .socials-block__list li a {

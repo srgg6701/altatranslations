@@ -1,119 +1,14 @@
-.absolute {
-  position: absolute; }
-
-.blue-link {
-  color: #2795c5; }
-
-.btn-link {
-  bottom: 20px;
-  color: darkslateblue;
-  font-size: 16px;
-  margin: -4px -8px;
-  padding: 4px 8px;
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%; }
-  .btn-link:hover {
-    background-color: rgba(120, 167, 65, 0.8);
-    border-radius: 4px;
-    color: white; }
-
-.close-button {
-  background-image: url(../images/close.png);
-  background-repeat: no-repeat; }
-
-.hint {
-  text-decoration: none;
-  border-bottom: dotted 1px; }
-
-.reviews-section {
-  display: none;
-  }
-  @media screen and (min-width: 1281px) {
-    .reviews-section {
-      display: block; } }
-
-.navigation-block {
-  padding: 0; }
-  @media screen and (max-width: 1280px) {
-    .navigation-block {
-      /* padding: 10px 0; */
-      } }
-
-.panel-lang {
-  overflow: hidden;
-  display: flex; }
-
-.search-block {
-  padding-top: 0;
-  padding-right: 20px;
-  padding-left: 20px; }
-
-@media screen and (max-width: 1280px) {
-  .prices-section {
-    padding-bottom: 0;
-    } 
-}
-
-.price-item a {
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-family: "PF DinText Pro";
-  font-weight: 300;
-  color: #2795c5; }
-  .price-item a.know-more {
-    }
 
 body > header {
   background: rgba(0, 0, 50, 0.65); }
-
-.contact-list li i {
-  font-size: 46px;
-  color: white;
-  margin: auto 10px; }
-  @media screen and (min-width: 1281px) {
-    .contact-list li i {
-      font-size: 22px; } }
 
 nav.main-menu {
   margin: auto;
   margin-top: 0.13rem;
   }
 
-#navigation-contacts .contact-list li {
-  padding-right: 0; }
-  @media screen and (max-width: 1280px) {
-    #navigation-contacts .contact-list li {
-      display: inline-block;
-      margin-bottom: 20px;
-      text-align: center;
-      } }
 
-nav .main-navigation-menu li + li {
-  padding-right: 38px; }
 
-.header-contacts-info .contact-list {
-  display: flex;
-  justify-content: space-around; }
-
-.header-contacts-info .contact-list a, .header-contacts-info .contact-list
-.address span {
-  display: inline-block;
-  transform: translateY(-4px) !important;
-  -webkit-transform: translateY(-4px) !important;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.32); }
-
-.contact-list li a, .contact-list
-.address {
-  font-size: initial; }
-
-nav .main-navigation-menu li {
-  padding-left: 0; }
-  nav .main-navigation-menu li:last-child {
-    padding-right: 0; }
-  @media screen and (max-width: 1280px) {
-    nav .main-navigation-menu li ul li {
-      padding-left: 20px; } }
 
 @media screen and (max-width: 1280px) {
   .menu-item-has-children .sub-menu {
@@ -127,47 +22,9 @@ header > .top-container {
   display: flex;
   justify-content: space-between; }
 
-.top-container .choosing-lang {
-  display: flex;
-  align-items: center;
-  width: 10%; }
 
-.top-container .header-contacts-info {
-  width: 85%; }
-  .top-container .header-contacts-info .contacs-list li {
-    padding: unset; }
-
-.price-item {
-  /* background-color: #b5d9d6; */
-  /* background-color: rgba(193, 220, 255, 0.5) !important; */
-  }
-  .price-item__image {
-    margin: auto -7px;
-    width: auto; }
-  .price-item-wrap {
-    display: flex; }
-  .price-item-description {
-    /* margin-bottom: 50px; */
-    }
-
-.price-item-description .excerpt + a {
-  bottom: 20px;
-  position: absolute; }
-
-.panel-lang .widget-block {
-  overflow: hidden;
-  display: flex; }
 
 body * {
   box-sizing: border-box;
-  }
-
-footer {
-  /* background: none; */
-  background-color: var(--main-blue-dark);
-  position: relative;
-  padding-top: var(--offset-mobile-top);
-  padding-bottom: var(--offset-mobile-top);
-  /* padding: 32px; */
   }
 

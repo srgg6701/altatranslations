@@ -196,7 +196,12 @@
 }
 
 #row-footer {
+    /* outline: solid 1px red; */
+    display: flex;
     overflow: hidden;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #row-prices {

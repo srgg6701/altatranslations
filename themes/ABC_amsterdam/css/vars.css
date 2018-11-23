@@ -9,3 +9,9 @@
     --offset-mobile: 0.8333rem;
     --offset-mobile-top: 1.35rem;
 }
+
+@media screen and (min-width:768px){
+    :root{
+        --offset-mobile: 2rem;
+    }
+}

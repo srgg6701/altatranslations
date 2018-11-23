@@ -12,3 +12,9 @@
 #prices-section .price-item-description{
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1280px) {
+  .prices-section {
+    padding-bottom: 0;
+    } 
+}
