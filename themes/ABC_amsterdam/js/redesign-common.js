@@ -48,7 +48,7 @@ $(function () {
     $liHasChildren.on('click', function(){
         var $subMenu = $(this).find('.sub-menu');
         if (!$subMenu.visible()){
-            
+            $subMenu.slideDown();
         }
     });
 
