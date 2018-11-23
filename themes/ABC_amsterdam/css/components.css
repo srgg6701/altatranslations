@@ -4,8 +4,10 @@
     display: none;
     height: 20px;
     position: fixed;
+    right: 1rem;
+    top: 0.8rem;
     width: 20px;
-    z-index: 11;
+    z-index: 21;
 }
 
 #lang_sel_list {

@@ -1,18 +1,20 @@
 #navigation-contacts {
-    /* position: absolute; */
-    margin-top: 0.37rem;
-    right: 43px;
-    top: 145px;
-    white-space: nowrap;
+    display: flex;
+    position: fixed;
+    left: 0;
+    /* margin-left: 1rem; */
+    top: 0;
+    width: 100%;
+    /* white-space: nowrap; */
     z-index: 20;
-    background: transparent !important;
+    background: var(--bg-blue-grey);
     /* outline: solid 1px red; */
 }
 #navigation-contacts:not(.display-block){
     display:none;    
 }
 #navigation-contacts ul {
-    margin: auto;
+    margin: 0.5rem auto auto 0.5rem;
 }
 
 #navigation-contacts ul li {

@@ -85,6 +85,10 @@ a.order-link:hover {
     display: block;
 }
 
+.display-none{
+    display: none;
+}
+
 .wrapper-frame{
     padding-bottom: var(--offset-mobile);
     padding-top: var(--offset-mobile);

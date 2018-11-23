@@ -6,25 +6,3 @@
 .menu-item-has-children .sub-menu li:hover{    
     background-color: #0d1d32;
 }
-#nav-main-menu > ul > li{
-    padding:0;
-}
-#nav-main-menu > ul > li > a{
-    display: block;
-    line-height: 3;
-    /* padding: 21px; */
-}
-#nav-main-menu ul.sub-menu li{
-    padding: 10px 24px 10px 20px;
-    display: block;
-}
-#nav-main-menu ul.sub-menu li >a{
-    white-space: nowrap;
-}
-#nav-main-menu > ul > li:hover{
-    background-color: var(--bg-blue-grey);
-}
-nav .main-navigation-menu{
-    /* margin: 1rem; */
-    display: block;
-}
