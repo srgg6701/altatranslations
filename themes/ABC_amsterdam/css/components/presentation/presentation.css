@@ -123,8 +123,8 @@
 #section-services > div {
     background-position: center 0.5rem;
     display: flex;
-    margin: 1px;
-    width: calc(50% - 1.5px) !important;
+    margin-bottom: 1px;
+    width: calc(50% - 1px);
     background-color: rgb(224, 232, 243);
     background-repeat: no-repeat;
     text-align: center;
@@ -147,16 +147,16 @@ margin-right: 0.5px;
     width: 100%;
 }
 #section-services > div:nth-child(1) {
-    background-image: url(../../../images/icon-museum-1.png);
-}
-#section-services > div:nth-child(2) {
-    background-image: url(../../../images/icons-service-provider-1.png);
-}
-#section-services > div:nth-child(3) {
     background-image: url(../../../images/icon-business-1.png);
 }
-#section-services > div:nth-child(4) {
+#section-services > div:nth-child(2) {
     background-image: url(../../../images/icon-crowd-1.png);
+}
+#section-services > div:nth-child(3) {
+    background-image: url(../../../images/icon-museum-1.png);
+}
+#section-services > div:nth-child(4) {
+    background-image: url(../../../images/icon-service-provider-1.png);
 }
 
 /* section-buttons */
