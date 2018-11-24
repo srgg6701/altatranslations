@@ -1,7 +1,5 @@
 #make-order-online-section{
     background-color: rgba(0, 100, 0, 0.2);
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -17,6 +15,8 @@
 #make-order-online-section::after{
     background: url(../../../images/professional-translate-golden.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     content: " ";
     height: 100%;
     left: 0;
