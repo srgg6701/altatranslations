@@ -18,8 +18,7 @@
 }
 
 #logo-header {
-    /* margin: auto; */
-    /* padding-left: 15px; */
+    margin-left: 0.35rem;
     display: flex;
     padding-right: 15px;
     white-space: nowrap;

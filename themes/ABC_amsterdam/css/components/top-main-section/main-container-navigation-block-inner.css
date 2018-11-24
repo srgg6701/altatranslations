@@ -1,7 +1,7 @@
 #main-container-navigation-block-inner {
     display: flex;
     justify-content: stretch;
-    margin: 7.5px 0;
-    padding-left: 0.2rem;
+    margin: 7.5px auto;
+    /* padding-left: 0.2rem; */
     width: 100%;
 }
