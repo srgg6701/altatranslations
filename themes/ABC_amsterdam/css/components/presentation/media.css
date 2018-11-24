@@ -24,16 +24,48 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     #presentation-container{
-        width: 80%;
+        width: 90%;
     }
-    #section-header {
-        /* background-color: darkviolet; */
-        color: white;
+    #section-presentation,
+    #section-stages {
+        width: 67%;
     }
-    #section-header::after {
-        content: "1025 -> 1200";
+    #section-stages{
+        order: 6;
+    }
+    #section-services,
+    #section-buttons{
+        width: 33%;
+    }
+    #section-services{
+        order: 3;
+        padding-left: 1px;
+        padding-right: 0;
+    }
+    #section-buttons{
+        order: 5;
+        background-color: rgba(13, 29, 50, 0.85);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #section-buttons .order-link{
+        line-height: 2;
+    }
+    #section-presentation{
+        order: 4;
+    }
+    #section-services > div {
+        
+    }
+    #section-services > div:nth-child(3), 
+    #section-services > div:nth-child(4) {
+        margin-bottom: 0;
+    }
+    #presentation-container{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 }
 
