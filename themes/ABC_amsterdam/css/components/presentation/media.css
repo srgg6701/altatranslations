@@ -17,13 +17,10 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-    #section-header {
-        /* background-color: blue; */
-        color: white;
-    }
-    #section-header::after {
-        content: "769 -> 1024";
+@media screen and (min-width: 768px) {
+    #section-languages span{
+        transform: translateY(0.5rem);
+        -webkit-transform: translateY(0.5rem);
     }
 }
 
