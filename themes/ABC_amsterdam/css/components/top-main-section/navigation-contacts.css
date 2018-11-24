@@ -1,11 +1,10 @@
 #navigation-contacts {
     display: flex;
+    height: 2.45rem;
     position: fixed;
     left: 0;
-    /* margin-left: 1rem; */
     top: 0;
     width: 100%;
-    /* white-space: nowrap; */
     z-index: 20;
     background: var(--bg-blue-grey);
     /* outline: solid 1px red; */
@@ -14,11 +13,8 @@
     display:none;    
 }
 #navigation-contacts ul {
-    margin: 0.5rem auto auto 0.5rem;
-}
-
-#navigation-contacts ul li {
-    display: inline-block;
+    margin: auto;
+    margin-left: 1rem;
 }
 
 #navigation-contacts ul li i {
@@ -28,13 +24,19 @@
 
 #navigation-contacts ul li:first-child i {
     font-size: 1.1rem;
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -wo-transform: translateY(2px);
+    -moz-transform: translateY(2px);
 }
 
 #navigation-contacts .contact-list li {
-  padding-right: 0; }
+  /* line-height: 3.7; */
+  padding-right: 0;
+  }
   @media screen and (max-width: 1280px) {
     #navigation-contacts .contact-list li {
       display: inline-block;
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
       text-align: center;
       } }

@@ -24,12 +24,14 @@
 
 .contact-list li i {
   font-size: 46px;
-  color: white;
-  margin: auto 10px; }
+  color: white; }
   @media screen and (min-width: 1281px) {
     .contact-list li i {
       font-size: 22px; } }
 
+.contact-list li +li i {
+  margin-left: 0.65rem;
+}
 
 .hint {
   text-decoration: none;
