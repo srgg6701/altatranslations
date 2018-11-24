@@ -57,8 +57,11 @@
         order: 4;
     }
     #section-services > div {
-        
+        background-position: center 1rem;
     }
+    #section-services > div > a{
+margin-top: 3.75rem;
+}
     #section-services > div:nth-child(3), 
     #section-services > div:nth-child(4) {
         margin-bottom: 0;
