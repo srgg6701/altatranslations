@@ -200,7 +200,7 @@
     overflow: hidden;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #row-prices {

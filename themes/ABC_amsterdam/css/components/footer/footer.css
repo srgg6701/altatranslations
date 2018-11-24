@@ -49,23 +49,30 @@ footer .socials-block__list li:nth-child(2) {
     margin-left: var(--offset-social-inner-margin);
 }
 
-footer .main-container {
-    position: relative;
-    z-index: 1;
-    text-align: center;
+#footer-buttons-social{
+    margin: var(--offset-box-increased) auto;
 }
 
-#footer-inner-contacts{
-    margin: auto;
+#footer-inner-logo{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer-inner-logo div{
-    color: #b198c6;
+    color: var(--color-logo-link);
     font-family: 'PF DinText Pro';
     font-size: 0.75rem;
 }
 
+#footer-inner-logo > div:nth-child(2){
+    font-size: 0.55rem;
+    opacity: 0.6;
+}
+
 #bottom-menu-small-left,
 #bottom-menu-small-right {
-    max-width: 33%;
+    /* max-width: 33%; */
+    width: 50%;
+    width: 33%;
+    width: auto;
 }

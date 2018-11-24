@@ -20,6 +20,7 @@ $(function () {
         $liHasChildrenLink = $('.menu-item-has-children').has('ul'),
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
+        $serviceSubj=$('#section-services > div'),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
         classStart = 'start',
@@ -53,6 +54,15 @@ $(function () {
 
     $('.menu-item-has-children > a').on('click', function(event){
         $(this).next('.sub-menu').hasClass('expanded') || event.preventDefault();
+    });
+
+    $serviceSubj.on('click', function(){
+        $serviceSubj.removeClass(classActive);
+        $(this).addClass(classActive);
+    });
+
+    $serviceSubj.find('a').on('click', function(event){
+        event.preventDefault();
     });
 
     $("body").niceScroll();

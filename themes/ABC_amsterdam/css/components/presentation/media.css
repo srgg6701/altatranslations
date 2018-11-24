@@ -5,14 +5,15 @@
         content: "321 -> 768";
     }
 }
-
-
-@media screen and (min-width: 600px){
-    #section-languages{
-        width: 6rem;
+@media screen and (min-width: 600px) {
+    #section-header h4 {
+        font-size: 1.1rem;
+        margin: auto;
+        max-width: 80%;
     }
-    #section-header{
-        width: calc(100% - 6rem);
+    #section-services{
+        padding-left: var(--offset-box);
+        padding-right: var(--offset-box);
     }
 }
 

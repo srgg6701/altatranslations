@@ -74,3 +74,10 @@ border-right: none;
     font-size: 0.65rem;
     font-weight: normal;
 }
+
+@media screen and (max-width: 767px) {
+  .footer-contacts {
+      text-align: center;
+      margin: auto;
+  }
+}

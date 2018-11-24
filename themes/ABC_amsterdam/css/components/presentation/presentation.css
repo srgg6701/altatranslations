@@ -107,6 +107,7 @@
     color: #ffffff;
     font-size: 0.88rem;
     line-height: 1.5;
+    text-align: center;
 }
 
 #section-header h4 span{
@@ -129,13 +130,16 @@
     background-repeat: no-repeat;
     text-align: center;
 }
-#section-services > div:nth-child(even){
 
-margin-left: 0.5px;
+#section-services > div.active{
+    background-color: white;
 }
-#section-services > div:nth-child(odd){
-    
-margin-right: 0.5px;
+
+#section-services > div:nth-child(even){
+    margin-left: 0.5px;
+}
+#section-services > div:nth-child(odd){   
+    margin-right: 0.5px;
 }
 #section-services > div a {
     color: #0d1d32;

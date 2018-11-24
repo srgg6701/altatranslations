@@ -1,7 +1,23 @@
+@media screen and (max-width: 599px){
+    #footer-inner-contacts{
+        margin: auto;
+    }
+}
+@media screen and (min-width: 600px){
+    #footer-buttons-social{
+        min-width: 50%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #bottom-menu-small-left,
     #bottom-menu-small-right {
         display: none;
+    }
+    footer .main-container {
+        position: relative;
+        z-index: 1;
+        text-align: center;
     }
 }
 
