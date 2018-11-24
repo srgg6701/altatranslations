@@ -39,7 +39,7 @@
     }
     #presentation-side-top-left-top h4 {
         font-size: 1.15rem;
-        font-size: var(--offset-mobile-top);
+        font-size: var(--offset-box-increased);
     }
     #presentation-stages {
         padding: 0 2rem;

@@ -1,5 +1,5 @@
 footer .footer-socials {
-    margin: var(--offset-mobile-top) auto;
+    margin: var(--offset-box-increased) auto;
     /* outline: solid 1px white; */
     /* display: flex; */
 }
@@ -67,8 +67,8 @@ footer {
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
   position: relative;
-  padding-top: var(--offset-mobile-top);
-  padding-bottom: var(--offset-mobile-top);
-  padding-left: var(--offset-mobile);
-  padding-right: var(--offset-mobile);
+  padding-top: var(--offset-box-increased);
+  padding-bottom: var(--offset-box-increased);
+  padding-left: var(--offset-box);
+  padding-right: var(--offset-box);
   }

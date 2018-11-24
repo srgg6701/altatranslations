@@ -1,17 +1,28 @@
 #make-order-online-section{
-    background-repeat: no-repeat;
+    background-color: rgba(0, 100, 0, 0.2);
     background-size: cover;
-    /* padding-top: 40px; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#make-order-online-section .wrap_btn .order-link {
+    border-bottom: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.833rem;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.25), 2px 2px 4px rgba(0,0,0,0.25);
 }
 
 #make-order-online-section::after{
-    /* background: url('../../../images/professional-translate-golden.jpg'); */
-    /* content: " "; */
-    /* height: 100%; */
-    /* left: 0; */
-    /* position: absolute; */
-    /* top: 0; */
-    /* width: 100%; */
-    /* z-index: -1; */
+    background: url(../../../images/professional-translate-golden.jpg) no-repeat;
+    background-size: cover;
+    content: " ";
+    height: 100%;
+    left: 0;
+    position:absolute;
+    top:0;
+    width: 100%;
+    z-index: -1;
 }
 

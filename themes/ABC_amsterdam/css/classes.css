@@ -109,34 +109,6 @@ a.order-link:hover {
     }    
 }
 
-.order-section .wrap_btn .order-link {
-    border-bottom: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 0.45rem 0; */
-    /* font-size: 0.65rem; */
-    text-shadow: 1px 1px 0px rgba(255,255,255,0.25), 2px 2px 4px rgba(0,0,0,0.25);
-}
-
-.order-section{
-    background-color: rgba(0, 100, 0, 0.2);
-    background-size: cover;
-    position: relative;
-}
-.order-section::after{
-    background: url(../images/professional-translate-golden.jpg) no-repeat;
-    /* background: url(../images/professional-translate.jpg) right center no-repeat; */
-    background-size: cover;
-    content: " ";
-    height: 100%;
-    left: 0;
-    position:absolute;
-    top:0;
-    width: 100%;
-    z-index: -1;
-}
-
 .display-block{
     display: block;
 }
@@ -159,15 +131,31 @@ a.order-link:hover {
 .address {
   font-size: initial; }
 
-.offset-mobile,
-.wrapper-frame{
-    padding-left: var(--offset-mobile);
-    padding-right: var(--offset-mobile);
+.offset-horizontal-padding{
+    padding-left: var(--offset-box);
+    padding-right: var(--offset-box);
 }
 
-.wrapper-frame{
-    padding-bottom: var(--offset-mobile);
-    padding-top: var(--offset-mobile);
+.offset-vertical-margin-top {
+    margin-top: var(--offset-box);
+}
+.offset-vertical-margin-top-increased {
+  margin-top: var(--offset-box-increased);
+}
+
+.offset-vertical-padding {
+    padding-bottom: var(--offset-box);
+    padding-top: var(--offset-box);
+}
+
+.offset-horizontal-padding-increased {
+  padding-left: var(--offset-box-increased);
+  padding-right: var(--offset-box-increased);
+}
+
+.offset-vertical-padding-increased {
+  padding-bottom: var(--offset-box-increased);
+  padding-top: var(--offset-box-increased);
 }
 
 .top-container .choosing-lang {

@@ -1,11 +1,11 @@
 #prices-section .container-wrapper {
-    /* padding-bottom: var(--offset-mobile); */
-    padding-top: var(--offset-mobile);
+    /* padding-bottom: var(--offset-box); */
+    padding-top: var(--offset-box);
 }
 
 #prices-section .price-item a.know-more {
     bottom: 30px;
-    margin-left: var(--offset-mobile);
+    margin-left: var(--offset-box);
     position: absolute;
 }
 

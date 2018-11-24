@@ -6,12 +6,12 @@
     --color-logo-link: #bebeff;
     --mediaMin961: 961px;
     --mediaMin1025: 1025px;
-    --offset-mobile: 0.8333rem;
-    --offset-mobile-top: 1.35rem;
+    --offset-box: 0.8333rem;
+    --offset-box-increased: 1.35rem;
 }
 
 @media screen and (min-width:768px){
     :root{
-        --offset-mobile: 2rem;
+        --offset-box: 2rem;
     }
 }
