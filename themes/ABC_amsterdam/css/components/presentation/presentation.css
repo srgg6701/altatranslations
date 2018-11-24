@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 1350px;
+    /* max-width: 1350px; */
     width: 100%;
 }
 
@@ -12,7 +12,6 @@
 }
 #section-languages,
 #section-languages-desktop {
-    background-color: rgba(13, 29, 50, 0.85);   
     justify-content: center;
     width: 100%;
 }
@@ -34,11 +33,16 @@
 }
 
 #section-languages-desktop div {
-    background-position: 1.5rem 0.75rem;
+    background-position: 1.5rem center;
     display: flex;
     padding: 1rem;
     padding-left: 3rem;
     width: 50%;
+    /* max-width: 25%; */
+}
+
+#section-languages-desktop div span{
+    margin: auto auto auto 0;
 }
 
 #section-languages span:hover,
@@ -99,14 +103,8 @@
     background-image: url(../../../images/professionals.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* max-height: 50vh; */
     height: 44.5vh;
-    /* padding: 20px; */
     width: 100%;
-}
-
-#section-presentation::before {
-    content: "0.667 : 408 x 612";
 }
 
 #section-header::after {

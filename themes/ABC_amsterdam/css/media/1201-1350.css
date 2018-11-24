@@ -74,8 +74,8 @@
         color: #0d1d32 !important;
     }
     #top-main-text {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        /* padding-bottom: 2rem; */
+        /* padding-top: 2rem; */
     }
     #top-main-text .container-wrapper>section:nth-child(2) {
         padding-right: 2rem;

@@ -1,7 +1,21 @@
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
+    #main-container{
+        width: 100%;
+    }
+    #main-container-navigation-block-inner{
+        width: 70%;
+    }
     #section-languages-desktop {
+        background-color: transparent !important;
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         /* padding: 1rem; */
+        height: 26%;
+    }
+    #section-services{
+        background-color: rgba(13, 29, 50, 0.85) !important;
+    }
+    #section-services > div{
+        height: 37%;
     }
 }

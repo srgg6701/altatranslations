@@ -18,11 +18,11 @@
 }
 
 #logo-header {
-    margin-left: 0.35rem;
+    margin-left: 0;
     display: flex;
     padding-right: 15px;
     white-space: nowrap;
-    width: 25%;
+    width: auto;
 }
 
 #logo-link,

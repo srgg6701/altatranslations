@@ -1,15 +1,7 @@
-/*width: 67%;*/
-
-@media screen and (min-width: 321px) {
-    #section-header::after {
-        content: "321 -> 768";
-    }
-}
 @media screen and (min-width: 600px) {
     #section-header h4 {
         font-size: 1.1rem;
         margin: auto;
-        max-width: 80%;
     }
     #section-services{
         padding-left: var(--offset-box);
@@ -30,14 +22,14 @@
     }
     #section-presentation,
     #section-stages {
-        width: 67%;
+        width: 60%;
     }
     #section-stages{
         order: 6;
     }
     #section-services,
     #section-buttons{
-        width: 33%;
+        width: 40%;
     }
     #section-services{
         order: 3;
@@ -60,59 +52,54 @@
     }
     #section-services > div {
         width: calc(50% - 0.5px);
-        background-position: center 1.4rem;
+        background-position: center 20%;
+        background-size: 20%;
     }
     #section-services > div > a{
-        margin-top: 4.5rem;
+        margin-top: 4rem;
     }
     #section-services > div:nth-child(4), 
     #section-services > div:nth-child(5) {
         margin-bottom: 0;
     }
     #presentation-container{
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        /* padding-bottom: 2rem; */
+        /* padding-top: 2rem; */
     }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
    #presentation-container{
-       width: 80%;
+       padding-bottom: 2rem;
+       width: 70%;
    }
    #section-presentation{
-       height: 35.75vw;
+       height: 28vw;
    }
+    #section-services > div > a{
+padding: 0;
+margin: 0;
+margin-top: 40%;
+}   
    #section-languages{
        display: none;
    }
-}
-
-@media screen and (min-width: 1601px) {
-    #section-header {
-        /* background-color: pink; */
-        color: black;
-    }
-    #section-header::after {
-        content: "1601 -> 1920";
-    }
-}
-
-@media screen and (min-width: 1921px) {
-    #section-header {
-        background-color: #333;
-        color: yellow;
-    }
-    #section-header::after {
-        content: "1921 -> 2160";
-    }
-}
-
-@media screen and (min-width: 2161px) {
-    #section-header {
-        background-color: #fff;
-        color: red;
-    }
-    #section-header::after {
-        content: "2161 +";
-    }
+   #section-languages-desktop >div{
+       background-position-x: center;
+       background-position-y: 30%;
+       padding: 0;
+       display: flex;
+       width: 25%;
+   }
+   #section-languages-desktop >div > span{
+       margin: 60% auto;
+   }
+   #section-header{
+        background: linear-gradient(to top, rgba(255,255,255,1), transparent);
+        padding-top: 2rem;
+   }
+   #section-header h4{
+       color: rgba(13, 29, 50, 0.85);
+       text-shadow: 1px 1px 2px rgba(255,255,255,1);
+   }
 }

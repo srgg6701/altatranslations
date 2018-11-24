@@ -93,7 +93,7 @@ a.order-link:hover {
 }
 
 .container-wrapper{
-    max-width: 1350px;
+    /* max-width: 1350px; */
 }
 
 @media screen and (min-width: 1201px) {
@@ -105,7 +105,7 @@ a.order-link:hover {
 
 @media screen and (min-width: 1281px) {
     .container-wrapper{
-        max-width: 1350px;
+        /* max-width: 1350px; */
     }    
 }
 
