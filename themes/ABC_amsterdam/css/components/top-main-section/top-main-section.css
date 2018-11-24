@@ -1,5 +1,8 @@
-#top-main-section{
+#top-main-section {
     background: transparent;
     position: relative;
-  }
-  
+}
+
+#section-languages-desktop{
+  display: none;
+}

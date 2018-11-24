@@ -7,41 +7,60 @@
 }
 
 /* section-languages */
-#section-languages{
-    background-color: rgba(13, 29, 50, 0.85);
+#section-languages {
     display: flex;
+}
+#section-languages,
+#section-languages-desktop {
+    background-color: rgba(13, 29, 50, 0.85);   
     justify-content: center;
-    width: 22%;
     width: 100%;
 }
 
-#section-languages span{
+#section-languages span,
+#section-languages-desktop div {
     background-size: 1rem 1.25rem;
     color: var(--main-blue-dark);
     color: rgba(255,255,255,0.75);
     display: inline-block;
     background-repeat: no-repeat;
-    background-position: center 0.833rem;
-    width: 25%;
-    text-align: center;
-    padding: 2.2rem 0 var(--offset-box);
 }
 
-#section-languages span:hover{
+#section-languages span{
+    background-position: center 0.833rem;
+    padding: 2.2rem 0 var(--offset-box);
+    text-align: center;
+    width: 25%;
+}
+
+#section-languages-desktop div {
+    background-position: 1.5rem 0.75rem;
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    width: 50%;
+}
+
+#section-languages span:hover,
+#section-languages-desktop div:hover {
     background-color: rgba(255,255,255, 1);
     color: var(--main-blue-dark);
 }
 
-#section-languages span:nth-child(1){
+#section-languages span:nth-child(1),
+#section-languages-desktop div:nth-child(1) {
     background-image: url(../../../images/flags/nl-1.png);
 }
-#section-languages span:nth-child(2){
+#section-languages span:nth-child(2),
+#section-languages-desktop div:nth-child(2) {
     background-image: url(../../../images/flags/uk.png);
 }
-#section-languages span:nth-child(3){
+#section-languages span:nth-child(3),
+#section-languages-desktop div:nth-child(3) {
     background-image: url(../../../images/flags/ru.png);
 }
-#section-languages span:nth-child(4){
+#section-languages span:nth-child(4),
+#section-languages-desktop div:nth-child(4) {
     background-image: url(../../../images/flags/ukr.png);
 }
 
@@ -80,9 +99,9 @@
     background-image: url(../../../images/professionals.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 50vh;
+    /* max-height: 50vh; */
     height: 44.5vh;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
 }
 
@@ -135,10 +154,10 @@
     background-color: white;
 }
 
-#section-services > div:nth-child(even){
+#section-services > div:nth-child(odd){
     margin-left: 0.5px;
 }
-#section-services > div:nth-child(odd){   
+#section-services > div:nth-child(even){   
     margin-right: 0.5px;
 }
 #section-services > div a {
@@ -150,16 +169,16 @@
     padding: 0 0.2rem;
     width: 100%;
 }
-#section-services > div:nth-child(1) {
+#section-services > div:nth-child(2) {
     background-image: url(../../../images/icon-business-1.png);
 }
-#section-services > div:nth-child(2) {
+#section-services > div:nth-child(3) {
     background-image: url(../../../images/icon-crowd-1.png);
 }
-#section-services > div:nth-child(3) {
+#section-services > div:nth-child(4) {
     background-image: url(../../../images/icon-museum-1.png);
 }
-#section-services > div:nth-child(4) {
+#section-services > div:nth-child(5) {
     background-image: url(../../../images/icon-service-provider-1.png);
 }
 

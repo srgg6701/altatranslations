@@ -1,0 +1,7 @@
+@media screen and (min-width: 1366px) {
+    #section-languages-desktop {
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 1rem; */
+    }
+}
