@@ -129,7 +129,8 @@ a.order-link:hover {
 
 .contact-list li a, .contact-list
 .address {
-  font-size: initial; }
+  font-size: initial;
+  }
 
 .offset-horizontal-padding{
     padding-left: var(--offset-box);
@@ -138,6 +139,10 @@ a.order-link:hover {
 
 .offset-vertical-margin-top {
     margin-top: var(--offset-box);
+}
+.offset-vertical-margin-increased{
+  margin-bottom: var(--offset-box-increased);
+  margin-top: var(--offset-box-increased);
 }
 .offset-vertical-margin-top-increased {
   margin-top: var(--offset-box-increased);
@@ -165,7 +170,7 @@ a.order-link:hover {
 
 .top-container .header-contacts-info {
   width: 85%; }
-  .top-container .header-contacts-info .contacs-list li {
+  .top-container .header-contacts-info .contact-list li {
     padding: unset; }
 .price-item a {
   text-transform: uppercase;

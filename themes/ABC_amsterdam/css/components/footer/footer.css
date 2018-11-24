@@ -1,39 +1,18 @@
-footer .footer-socials {
-    margin: var(--offset-box-increased) auto;
-    /* outline: solid 1px white; */
-    /* display: flex; */
+:root {
+    --offset-social-inner-margin: 0.6rem;
 }
 
-footer .socials-block__list li {
-    outline: solid 4px rgba(13, 29, 50, 0.15);
-    display: inline-block;
-    height: 3rem;
-    margin: auto;
-    padding: 1rem;
-    width: 3rem;
-    /* max-width: 50%; */
-}
-
-:root{
-  --offset-social-inner-margin:0.6rem;
-}
-footer .socials-block__list li:nth-child(1) {
-    background-color: rgba(66, 103, 178, 0.35);
-    margin-right: var(--offset-social-inner-margin);
-}
-
-footer .socials-block__list li:nth-child(2) {
-    background-color: rgba(0, 119, 181, 0.35);
-    margin-left: var(--offset-social-inner-margin);
-}
-
-footer .main-container {
-    /* padding: 50px 80px; */
+footer {
+    background-color: var(--main-blue-dark);
     position: relative;
-    z-index: 1;
+    /* padding-top: var(--offset-box-increased); */
+    /* padding-bottom: var(--offset-box-increased); */
+    padding-left: var(--offset-box);
+    padding-right: var(--offset-box);
+    /* text-align: center; */
 }
 
-footer.navigation-panel::after {
+footer::after {
     background-image: url(../../../images/black-and-white-sunrise-boat-night-morning-city.jpg);
     background-size: cover;
     content: " ";
@@ -45,30 +24,48 @@ footer.navigation-panel::after {
     z-index: 0;
 }
 
-#footer-inner-logo {
-    /* width: 100%; */
+footer .contact-list a{
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+footer .socials-block__list li {
+    outline: solid 2px rgba(255, 255, 255, 0.25);
+    display: inline-block;
+    height: 3rem;
     margin: auto;
+    padding: 1rem;
+    width: 3rem;
+}
+
+footer .socials-block__list li:nth-child(1) {
+    background-color: rgba(66, 103, 178, 0.35);
+    margin-right: var(--offset-social-inner-margin);
+}
+
+footer .socials-block__list li:nth-child(2) {
+    background-color: rgba(0, 119, 181, 0.35);
+    margin-left: var(--offset-social-inner-margin);
+}
+
+footer .main-container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#footer-inner-contacts{
+    margin: auto;
+}
+
+#footer-inner-logo div{
+    color: #b198c6;
+    font-family: 'PF DinText Pro';
+    font-size: 0.75rem;
 }
 
 #bottom-menu-small-left,
 #bottom-menu-small-right {
-    
-max-width: 33%;
-    
-/* outline: solid 1px red; */
-    
-/* margin-bottom: 1rem; */
+    max-width: 33%;
 }
-
-footer {
-  /* background: none; */
-  background-color: var(--main-blue-dark);
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  position: relative;
-  padding-top: var(--offset-box-increased);
-  padding-bottom: var(--offset-box-increased);
-  padding-left: var(--offset-box);
-  padding-right: var(--offset-box);
-  }

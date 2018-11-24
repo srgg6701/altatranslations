@@ -1,7 +1,7 @@
 .container{
     width:auto;
 }
-.contacs-list li .footer-mail-link{
+.contact-list li .footer-mail-link{
     color: var(--color-logo-link);
     margin-bottom: auto;
 }
@@ -10,7 +10,8 @@ footer{
 }
 
 .footer-nav, .footer-services, .footer-contacts {
-  border-right: none;
+  
+border-right: none;
 }
 
 .item-substrate-wrap{

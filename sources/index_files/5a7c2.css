@@ -11563,45 +11563,45 @@ header {
     float: left
 }
 
-.contacs-list li i {
+.contact-list li i {
     font-size: 1.25rem;
     color: #78a741;
     padding-right: 16px
 }
 
-.contacs-list li a {
+.contact-list li a {
     font-family: 'PF DinText Pro';
     color: #fff;
     font-size: 0.875rem
 }
 
-.header-contacts-info .contacs-list li:first-child {
+.header-contacts-info .contact-list li:first-child {
     padding-right: 89px;
 }
 
-.header-contacts-info>.contacs-list>li:first-child>a {
+.header-contacts-info>.contact-list>li:first-child>a {
     padding-right: 10px
 }
 
-.header-contacts-info>.contacs-list>li:first-child>a:last-child {
+.header-contacts-info>.contact-list>li:first-child>a:last-child {
     padding-right: 0
 }
 
-.contacs-list li:nth-child(2) {
+.contact-list li:nth-child(2) {
     padding-right: 100px
 }
 
-.contacs-list .address {
+.contact-list .address {
     color: #fff;
     font-family: 'PF DinText Pro'
 }
 
-.contacs-list li a:hover, .contacs-list li a:active, .contacs-list li a:focus {
+.contact-list li a:hover, .contact-list li a:active, .contact-list li a:focus {
     text-decoration: none;
     color: #fff
 }
 
-.contacs-list li {
+.contact-list li {
     display: inline-block;
     list-style: none
 }
@@ -12319,17 +12319,17 @@ footer {
     list-style: none
 }
 
-.contacs-list li .footer-mail-link {
+.contact-list li .footer-mail-link {
     color: #9fb77b;
     margin-bottom: 102px;
     display: block;
 }
 
-.contacs-list li .footer-mail-link:hover, .contacs-list li .footer-mail-link:active, .contacs-list li .footer-mail-link:focus {
+.contact-list li .footer-mail-link:hover, .contact-list li .footer-mail-link:active, .contact-list li .footer-mail-link:focus {
     /* color: #9fb77b */
 }
 
-.footer-contacts .contacs-list li:first-child {
+.footer-contacts .contact-list li:first-child {
     padding-bottom: 14px
 }
 
@@ -12369,7 +12369,7 @@ footer {
 }
 
 .footer-logo .logo-block {
-    padding-bottom: 17px
+    padding-bottom: 17px;
 }
 
 .logo-block a {
@@ -12893,7 +12893,7 @@ span.wpcf7-not-valid-tip {
         padding:5px 15px
     }
 
-    .contacs-list li a {
+    .contact-list li a {
         font-size: 0.75rem
     }
 
@@ -12976,7 +12976,7 @@ span.wpcf7-not-valid-tip {
         padding: 37px 15px 30px
     }
 
-    .contacs-list li .footer-mail-link {
+    .contact-list li .footer-mail-link {
         margin-bottom: 70px
     }
 
@@ -13092,11 +13092,11 @@ span.wpcf7-not-valid-tip {
 }
 
 @media screen and (max-width: 991px) {
-    .header-contacts-info .contacs-list li:first-child, .contacs-list li:nth-child(2) {
+    .header-contacts-info .contact-list li:first-child, .contact-list li:nth-child(2) {
         padding-right:30px
     }
 
-    .contacs-list li i {
+    .contact-list li i {
         padding-right: 8px
     }
 
@@ -13297,7 +13297,7 @@ span.wpcf7-not-valid-tip {
         text-align:center
     }
 
-    .header-contacts-info .contacs-list li {
+    .header-contacts-info .contact-list li {
         width: 100%;
         text-align: center
     }
@@ -13313,13 +13313,13 @@ span.wpcf7-not-valid-tip {
         padding-bottom: 5px
     }
 
-    .header-contacts-info .contacs-list li {
+    .header-contacts-info .contact-list li {
         display: inline-block;
         list-style: none;
         padding-bottom: 0
     }
 
-    .header-contacts-info .contacs-list li:first-child, .contacs-list li:nth-child(2) {
+    .header-contacts-info .contact-list li:first-child, .contact-list li:nth-child(2) {
         padding-right: 0
     }
 
@@ -13371,14 +13371,14 @@ span.wpcf7-not-valid-tip {
     }
 
     .footer-logo {
-        text-align: center
+        /* text-align: center; */
     }
 
     footer {
         padding: 25px 15px 20px
     }
 
-    .contacs-list li .footer-mail-link {
+    .contact-list li .footer-mail-link {
         margin-bottom: 46px
     }
 
@@ -13390,7 +13390,7 @@ span.wpcf7-not-valid-tip {
         border: none
     }
 
-    .contacs-list li .footer-mail-link {
+    .contact-list li .footer-mail-link {
         margin-bottom: 10px
     }
 
@@ -13399,11 +13399,11 @@ span.wpcf7-not-valid-tip {
         margin: 10px 0
     }
 
-    .footer-contacts .contacs-list li {
+    .footer-contacts .contact-list li {
         display: block
     }
 
-    .footer-contacts .contacs-list li:first-child {
+    .footer-contacts .contact-list li:first-child {
         padding-bottom: 5px
     }
 
