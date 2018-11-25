@@ -7,26 +7,30 @@
 }
 
 /* section-languages */
+
 #section-languages {
     display: flex;
+    background-color: rgb(13, 29, 50, 0.85);
 }
+
 #section-languages,
 #section-languages-desktop {
     justify-content: center;
     width: 100%;
 }
 
-#section-languages span,
+#section-languages div,
 #section-languages-desktop div {
     background-size: 1rem 1.25rem;
     color: var(--main-blue-dark);
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
     display: inline-block;
     background-repeat: no-repeat;
 }
 
-#section-languages span{
+#section-languages div {
     background-position: center 0.833rem;
+    display: flex;
     padding: 2.2rem 0 var(--offset-box);
     text-align: center;
     width: 25%;
@@ -38,44 +42,53 @@
     padding: 1rem;
     padding-left: 3rem;
     width: 50%;
-    /* max-width: 25%; */
 }
 
-#section-languages-desktop div span{
+#section-languages div span,
+#section-languages-desktop div span {
+    width: 100%
+}
+
+#section-languages-desktop div span {
     margin: auto auto auto 0;
 }
 
-#section-languages span:hover,
+#section-languages div:hover,
 #section-languages-desktop div:hover {
-    background-color: rgba(255,255,255, 1);
+    background-color: rgba(255, 255, 255, 1);
     color: var(--main-blue-dark);
 }
 
-#section-languages span:nth-child(1),
+#section-languages div:nth-child(1),
 #section-languages-desktop div:nth-child(1) {
     background-image: url(../../../images/flags/nl-1.png);
 }
-#section-languages span:nth-child(2),
+
+#section-languages div:nth-child(2),
 #section-languages-desktop div:nth-child(2) {
     background-image: url(../../../images/flags/uk.png);
 }
-#section-languages span:nth-child(3),
+
+#section-languages div:nth-child(3),
 #section-languages-desktop div:nth-child(3) {
     background-image: url(../../../images/flags/ru.png);
 }
-#section-languages span:nth-child(4),
+
+#section-languages div:nth-child(4),
 #section-languages-desktop div:nth-child(4) {
     background-image: url(../../../images/flags/ukr.png);
 }
 
 /* section-stages */
-#section-stages{
+
+#section-stages {
     display: flex;
     justify-content: space-between;
     height: 20%;
     width: 100%;
 }
-#section-stages > div{
+
+#section-stages>div {
     opacity: 0.33;
     border: solid 12px transparent;
     border-left: white 15px solid;
@@ -85,8 +98,8 @@
     background: transparent;
 }
 
-#section-stages > div.active{
-    background: rgb(255,255,255);
+#section-stages>div.active {
+    background: rgb(255, 255, 255);
     display: inline-block;
     height: 1rem;
     opacity: 0.5;
@@ -99,6 +112,7 @@
 }
 
 /* section-presentation */
+
 #section-presentation {
     background-image: url(../../../images/professionals.jpg);
     background-repeat: no-repeat;
@@ -127,7 +141,7 @@
     text-align: center;
 }
 
-#section-header h4 span{
+#section-header h4 span {
     display: none;
 }
 
@@ -138,7 +152,7 @@
     width: 100%;
 }
 
-#section-services > div {
+#section-services>div {
     background-position: center 0.5rem;
     display: flex;
     margin-bottom: 1px;
@@ -148,17 +162,19 @@
     text-align: center;
 }
 
-#section-services > div.active{
+#section-services>div.active {
     background-color: white;
 }
 
-#section-services > div:nth-child(odd){
+#section-services>div:nth-child(odd) {
     margin-left: 0.5px;
 }
-#section-services > div:nth-child(even){   
+
+#section-services>div:nth-child(even) {
     margin-right: 0.5px;
 }
-#section-services > div a {
+
+#section-services>div a {
     color: #0d1d32;
     font-size: 0.75rem;
     line-height: 1.1;
@@ -167,20 +183,25 @@
     padding: 0 0.2rem;
     width: 100%;
 }
-#section-services > div:nth-child(2) {
+
+#section-services>div:nth-child(2) {
     background-image: url(../../../images/icon-business-1.png);
 }
-#section-services > div:nth-child(3) {
+
+#section-services>div:nth-child(3) {
     background-image: url(../../../images/icon-crowd-1.png);
 }
-#section-services > div:nth-child(4) {
+
+#section-services>div:nth-child(4) {
     background-image: url(../../../images/icon-museum-1.png);
 }
-#section-services > div:nth-child(5) {
+
+#section-services>div:nth-child(5) {
     background-image: url(../../../images/icon-service-provider-1.png);
 }
 
 /* section-buttons */
+
 #section-buttons {
     background-color: rgba(255, 255, 255, 0.5);
     background-color: rgba(0, 0, 0, 0.75);
@@ -189,13 +210,14 @@
     width: 100%;
 }
 
-#section-buttons .order-link{
+#section-buttons .order-link {
     width: 46%;
     background-color: transparent;
     line-height: 2;
 }
 
 /* section-stages */
+
 #section-stages {
     background-color: rgba(13, 29, 50, 0.85);
 }
