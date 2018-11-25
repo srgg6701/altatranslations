@@ -13087,8 +13087,10 @@ span.wpcf7-not-valid-tip {
     }
 
     .main-navigation-menu .menu-item-has-children:hover .sub-menu {
+        columns: auto auto;
         display: block;
-        padding-left: 0
+        overflow: hidden;
+        padding-left: 0;
     }
 }
 

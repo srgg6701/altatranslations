@@ -15,12 +15,13 @@ const pix = stages.map(stage => {
 });
 // taken from CMS bundle (270cc.js)
 $(function () {
+    console.log('is mobile? => ', isMobile);
     const displayBlockClass = 'display-block',
         menuAside = '#menu-aside',
         $liHasChildrenLink = $('.menu-item-has-children').has('ul'),
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
-        $serviceSubj=$('#section-services > div'),
+        $serviceSubj = $('#section-services > div'),
         $closeBtn = $('.closebtn'),
         $mainNavigationMenu = $('.main-navigation-menu'),
         classStart = 'start',
@@ -36,7 +37,7 @@ $(function () {
         // because of clash with the old css
         $menuAside.toggleClass(classActive).toggleClass(classStart);
     });
-    
+
     function closeMenu() {
         $menuAside.removeClass(classActive);
         $navigationContacts.removeClass(displayBlockClass);
@@ -45,24 +46,26 @@ $(function () {
 
     $closeBtn.on('click', closeMenu);
     // the first click on mobule. Next one is 'click' event
-    $liHasChildrenLink.on('mouseover', function(event){
-        // slide toggle!
-        $(this).find('.sub-menu').slideToggle(function(){
-            $(this).toggleClass('expanded');
-        });
-        $(this).toggleClass('hovered');
+    $liHasChildrenLink.on('mouseover', function (event) {
+        if (isMobile) {
+            // slide toggle!
+            $(this).find('.sub-menu').slideToggle(function () {
+                $(this).toggleClass('expanded');
+            });
+            $(this).toggleClass('hovered');
+        }
     });
 
-    $('.menu-item-has-children > a').on('click', function(event){
+    $('.menu-item-has-children > a').on('click', function (event) {
         $(this).next('.sub-menu').hasClass('expanded') || event.preventDefault();
     });
 
-    $serviceSubj.on('click', function(){
+    $serviceSubj.on('click', function () {
         $serviceSubj.removeClass(classActive);
         $(this).addClass(classActive);
     });
 
-    $serviceSubj.find('a').on('click', function(event){
+    $serviceSubj.find('a').on('click', function (event) {
         event.preventDefault();
     });
 
