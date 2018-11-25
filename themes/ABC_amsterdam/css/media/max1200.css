@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    #presentation-side-top-left{
+    /* #presentation-side-top-left{
         order: 2;
     }
     #presentation-side-top{
@@ -8,5 +8,5 @@
     }  
     #presentation-side-top-right{
         height: 67vw;
-    }
+    } */
 }

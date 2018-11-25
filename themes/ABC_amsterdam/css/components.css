@@ -27,7 +27,12 @@
 
 #menu-hamburger {
     padding-top: 0;
+    display: inline-block;
+    float: right;
+    color: white;
+    font-size: 2rem;
 }
+
 
 #presentation-side-top,
 #presentation-side-bottom{

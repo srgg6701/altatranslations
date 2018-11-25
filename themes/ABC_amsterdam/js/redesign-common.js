@@ -46,6 +46,7 @@ $(function () {
     $closeBtn.on('click', closeMenu);
     // the first click on mobule. Next one is 'click' event
     $liHasChildrenLink.on('mouseover', function(event){
+        // slide toggle!
         $(this).find('.sub-menu').slideToggle(function(){
             $(this).toggleClass('expanded');
         });
