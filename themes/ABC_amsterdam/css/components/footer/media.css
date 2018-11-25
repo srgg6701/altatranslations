@@ -4,8 +4,13 @@
     }
 }
 @media screen and (min-width: 600px){
+    #footer-inner-contacts{
+        width: 50%;
+    }
     #footer-buttons-social{
-        min-width: 50%;
+        margin-top: 0;
+        min-width: auto;
+        /* width: 50%; */
     }
 }
 
