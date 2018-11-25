@@ -4,6 +4,7 @@
 
 footer {
     background-color: var(--main-blue-dark);
+    /* display: flex; */
     position: relative;
     /* padding-top: var(--offset-box-increased); */
     /* padding-bottom: var(--offset-box-increased); */
@@ -34,7 +35,7 @@ footer .socials-block__list li {
     outline: solid 2px rgba(255, 255, 255, 0.25);
     display: inline-block;
     height: 3rem;
-    margin: auto;
+    /* margin: auto; */
     padding: 1rem;
     width: 3rem;
 }
@@ -62,6 +63,7 @@ footer .socials-block__list li:nth-child(2) {
     color: var(--color-logo-link);
     font-family: 'PF DinText Pro';
     font-size: 0.75rem;
+    text-align: center;
 }
 
 #footer-inner-logo > div:nth-child(2){
