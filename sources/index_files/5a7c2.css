@@ -12985,7 +12985,8 @@ span.wpcf7-not-valid-tip {
     }
 
     .footer-nav ul li a, .footer-services ul li a {
-        font-size: 0.75rem
+        font-size: 0.75rem;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
     }
 
     .breadcrumbs-section {
@@ -13135,7 +13136,7 @@ span.wpcf7-not-valid-tip {
     }
 
     nav .main-navigation-menu {
-        padding-left: 0
+        /* padding-left: 0 */
     }
 
     nav .main-navigation-menu li a {

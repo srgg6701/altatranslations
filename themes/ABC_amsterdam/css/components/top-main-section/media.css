@@ -1,8 +1,17 @@
-@media screen and (min-width: 1280px) {
-    #main-container{
-        width: 100%;
+@media screen and (min-width: 1024px){
+    #main-container {
+        width: 90%;
     }
     #main-container-navigation-block-inner{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #navigation-top{
+        padding-right: 0.5rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    #main-container{
         width: 70%;
     }
     #section-languages-desktop {

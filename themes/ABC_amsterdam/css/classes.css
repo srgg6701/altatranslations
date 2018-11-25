@@ -92,15 +92,18 @@ a.order-link:hover {
     color: darkblue;
 }
 
-.container-wrapper{
-    /* max-width: 1350px; */
+@media screen and (min-width: 1024px) {
+    .container-wrapper{
+        margin: auto;
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 1201px) {
-    .container-wrapper{
+    /* .container-wrapper{
         margin: auto;
         width: 75%;
-    }
+    } */
 }
 
 @media screen and (min-width: 1281px) {

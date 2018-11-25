@@ -31,7 +31,8 @@
 #section-languages div {
     background-position: center 0.833rem;
     display: flex;
-    padding: 2.2rem 0 var(--offset-box);
+    padding: 2.2rem 0;
+    padding-bottom: 1rem;
     text-align: center;
     width: 25%;
 }

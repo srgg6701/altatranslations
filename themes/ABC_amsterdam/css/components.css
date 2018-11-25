@@ -10,7 +10,7 @@
     right: var(--offset-right-close);
     top: 0.8rem;
     width: 20px;
-    z-index: 21;
+    z-index: 31;
 }
 
 #lang_sel_list {
@@ -65,7 +65,6 @@
     display: flex;
     /* overflow: hidden; */
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 #row-prices {
