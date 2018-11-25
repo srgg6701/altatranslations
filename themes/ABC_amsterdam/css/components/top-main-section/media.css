@@ -13,6 +13,7 @@
 @media screen and (min-width: 1280px) {
     #main-container-navigation-block-inner{
         margin: 0;
+        justify-content: space-between;
     }
     #main-container{
         width: 70%;
@@ -25,6 +26,9 @@
     #menu-aside li{
         display: inline-block !important;
     }
+    #menu-aside #top-navigation-menu-list > li > a{
+        padding: 0.4rem;
+    }
     #menu-aside .main-navigation{
         margin-top: 0;
     }
@@ -32,7 +36,7 @@
         position: static !important;
     }
     .menu-item-has-children > ul.sub-menu{
-        background: rgba(255,255,255, 0.9);
+        background: rgba(255,255,255, 1);
         box-shadow: 0 2px 14px rgba(0,0,0,0.5);
         left: 0;
         max-height: 8.75rem;
@@ -60,6 +64,10 @@
         color: white !important;
     }
 
+    #nav-main-menu{
+        margin-top: 0;
+    }
+
     #nav-main-menu .main-navigation-menu > li,
     #nav-main-menu .main-navigation-menu > li:first-child{
         border: none;
@@ -71,11 +79,14 @@
         content: none;
     }
     #top-navigation-menu-list{
+        display: flex;
+        justify-content: flex-end;
         margin-top: 0;
     }
     #top-navigation-menu-list li a:hover{
         background-color: white;
         color: var(--main-blue-dark);
+        transition: none;
     }
     #top-navigation-menu-list li.menu-item-has-children > a:hover .sub-menu{
         display: block;

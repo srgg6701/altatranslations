@@ -70,6 +70,8 @@
     display: flex;
     /* overflow: hidden; */
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
 #row-prices {

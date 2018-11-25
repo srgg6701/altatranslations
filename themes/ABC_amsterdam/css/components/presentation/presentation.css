@@ -47,7 +47,8 @@
 
 #section-languages div span,
 #section-languages-desktop div span {
-    width: 100%
+    text-align: center;
+    width: 100%;
 }
 
 #section-languages-desktop div span {
