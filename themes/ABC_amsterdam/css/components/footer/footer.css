@@ -3,6 +3,7 @@
 }
 
 footer {
+    background: transparent;
     background-color: var(--main-blue-dark);
     /* display: flex; */
     position: relative;

@@ -78,6 +78,19 @@
     #nav-main-menu li.menu-item-has-children:hover::after{
         content: none;
     }
+    #navigation-contacts{
+        background: transparent;
+        display: flex !important;
+        position: relative;
+        width: auto;
+    }
+    #navigation-contacts .contact-list{
+    }
+
+    #navigation-top{
+        display: flex;
+        width: auto;
+    }
     #top-navigation-menu-list{
         display: flex;
         justify-content: flex-end;

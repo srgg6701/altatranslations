@@ -85,3 +85,7 @@ border-right: none;
 .socials-block__list{
   margin: initial;
 }
+
+.order-link:hover,.order-link:focus,.order-link:active {
+  border: none;
+}

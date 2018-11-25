@@ -1,0 +1,21 @@
+@media screen and (min-width: 1280px){
+    #make-order-online-section{
+        padding: 3rem;
+    }
+    .wrap_btn{
+        display: flex;
+        justify-content: space-between;  
+    }
+    #make-order-online-section .wrap_btn .order-link{
+        display: inline-block;
+        width: 9rem;
+    }
+    #make-order-online-section .wrap_btn .order-link:nth-child(1){
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+    #make-order-online-section .wrap_btn .order-link:nth-child(2){
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+}

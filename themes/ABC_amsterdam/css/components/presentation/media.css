@@ -79,7 +79,7 @@
     #section-services>div>a {
         padding: 0;
         margin: auto;
-        margin-top: 40%;
+        margin-top: 43%;
         max-width: 90%;
         text-align: center;
     }
@@ -103,6 +103,19 @@
     #section-header h4 {
         color: rgba(13, 29, 50, 0.85);
         text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1920px) {
+    #section-services>div>a {
+        margin-top: 48%;
+    }
+    #section-header h4{
+        font-size: 1.4rem;
     }
 }
 
@@ -168,5 +181,40 @@
 @media (min-width: 1920px){
     #section-presentation::before{
         content: "1920";
+    }
+}
+@media (min-width: 2304px){
+    #section-presentation::before{
+        content: "2304";
+    }
+}
+@media (min-width: 2560px){
+    #section-presentation::before{
+        content: "2560";
+    }
+}
+@media (min-width: 2880px){
+    #section-presentation::before{
+        content: "2880";
+    }
+}
+@media (min-width: 3000px){
+    #section-presentation::before{
+        content: "3000";
+    }
+}
+@media (min-width: 3840px){
+    #section-presentation::before{
+        content: "3840";
+    }
+}
+@media (min-width: 4096px){
+    #section-presentation::before{
+        content: "4096";
+    }
+}
+@media (min-width: 5120px){
+    #section-presentation::before{
+        content: "5120";
     }
 }

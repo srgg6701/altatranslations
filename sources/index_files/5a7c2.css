@@ -12297,7 +12297,7 @@ footer {
     background: -o-linear-gradient(left, rgba(77,54,147,1) 0%, rgba(84,57,148,1) 0%, rgba(77,54,147,1) 0%, rgba(100,62,149,1) 32%, rgba(109,65,150,1) 69%, rgba(126,71,152,1) 100%);
     background: -ms-linear-gradient(left, rgba(77,54,147,1) 0%, rgba(84,57,148,1) 0%, rgba(77,54,147,1) 0%, rgba(100,62,149,1) 32%, rgba(109,65,150,1) 69%, rgba(126,71,152,1) 100%);
     background: linear-gradient(to right, rgba(77,54,147,1) 0%, rgba(84,57,148,1) 0%, rgba(77,54,147,1) 0%, rgba(100,62,149,1) 32%, rgba(109,65,150,1) 69%, rgba(126,71,152,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d3693', endColorstr='#7e4798', GradientType=1 )
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d3693', endColorstr='#7e4798', GradientType=1 );
 }
 
 .footer-nav,.footer-services,.footer-contacts {

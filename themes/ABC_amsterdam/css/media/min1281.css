@@ -16,20 +16,12 @@
         /* color: #666; */
     }
     #navigation-contacts {
-        display: flex;
-        position: static;
-        width: 80%;
     }
     #navigation-contacts {
-        margin: auto;
-        text-align: center;
-        width: 20%;
     }
     #navigation-contacts ul {
-        height: 24px;
     }
     #navigation-top {
-        display: flex;
     }
     #presentation-side-top-left-top h4,
     #presentation-side-top-left-top li,
