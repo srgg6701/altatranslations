@@ -95,18 +95,19 @@ a.order-link:hover {
     }
 }
 
-@media screen and (min-width: 1201px) {
-    /* .container-wrapper{
-        margin: auto;
-        width: 75%;
-    } */
-}
-
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
     .container-wrapper{
         /* max-width: 1350px; */
     }    
 }
+
+
+@media screen and (min-width: 1920px){
+  .container-wrapper-xtra{
+    width: calc(90% - 4rem);
+  }
+}
+
 
 .display-block{
     display: block;
