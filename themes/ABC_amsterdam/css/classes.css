@@ -55,12 +55,6 @@
   overflow: hidden;
   display: flex; }
 
-.search-block {
-  display: flex;
-  padding-top: 0;
-  padding-right: 20px;
-  padding-left: 20px;
-  }
 
 .btn-golden{
     background: linear-gradient(to bottom, rgb(201, 150, 74), rgba(167, 107, 75, 1));   

@@ -39,6 +39,7 @@ border-right: none;
 .price-item{
   margin-bottom: 0;
   padding-bottom:0;
+  padding: 0;
 }
 .price-item-wrap .hov-el{
     background: rgba(165, 119, 70, 0.5);
@@ -88,4 +89,10 @@ border-right: none;
 
 .order-link:hover,.order-link:focus,.order-link:active {
   border: none;
+}
+
+@media screen and (min-width: 992px){
+.menu-item-has-children .sub-menu li a {
+    transition: none;
+  }
 }
