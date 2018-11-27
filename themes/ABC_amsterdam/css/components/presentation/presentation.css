@@ -62,12 +62,16 @@
     color: black;
 }
 
+#presentation-container-section {
+    margin: auto;
+    width: 100%;
+}
+
 #presentation-container {
+    border: solid 10px rgba(255,255,255,0.65);
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    /* max-width: 1350px; */
-    width: 100%;
+    
 }
 
 /* section-languages */
@@ -229,6 +233,10 @@
     text-align: center;
 }
 
+#section-services>div:hover {
+    background-position:center;
+}
+
 #section-services>div.active {
     background-color: white;
 }
@@ -255,18 +263,41 @@
     background-image: url(../../../images/icon-business-1.png);
 }
 
+#section-services>div:nth-child(2):hover {
+    background-image: url(../../../images2/business-cafee.jpg);
+    background-size: cover;
+}
 #section-services>div:nth-child(3) {
     background-image: url(../../../images/icon-crowd-1.png);
+}
+
+#section-services>div:nth-child(3):hover {
+    background-image: url(../../../images2/individual.jpg);
+    background-size: cover;
 }
 
 #section-services>div:nth-child(4) {
     background-image: url(../../../images/icon-museum-1.png);
 }
+#section-services>div:nth-child(4):hover {
+    background-image: url(../../../images2/semi-government2.jpg);
+    background-size: cover;
+}
 
 #section-services>div:nth-child(5) {
     background-image: url(../../../images/icon-service-provider-1.png);
 }
+#section-services>div:nth-child(5):hover {
+    background-image: url(../../../images2/service-providers.jpg);
+    background-size: cover;
+}
 
+#section-services>div:nth-child(2):hover a,
+#section-services>div:nth-child(3):hover a,
+#section-services>div:nth-child(4):hover a,
+#section-services>div:nth-child(5):hover a {
+    color: transparent;
+}
 /* section-buttons */
 
 #section-buttons {

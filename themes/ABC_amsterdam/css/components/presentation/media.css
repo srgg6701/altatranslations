@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    #presentation-container {
+    #presentation-container-section {
         width: 90%;
     }
     #section-presentation,
@@ -62,15 +62,15 @@
     #section-services>div:nth-child(5) {
         margin-bottom: 0;
     }
-    #presentation-container {
+    #presentation-container-section {
         /* padding-bottom: 2rem; */
         /* padding-top: 2rem; */
     }
 }
 
 @media screen and (min-width: 1280px) {
-    #presentation-container {
-        padding-bottom: 2rem;
+    #presentation-container-section {
+        padding-bottom: 3.5rem;
         width: 70%;
     }
     #section-presentation {
