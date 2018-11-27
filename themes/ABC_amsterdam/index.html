@@ -152,12 +152,6 @@
                     </div>
                     <!-- col-lg-8 col-md-8 col-sm-6  -->
                     <div class="container" id="navigation-top">
-                        <!-- <div class="search-block">
-                            <form action="http://altatranslations.nl/" id="searchform">
-                                <input type="text" placeholder="Search" value="" name="s" id="s">
-                                <button type="submit" class="btn-show-search"></button>
-                            </form>
-                        </div> -->
                         <div class="icon-block" id="menu-hamburger">
                             <i class="fa fa-bars fa-2x"></i>
                         </div>
@@ -434,8 +428,9 @@
                         </div>
                     </div>
                     <div id="search-box" class="search-block">
-                        <form action="http://altatranslations.nl/" id="searchform">
-                            <input type="text" placeholder="Search" value="" name="s" id="s">
+                        <form action="http://altatranslations.nl/" class="passive" id="searchform">
+                            <input pattern=".{3,}" required title="3 characters minimum" type="text" placeholder="Search" value="" name="s" id="s">
+                            <div class="close">+</div>
                             <button type="submit" class="btn-show-search"></button>
                         </form>
                     </div>

@@ -17,7 +17,12 @@ const pix = stages.map(stage => {
 $(function () {
     console.log('is mobile? => ', isMobile);
     const displayBlockClass = 'display-block',
+        passiveClass = 'passive',
         menuAside = '#menu-aside',
+        $searchForm = $('#searchform'),
+        $searchFormField = $searchForm.find('input[type="text"]'),
+        $searchFormButton = $searchForm.find('button[type="submit"]'),
+        $searchFormClose = $searchForm.find('.close'),
         $liHasChildrenLink = $('.menu-item-has-children').has('ul'),
         $menuAside = $(menuAside),
         $navigationContacts = $('#navigation-contacts'),
@@ -68,7 +73,23 @@ $(function () {
     $serviceSubj.find('a').on('click', function (event) {
         event.preventDefault();
     });
-
+    // - form handlers -
+    function checkSearchLengthShort(){
+        return $searchFormField.val().length < 3;
+    }
+    // click on the search button
+    $searchFormButton.on('click', function(event){
+        if ($searchForm.hasClass(passiveClass)) {
+            event.preventDefault();
+            $searchForm.removeClass(passiveClass);    
+        }
+    });
+    // click on the close form button
+    $searchFormClose.on('click', function() {
+        $searchFormField.val('');
+        $searchForm.addClass(passiveClass);
+    })
+    // - 
     $("body").niceScroll();
     // FIXME: optimize this!
     $mainNavigationMenu.find('> li:nth-child(3) > a').on('click', function (e) {

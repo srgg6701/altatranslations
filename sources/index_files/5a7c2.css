@@ -11769,7 +11769,7 @@ nav .main-navigation-menu li a:hover, nav .main-navigation-menu li a:active, nav
 .search-block form:hover input, .search-block form input:focus {
     opacity: 1;
     width: 200px;
-    border: 1px solid #7ba946
+    border: 1px solid #7ba946;
 }
 
 .top-main-text-wrap {
