@@ -121,6 +121,11 @@
 
 /* resolution mobile/tablet -- up to 1023 */
 /* resolution desctop -- from 1024 */
+#section-presentation::before{
+    color: yellow;
+    position: absolute;
+    top:0;
+}
 @media (min-width: 414px){
     #section-presentation::before{
         content: "414";
