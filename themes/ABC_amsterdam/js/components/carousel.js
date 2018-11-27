@@ -1,12 +1,13 @@
+console.log('carousel file here');
 $(function () {
     // - carousel -
-    const $presentation = $('#presentation'),
+    const //$presentation = $('#presentation'),
         $presentationImgDiv = $('#presentation-image'),
         // .initial by default -- background-color: white;
         $presentationTextDiv = $('#presentation-text'),
         $presentationTextBlock = $presentationTextDiv.find('> div'),
         //$presentationStages = $presentation.find('> section > div'),
-        $presentationStages = $('#presentation-side-bottom-right > section > div'),
+        $presentationStages = $('#section-stages > div'), //#presentation-side-bottom-right > section
         activeClass = 'active', stoppedClass = 'stopped',
         sqLen = $presentationStages.length;
 
@@ -60,9 +61,10 @@ $(function () {
     }
     // * sets interval for carousel
     function runCarouselInterval(start) {
-        // console.log('runCarouselInterval');
+        console.log('runCarouselInterval');
         setStateForCarouselIntervalRun();
         intervalCarousel = setInterval(() => {
+            console.log('intervalCarousel');
             if (cnt === sqLen) {
                 cnt = 0;
                 clearInterval(intervalCarousel);
