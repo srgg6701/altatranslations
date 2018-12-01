@@ -264,7 +264,7 @@
 }
 
 #section-services>div:nth-child(2):hover {
-    background-image: url(../../../images2/business-cafee.jpg);
+    background-image: url(../../../images/subjects/business-cafee.jpg);
     background-size: cover;
 }
 #section-services>div:nth-child(3) {
@@ -272,7 +272,7 @@
 }
 
 #section-services>div:nth-child(3):hover {
-    background-image: url(../../../images2/individual.jpg);
+    background-image: url(../../../images/subjects/individual.jpg);
     background-size: cover;
 }
 
@@ -280,7 +280,7 @@
     background-image: url(../../../images/icon-museum-1.png);
 }
 #section-services>div:nth-child(4):hover {
-    background-image: url(../../../images2/semi-government2.jpg);
+    background-image: url(../../../images/subjects/semi-government2.jpg);
     background-size: cover;
 }
 
@@ -288,7 +288,7 @@
     background-image: url(../../../images/icon-service-provider-1.png);
 }
 #section-services>div:nth-child(5):hover {
-    background-image: url(../../../images2/service-providers.jpg);
+    background-image: url(../../../images/subjects/service-providers.jpg);
     background-size: cover;
 }
 

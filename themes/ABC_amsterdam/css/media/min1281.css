@@ -23,29 +23,8 @@
     }
     #navigation-top {
     }
-    #presentation-side-top-left-top h4,
-    #presentation-side-top-left-top li,
-    #presentation-side-top-left-top p {
-        font-size: 25px;
-        /* line-height: 1.2; */
-    }
-    #presentation-side-top-left-top h4 {
-        font-size: 1.15rem;
-        font-size: var(--offset-box-increased);
-    }
     #presentation-stages {
         padding: 0 2rem;
-    }
-    #presentation-side-bottom,
-    #presentation-side-top{
-        border: solid 10px rgba(255,255,255,0.76);
-        border-radius: 4px;
-    }
-    #presentation-side-top{
-        border-bottom: none;
-    }
-    #presentation-side-bottom{
-        border-top: none;
     }
     #row-prices>div {
         width: 32%;

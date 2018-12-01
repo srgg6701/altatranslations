@@ -9,10 +9,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    #section-languages span {}
-}
-
 @media screen and (min-width: 1024px) {
     #presentation-container-section {
         width: 90%;

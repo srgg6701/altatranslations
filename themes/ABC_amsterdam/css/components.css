@@ -14,10 +14,6 @@
     z-index: 31;
 }
 
-#lang_sel_list {
-    height: 13px;
-}
-
 #logo-header {
     margin-left: 0;
     display: flex;
@@ -38,42 +34,9 @@
     font-size: 1.5rem;
 }
 
-#presentation-side-top,
-#presentation-side-bottom {
-    flex-wrap: wrap;
-    background: rgb(13, 29, 50, 0.85);
-    padding-left: 2rem;
-}
-
-#presentation-side-top {
-    /* background: linear-gradient(to top, rgba(13, 29, 50, 0.85) 0%, rgba(13, 29, 50, 0.6) 10%); */
-    /* background: rgb(13, 29, 50, 0.85); */
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    position: relative;
-}
-
-#presentation-side-bottom {
-    /* background-image: linear-gradient(to top, #0d1d32, transparent); */
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-#presentation-side-top section:nth-child(1) {
-    /* background-color: rgba(13, 29, 50, 0.7); */
-    padding-top: 2rem;
-}
-
-#presentation-side-bottom section:nth-child(1) {
-    /* background-color: rgba(13, 29, 50, 0.7); */
-    height: 100%;
-    padding-top: 0;
-}
-
 #row-footer {
     /* outline: solid 1px red; */
     display: flex;
-    /* overflow: hidden; */
     justify-content: space-between;
     position: relative;
     z-index: 1;
@@ -85,27 +48,11 @@
     justify-content: space-between;
 }
 
-#presentation-side-bottom-left {
-    display: flex;
-    justify-content: space-between;
-}
-
-#presentation-side-bottom-left a {
-    border-bottom: none;
-    letter-spacing: 1.25px;
-}
-
-#presentation-side-bottom-left a.order-link {
-    transition: none;
-    width: 45%;
-}
-
 #select-lang {
     float: right;
 }
 
 #top-main-text {
-    /* display: flex; */
     flex-direction: column;
     position: relative;
 }
@@ -131,29 +78,6 @@
     max-width: 600px;
     padding: 1.28rem 2rem;
     position: relative;
-}
-
-#presentation-side-top-left-top h4,
-#presentation-side-top-left-top li,
-#presentation-side-top-left-top p {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-#presentation-side-top-left-top h4,
-#presentation-side-top-left-top p {
-    margin: auto;
-}
-
-#presentation-side-top-left-top h4 {
-    color: white;
-    font-size: 0.95rem;
-}
-
-#presentation-side-top-left-top span {
-    color: rgb(181, 217, 214);
-    display: block;
 }
 
 #ul-services {

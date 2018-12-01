@@ -7,7 +7,7 @@ $(function () {
         $presentationTextDiv = $('#presentation-text'),
         $presentationTextBlock = $presentationTextDiv.find('> div'),
         //$presentationStages = $presentation.find('> section > div'),
-        $presentationStages = $('#section-stages > div'), //#presentation-side-bottom-right > section
+        $presentationStages = $('#section-stages > div'), 
         activeClass = 'active', stoppedClass = 'stopped',
         sqLen = $presentationStages.length;
 

@@ -41,18 +41,6 @@
     transition: all 1.5s ease;
 }
 
-/* TEMP */
-
-#presentation-side-top,
-#presentation-side-bottom{
-  display: none;
-}
-
-
-@media screen and (min-width: 1201px){
-  width: 90%; 
-}
-
 
 
 
