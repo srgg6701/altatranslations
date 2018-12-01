@@ -26,16 +26,16 @@ border-right: none;
     transition: none;
     width: auto;
 }
-.order-section{
+/* .order-section{
     background: none;
-}
+} */
 
 .order-link{
     margin: 0;
 }
-.order-section{
+/* .order-section{
     padding: 0;
-}
+} */
 .price-item{
   margin-bottom: 0;
   padding-bottom:0;
@@ -96,15 +96,15 @@ border-right: none;
     transition: none;
   }
 }
-.search-block form input{
+/* .search-block form input{
   background: white;
   opacity: 1;
-}
-@media screen and (max-width: 991px){
+} */
+/* @media screen and (max-width: 991px){
     .search-block form input {
         width: 200px;
     }
-}
+} */
 #search-box{
     padding-top: 0;
 }

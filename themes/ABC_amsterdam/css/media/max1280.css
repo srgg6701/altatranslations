@@ -1,9 +1,9 @@
 @media screen and (max-width: 1280px) {
-    #main-slogan {
+    /* #main-slogan {
         border-bottom: #513794 2px solid;
         border-top: #513794 2px solid;
         max-width: 360px;
-    }
+    } */
     #menu-hamburger i {
         /* color: white; */
         /* font-size: 2rem; */
@@ -20,7 +20,7 @@
         align-self: start;
         height: 100%;
     }
-    #search-block>span {
+    /* #search-block>span {
         margin-right: -4px;
         order: 2;
     }
@@ -49,9 +49,9 @@
     }
     #search-block a {
         margin-top: 5px;
-    }
+    } */
 
-    #presentation-stages{
+    /* #presentation-stages{
         padding-top: 2rem !important;
-    }
+    } */
 }

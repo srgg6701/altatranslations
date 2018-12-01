@@ -1,11 +1,11 @@
 @media screen and (min-width: 1280px){
-    #top-main-text .container-wrapper>section:nth-child(1) {
+    /* #top-main-text .container-wrapper>section:nth-child(1) {
         padding-right: 2rem;
         width: 25%;
     }
     #top-main-text .container-wrapper>section:nth-child(2) {
         width: 75%;
-    }
+    } */
     #menu-hamburger{
         display: none;
     }

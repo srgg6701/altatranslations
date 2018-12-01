@@ -1,13 +1,8 @@
 #presentation-text {
-    /* opacity: 0; */
     height: 100%;
     position: absolute;
     pointer-events: none;
     width: 100%;
-}
-
-#presentation-text.started {
-    background-color: rgba(0, 0, 0, 0.75);
 }
 
 #presentation-text>div {
@@ -38,8 +33,6 @@
 }
 
 #presentation-image.stopped::before {
-    /* background-color: black; */
-    /* background-color: #0d1d32; */
     border-radius: 50%;
     border: solid;
     content: '▐ ▌';
@@ -184,7 +177,6 @@
 /* section-presentation */
 
 #section-presentation {
-    /* background-image: url(../../../images/professionals.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -310,12 +302,10 @@
 
 #section-buttons .order-link {
     width: 46%;
-    /* background-color: transparent; */
     line-height: 2;
 }
 
 /* section-stages */
-
 #section-stages {
     background-color: rgba(13, 29, 50, 0.85);
 }
