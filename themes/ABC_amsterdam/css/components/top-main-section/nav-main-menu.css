@@ -1,5 +1,7 @@
 #nav-main-menu {
     color: white;
+    margin: auto;
+    margin-top: 0.13rem;
     z-index: 10;
     width: 100%;
 }
@@ -40,6 +42,12 @@
     line-height: 3;
     padding: 0.55rem 1rem;
 }
+
+.menu-item-has-children ul.sub-menu{
+    background: transparent;
+    position: relative;
+}
+
 #nav-main-menu ul.sub-menu li{
     padding: 12px 0 12px 0;
     display: block;
