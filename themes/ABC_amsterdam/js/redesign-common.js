@@ -22,6 +22,7 @@ $(function () {
         activeClass = 'active',
         displayBlockClass = 'display-block',
         expandedClass = 'expanded',
+        hoveredClass = 'hovered',
         passiveClass = 'passive',
         startClass = 'start',
         subMenuClassDot = '.sub-menu',
@@ -47,31 +48,52 @@ $(function () {
         // because of clash with the old css
         $menuAside.toggleClass(activeClass).toggleClass(startClass);
     });
-
-    function closeMenu() {
+    //
+    function sidelineMenu() {
         $menuAside.removeClass(activeClass);
         $navigationContacts.removeClass(displayBlockClass);
         $closeBtn.hide();
     }
-    function handleSubMenuState(obj) {
-        // slide toggle!
-        $(obj).find(subMenuClassDot)
-            // make it expanded
-            .slideToggle(function () {
-                $(obj).toggleClass(expandedClass);
-        });
-        $(obj).toggleClass('hovered');
+    function handleSubMenuState(li, $subMenu, expand) {
+        var classAction, slideAction;
+        if (expand) {
+            classAction = 'addClass';
+            slideAction = 'slideDown';         
+        } else {
+            classAction = 'removeClass';
+            slideAction = 'slideUp';
+        }
+        var $li = $(li);
+        $li[classAction](hoveredClass);
+            $subMenu[slideAction](function(){
+                $subMenu[classAction](expandedClass);
+                $li[expand? 'removeClass':'addClass']('collapsed');
+            });
     }
-
-    $closeBtn.on('click', closeMenu);
+    // close menu
+    $closeBtn.on('click', sidelineMenu);
+    // expand menu
     // the first click on mobule. Next one is 'click' event
     $liHasChildrenLink.on('mouseenter click', function (event) {
-        if ( isMobile && event.type === 'mouseenter' || 
-            !isMobile && event.type === 'click' ) {
-            handleSubMenuState(this);
+        var $subMenu = $(this).find(subMenuClassDot);
+        if ($subMenu.length) {
+            if(!$(this).hasClass(hoveredClass)){
+                if (event.type === 'click' || isMobile ) {
+                    handleSubMenuState(this, $subMenu, true);  
+                }
+            } else {
+                // click not on link or inner li, but on wrapping li
+                if (event.type === 'click' && event.target === this) {
+                    handleSubMenuState(this, $subMenu);
+                }
+            }
+        } else {
+            var eventType = event.type;
+            console.log('not an appropriate event', eventType);
         }
     }).find('> a').on('click', function (event) {
-        $(this).next(subMenuClassDot).hasClass(expandedClass) || event.preventDefault();
+        var isExpanded = $(this).next(subMenuClassDot).hasClass(expandedClass); 
+        isExpanded || event.preventDefault();
     });
 
     $serviceSubj.on('click', function () {
