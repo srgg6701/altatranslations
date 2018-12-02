@@ -16,8 +16,15 @@ const pix = stages.map(stage => {
 // taken from CMS bundle (270cc.js)
 $(function () {
     console.log('is mobile? => ', isMobile);
-    const displayBlockClass = 'display-block',
+    // set device type class as we need to handle mouseenter event in some cases specifically
+    $('body').addClass(isMobile ? 'mobile' : 'desktop');
+    const 
+        activeClass = 'active',
+        displayBlockClass = 'display-block',
+        expandedClass = 'expanded',
         passiveClass = 'passive',
+        startClass = 'start',
+        subMenuClassDot = '.sub-menu',
         menuAside = '#menu-aside',
         $searchForm = $('#searchform'),
         $searchFormField = $searchForm.find('input[type="text"]'),
@@ -28,64 +35,63 @@ $(function () {
         $navigationContacts = $('#navigation-contacts'),
         $serviceSubj = $('#section-services > div'),
         $closeBtn = $('.closebtn'),
-        $mainNavigationMenu = $('.main-navigation-menu'),
-        classStart = 'start',
-        classActive = 'active';
+        $mainNavigationMenu = $('.main-navigation-menu');
 
     $menuAside.on('transitionend', function () {
-        if ($menuAside.hasClass(classActive)) {
+        if ($menuAside.hasClass(activeClass)) {
             $navigationContacts.addClass(displayBlockClass);
             $closeBtn.show();
         }
     });
     $('#menu-hamburger').on('click', function () {
         // because of clash with the old css
-        $menuAside.toggleClass(classActive).toggleClass(classStart);
+        $menuAside.toggleClass(activeClass).toggleClass(startClass);
     });
 
     function closeMenu() {
-        $menuAside.removeClass(classActive);
+        $menuAside.removeClass(activeClass);
         $navigationContacts.removeClass(displayBlockClass);
         $closeBtn.hide();
+    }
+    function handleSubMenuState(obj) {
+        // slide toggle!
+        $(obj).find(subMenuClassDot)
+            // make it expanded
+            .slideToggle(function () {
+                $(obj).toggleClass(expandedClass);
+        });
+        $(obj).toggleClass('hovered');
     }
 
     $closeBtn.on('click', closeMenu);
     // the first click on mobule. Next one is 'click' event
-    $liHasChildrenLink.on('mouseover', function (event) {
-        if (isMobile) {
-            // slide toggle!
-            $(this).find('.sub-menu').slideToggle(function () {
-                $(this).toggleClass('expanded');
-            });
-            $(this).toggleClass('hovered');
+    $liHasChildrenLink.on('mouseenter click', function (event) {
+        if ( isMobile && event.type === 'mouseenter' || 
+            !isMobile && event.type === 'click' ) {
+            handleSubMenuState(this);
         }
-    });
-
-    $('.menu-item-has-children > a').on('click', function (event) {
-        $(this).next('.sub-menu').hasClass('expanded') || event.preventDefault();
+    }).find('> a').on('click', function (event) {
+        $(this).next(subMenuClassDot).hasClass(expandedClass) || event.preventDefault();
     });
 
     $serviceSubj.on('click', function () {
-        $serviceSubj.removeClass(classActive);
-        $(this).addClass(classActive);
+        $serviceSubj.removeClass(activeClass);
+        $(this).addClass(activeClass);
     });
 
     $serviceSubj.find('a').on('click', function (event) {
         event.preventDefault();
     });
     // - form handlers -
-    function checkSearchLengthShort(){
-        return $searchFormField.val().length < 3;
-    }
     // click on the search button
-    $searchFormButton.on('click', function(event){
+    $searchFormButton.on('click', function (event) {
         if ($searchForm.hasClass(passiveClass)) {
             event.preventDefault();
-            $searchForm.removeClass(passiveClass);    
+            $searchForm.removeClass(passiveClass);
         }
     });
     // click on the close form button
-    $searchFormClose.on('click', function() {
+    $searchFormClose.on('click', function () {
         $searchFormField.val('');
         $searchForm.addClass(passiveClass);
     })

@@ -1,12 +1,12 @@
 #search-box {
     position: absolute;
-    right: 3rem;
-    top: 0.5rem;
+    right: 2.5rem;
+    top: 0.4rem;
     z-index: 22;
 }
 #searchform{
     display: flex;
-    overflow:hidden;
+    /* overflow:hidden; */
     height: 1.459rem;
     margin-top: auto;
     margin-bottom: auto;
@@ -17,15 +17,12 @@
 }
 #searchform input[type="text"]{
     border: none;
-    margin-right: 1rem;
+    margin-top: 0.1rem;
     padding-right: 1.25rem;
     padding: 0.25rem 1rem 0.25rem 0.4rem;
     position: absolute;
-    right: 0;
-    transform: translateY(50%);
+    right: 1rem;
     transition: opacity ease 0.4s;
-    -webkit-transform: translateY(50%);
-    top: -50%;
     width: 200px;
 }
 #searchform.passive input[type="text"]{
