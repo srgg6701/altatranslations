@@ -10,15 +10,22 @@
     height: 1.459rem;
     margin-top: auto;
     margin-bottom: auto;
+    position: relative;
 }
 #searchform button[type="submit"]{
-    margin: auto;
+    margin: 0.55rem auto auto 0.5rem;
 }
-
 #searchform input[type="text"]{
     border: none;
+    margin-right: 1rem;
     padding-right: 1.25rem;
-    padding: 0 1rem 0 0.4rem;
+    padding: 0.25rem 1rem 0.25rem 0.4rem;
+    position: absolute;
+    right: 0;
+    transform: translateY(50%);
+    transition: opacity ease 0.4s;
+    -webkit-transform: translateY(50%);
+    top: -50%;
     width: 200px;
 }
 #searchform.passive input[type="text"]{
@@ -26,21 +33,20 @@
     padding-right: 1.25rem;
     opacity: 0;
     padding: 0;
+    transition: opacity ease 0.4s;
     width: 0;
 }
-
-#search-box .close{
+#searchform .close{
     color: #000;
     font-size: 1.2rem;
     font-weight: normal;
     opacity: 1;
     position: absolute;
     right: 1.4rem;
-    top: 0.1rem;
+    top: 0.15rem;
     transform: rotate(45deg);
     z-index: 300;
 }
-
-#searchform.passive .close{
-
+#searchform:not(.passive) .close{
+    display: initial;
 }

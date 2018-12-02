@@ -1,9 +1,14 @@
 .absolute {
-  position: absolute; }
-
+  position: absolute; 
+}
+.close{
+  display: none;
+}
+/* FIXME: remove iamge, use a text symbol */
 .close-button {
   background-image: url(../images/close.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+}
 
 .contact-list li i {
   font-size: 46px;
