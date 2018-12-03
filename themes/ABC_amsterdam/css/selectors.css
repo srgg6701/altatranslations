@@ -5,6 +5,9 @@
 }
 
 /* img */
+.item-substrate-wrap svg g[fill="#78a741"] *,
+.item-substrate-wrap svg *[fill="#78a741"],
+.item-substrate-wrap svg g[style*="fill:#78a741"] *,
 .item-substrate-wrap svg g *[style*="fill:#78a741"],
 .item-substrate-wrap svg g *[style*="fill:transparent"]{ 
     fill: var(--bg-blue-grey) !important;
@@ -14,16 +17,22 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.item-substrate-wrap:hover svg g[fill="#78a741"] *,
+.item-substrate-wrap:hover svg *[fill="#78a741"],
 .item-substrate-wrap:hover svg g *[style*="fill:#78a741"],
 .item-substrate-wrap:hover svg g *[style*="fill:transparent"],
 .item-substrate-wrap.active svg g *[style*="fill:#78a741"],
 .item-substrate-wrap.active svg g *[style*="fill:transparent"]{
     fill: var(--color-blue-grey) !important;
 }
+.item-substrate-wrap svg g[stroke="#78a741"] *,
+.item-substrate-wrap svg *[stroke="#78a741"],
 .item-substrate-wrap svg g *[style*="stroke:#78a741"],
 .item-substrate-wrap svg g *[style*="stroke:transparent"]{ 
     stroke: var(--bg-blue-grey) !important;
 }
+.item-substrate-wrap:hover svg g[stroke="#78a741"] *,
+.item-substrate-wrap:hover svg *[stroke="#78a741"],
 .item-substrate-wrap:hover svg g *[style*="stroke:#78a741"],
 .item-substrate-wrap:hover svg g *[style*="stroke:transparent"],
 .item-substrate-wrap.active svg g *[style*="stroke:#78a741"],
